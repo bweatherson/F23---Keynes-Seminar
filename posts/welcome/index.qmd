@@ -1,7 +1,8 @@
 ---
 title: "Keynes Seminar"
 author: "Brian Weatherson"
-date: "2023-07-14"
+date: "2023-08-01"
+abstract: "A brief guide to what we're covering in the course"
 categories: [overview]
 ---
 
@@ -11,45 +12,52 @@ I'm doing a seminar on John Maynard Keynes this fall (i.e., Fall 2023), at the U
 
 I'm a philosopher, and this is a philosophy seminar, so the course will be primarily about things that are philosophy in some very broad sense. We're not going to get into the details of the Clearing Union, for example. But one thing I want to do with the seminar is stress how many different ways there are to be a philosopher, so we'll stretch the limits a little bit of what is sometimes covered in philosophy. Still, a big focus will be on Keynes's main work that is unquestionably an important philosophical work, the *Treatise on Probability*.
 
-Here is the tentative schedule for the seminar, which is very much subject to chage.
+Here is the tentative schedule for the seminar, which is very much subject to change.
 
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| Week | Date               | Reading                                                                                    |
-+======+====================+============================================================================================+
-| 1    | August 28, 2023    | None (intro)                                                                               |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| Off  | September 4, 2023  | None (Labor Day)                                                                           |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 2    | September 11, 2023 | My Early Beliefs.\                                                                         |
-|      |                    | Economic Possibilities for our Grandchildren.                                              |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 3    | September 18, 2023 | Treatise on Probability, Chs. 1-3                                                          |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 4    | September 25, 2023 | Treatise on Probability, Chs. 4-5                                                          |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 5    | October 2, 2023    | Treatise on Probability, Chs. 6-9                                                          |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 6    | October 9, 2023    | Treatise on Probability, Chs. 18-20 (maybe also 21-23 if time)                             |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| Off  | October 16, 2023   | None (Fall Break)                                                                          |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 7    | October 23, 2023   | Treatise on Probability, Ch. 26\                                                           |
-|      |                    | Broad's review of TP                                                                       |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 8    | October 30, 2023   | Critics of TP: Edgeworth, Ramsey, Feigl                                                    |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 9    | November 6, 2023   | General Theory Chs. 1, 2, 24 (23, optional)                                                |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 10   | November 13, 2023  | General Theory. Ch 12, \                                                                   |
-|      |                    | 1937 QJE                                                                                   |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 11   | November 20, 2023  | General Theory, Ch. 17\                                                                    |
-|      |                    | Treatise on Money, Chs. 1, 2\                                                              |
-|      |                    | (Optional: TM, Ch. 30, Tract on Monetary Reform, Ch. 1)                                    |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 12   | November 27, 2023  | One of the biography essays, either Marshall (most likely), or Malthus, Jevons, or Newton. |
-+------+--------------------+--------------------------------------------------------------------------------------------+
-| 13   | December 4, 2023   | None (Writing Period/Presentations)                                                        |
-+------+--------------------+--------------------------------------------------------------------------------------------+
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| Week      | Date               | Reading                                                                                    |
++===========+====================+============================================================================================+
+| 1         | August 28, 2023    | None (intro)                                                                               |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| Off       | September 4, 2023  | None (Labor Day)                                                                           |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 2         | September 11, 2023 | My Early Beliefs.\                                                                         |
+|           |                    | Economic Possibilities for our Grandchildren.                                              |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 3         | September 18, 2023 | Treatise on Probability, Chs. 1-3                                                          |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 4         | September 25, 2023 | Treatise on Probability, Chs. 4-5                                                          |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 5         | October 2, 2023    | Treatise on Probability, Chs. 6-9                                                          |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 6         | October 9, 2023    | Treatise on Probability, Chs. 18-20 (maybe also 21-23 if time)                             |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| Off       | October 16, 2023   | None (Fall Break)                                                                          |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 7         | October 23, 2023   | Treatise on Probability, Ch. 26\                                                           |
+|           |                    | Broad's review of TP                                                                       |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 8         | October 30, 2023   | Critics of TP: Edgeworth, Ramsey, Feigl                                                    |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 9         | November 6, 2023   | General Theory Chs. 1, 2, 24 (23, optional)                                                |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 10        | November 13, 2023  | General Theory. Ch 12,\                                                                    |
+|           |                    | 1937 QJE                                                                                   |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 11        | November 20, 2023  | General Theory, Ch. 17\                                                                    |
+|           |                    | Treatise on Money, Chs. 1, 2\                                                              |
+|           |                    | (Optional: TM, Ch. 30, Tract on Monetary Reform, Ch. 1)                                    |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 12        | November 27, 2023  | One of the biography essays, either Marshall (most likely), or Malthus, Jevons, or Newton. |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
+| 13        | December 4, 2023   | None (Writing Period/Presentations)                                                        |
++-----------+--------------------+--------------------------------------------------------------------------------------------+
 
-: Tentative schedule for Keynes seminar
+: I want to do four things with the course.
+
+1.  Go over Keynes's important philosophical contributions, especially on probability.
+2.  Talk about how those contributions connect to his economic theories, especially via the role of uncertainty in the *General Theory*.
+3.  Talk about how Keynes's life and career shows us the possibility of a world where the boundaries between what topics are and are not in philosophy is somewhat different to our own.
+4.  Talk about how Keynes's life and career shows us the possibility of a world where the kind of writing that one does as an academic, and especially as an academic philosopher, is somewhat different to what is common in our world.
+
+There is a fifth aim that is hidden behind these, which I don't have the time or expertise to do justice to, but which I hope will be useful to the students (and to me). Keynes works at a time and place that is often taken to be a turning point in the history of philosophy. I think his work represents a kind of path not taken for philosophy. There is a possible world where moral and political philosophy, and perhaps even political economy more broadly, is just as central to twentieth century Anglophone philosophy as it was to nineteenth century Anglophone philosophy. Just how and why that didn't happen is I think an interesting question, and looking at Keynes is possibly one interesting way into it. But it would require someone with a much better grasp of academic history than me to teach such a course, so it will be an idea hovering around without ever quite being the focus.
