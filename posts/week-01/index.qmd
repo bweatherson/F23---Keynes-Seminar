@@ -3,7 +3,7 @@ title: "Week 1: Keynes's Life"
 author: "Brian Weatherson"
 date: "2023-08-07"
 categories: [weekly handout]
-abstract: "An overview of Keynes's life and work".
+abstract: "An overview of the life and work of John Maynard Keynes."
 draft: true
 ---
 

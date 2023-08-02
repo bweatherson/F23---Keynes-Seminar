@@ -2,7 +2,7 @@
 title: "Keynes Seminar"
 author: "Brian Weatherson"
 date: "2023-08-01"
-abstract: "A brief guide to what we're covering in the course"
+abstract: "A brief guide to what we're covering in the course."
 categories: [overview]
 ---
 

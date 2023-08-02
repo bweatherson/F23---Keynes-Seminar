@@ -1,8 +1,11 @@
 ---
 title: "The Moral Sciences Tripos"
 author: "Brian Weatherson"
-date: "2023-08-04"
+date: "2023-08-03"
 categories: [background]
+abstract: "How philosophy and economics were taught at Cambridge in the late 19th Century."
+image: "trinity_college.jpg"
+draft: true
 ---
 
 In the late 19th century, if you were a Cambridge student interested in philosophy very broadly construed, the degree you took was called Moral Sciences. It was officially called the Moral Sciences Tripos, but exactly what a Tripos is, and why it was called that, don't matter that much to our story. What matters is that it was a three year degree, and it was centered around examinations at the end of the second and third year.

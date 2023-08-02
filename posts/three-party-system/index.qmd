@@ -3,7 +3,7 @@ title: "The Three-Party System"
 author: "Brian Weatherson"
 date: "2023-08-02"
 categories: [background]
-abstract: "Some background on the major political parties in Keynes's lifetime".
+abstract: "Some background on the major political parties in Keynes's lifetime."
 draft: false
 ---
 
@@ -41,7 +41,7 @@ I've said that the parties could be arranged right-to-left, and that's roughly r
 
 Now there is one important sense in which everything I've said here was a bit misleading. From 1916 to 1926, the Liberal party was split into two factions, one organised around Asquith (the PM until 1916), and the other around Lloyd George (the PM after 1916). The two factions, although still in some sense part of the same party, contested elections against each other. Keynes was originally on Asquith's side (because he agreed with Asquith about how to conduct the war, and then importantly about Versailles) but eventually switched to Lloyd George's side (because of how hostile Asquith was to the general strike).
 
-It's also worth noting how much tighter the connection between academia and politics was in those days. Asquith, who was PM from 1908-1916, had a post-doc at Oxford. And Arthur Balfour, one of the most important Conservatives of the first two decades of the 20th Century, and for a short time PM himself, was a philosopher. He wrote several articles in *Mind*, as well as a book critically surveying the popular philosophical views of the late 19th century. His criticisms of idealism anticipate in some respects Moore's more famous criticisms. And Balfour's connections to philosophy proved very helpful to philosophers who got themselves into high profile scraps. He couldn't keep Russell out of prison during WWI, but he did intervene to make sure Russell got particularly lenient treatment. 
+It's also worth noting how much tighter the connection between academia and politics was in those days. Asquith, who was PM from 1908-1916, had a post-doc at Oxford. And Arthur Balfour, one of the most important Conservatives of the first two decades of the 20th Century, and for a short time PM himself, was a philosopher. He wrote several articles in *Mind*, as well as a book critically surveying the popular philosophical views of the late 19th century. His criticisms of idealism anticipate in some respects Moore's more famous criticisms. And Balfour's connections to philosophy proved very helpful to philosophers who got themselves into high profile scraps. He couldn't keep Russell out of prison during WWI, but he did intervene to make sure Russell got particularly lenient treatment.
 
 Keynes seems to have had a real visceral dislike for most Conservatives. See for instance this rather pointed passage from his obituary for Asquith.
 
