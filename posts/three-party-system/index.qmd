@@ -4,7 +4,7 @@ author: "Brian Weatherson"
 date: "2023-08-02"
 categories: [background]
 abstract: "Some background on the major political parties in Keynes's lifetime".
-draft: true
+draft: false
 ---
 
 I'm writing a bunch of background notes for the students in the seminar. These are basically things that got cut from the notes for week 1, which were getting out of control. I think everything I say here is true, though I suspect it will seem more than a bit shallow to people who are actually experts in the field. But they seemed like useful things for students to know when reading about this time. The first is on the party system that predominated for most of Keynes's life in the UK, which featured three main parties.
