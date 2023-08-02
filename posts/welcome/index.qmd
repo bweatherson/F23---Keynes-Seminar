@@ -8,7 +8,7 @@ categories: [overview]
 
 I'm doing a seminar on John Maynard Keynes this fall (i.e., Fall 2023), at the University of Michigan. And because I'm old-fashioned, I thought I'd have a blog for the seminar. Apparently blogs these days have pictures, so here's a famous picture of Keynes.
 
-![1934 Cartoon of Keynes by David Low](images/Keynes_caricature_Low_1934.jpg){fig-alt="A pencil drawing of Keynes lounging in an armchair" fig-align="center"}
+![1934 Cartoon of Keynes by David Low](images/Keynes_caricature_Low_1934.jpg){fig-alt="A pencil drawing of Keynes lounging in an armchair" fig-align="centre"}
 
 I'm a philosopher, and this is a philosophy seminar, so the course will be primarily about things that are philosophy in some very broad sense. We're not going to get into the details of the Clearing Union, for example. But one thing I want to do with the seminar is stress how many different ways there are to be a philosopher, so we'll stretch the limits a little bit of what is sometimes covered in philosophy. Still, a big focus will be on Keynes's main work that is unquestionably an important philosophical work, the *Treatise on Probability*.
 
