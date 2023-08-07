@@ -1,0 +1,30 @@
+---
+title: "Failures"
+author: "Brian Weatherson"
+date: "2023-08-08"
+categories: [background]
+abstract: "Three important failures in Keynes's character, with some thoughts about how they may have mattered for his work."
+image: "galton.jpeg"
+draft: false
+---
+
+We're going to be talking a lot about Keynes's intellectual achievements and virtues in this course, so it's worth being up front about some of his more prominent shortcomings. How much these shortcomings matter to his work is, I think, an interesting and non-obvious question.
+
+# Eugenics
+
+Keynes was a committed eugenicist. I don't mean that he positively favored killing off disabled infants, or any of the other worst features of eugenics. But he definitely believed in a lot of eugenic theories. He thought that the most important intellectual figures in English history came from a handful of extended families. His biographical essays often include long discussions of the lineage of the subject, explaining their intellectual successes as a consequence of their ancestry. And he adored Galton, who seemed at time to rival only Einstein  as his contemporary intellectual heroes.
+
+# Racism
+
+Keynes's world consisted largely of Western Europe and North America. He wrote a book about India, but never went there. He was aware of how racist the US was, especially in the south, and it made him personally uncomfortable when he was directly confronted with it on his travels. But he didn't actually do anything about this discomfort, even though his contacts with FDR meant that he could possibly have done something. The urge to protest that was so vivid on other fields seems to have gone missing here.
+I suspect they are there somewhere, but I haven't found any particular racist comments about Blacks, either from Africa or the Americas, in Keynes's writings. What we get instead is that Blacks are almost invisible to him. They aren't his concern. I don't really know what a contemporary parallel to this is. I don't mean this to be exculpatory; it's obviously not great to just not care about a huge percentage of humanity. But it's not the kind of racism you might expect.
+
+# Anti-Semitism
+
+On the other hand, he did make some terribly anti-semitic remarks. You see some of them already in "Economic Possibilities for our Grandchildren", and there are worse remarks included in one of the pieces on Einstein in _Essays in Biography_.
+
+This was obviously not just a case of indifference. Keynes interacted with many Jewish people. Here are just four prominent examples, though we could pick more. He employed Leonard Woolf for a while, effectively subsidising Virginia's writing. He did a lot of work to deal with Wittgenstein's many foibles. (I can't prove this, but I really think he thought of his relationship with Wittgenstein as an echo of Hume's relationship with Rousseau.) His closest collaborator in the 1930s was Richard Kahn, probably the one person Keynes most identified as being his student. (Kahn developed the concept of the multiplier, which became so central to practical applications of Keynes's work.) And the name of his most important book was chosen as a deliberate homage to Einstein's work.
+
+And despite all these personal interactions, he still managed to harbor some awful general attitudes about Jews as a group. I honestly don't know how much this affected his personal interactions with individual people. There is some evidence that it damaged his relationship with Leonard Woolf, but it's sketchy. It's mostly just depressing that someone smart enough to know better, and with so much relevant evidence from personal acquaintances, could still fall into believing lazy stereotypes.
+
+Keynes had a lot more stereotypical beliefs (in both senses) about people from various European countries, with the stereotypes he had about French, German, and Welsh people being possibly the most notable in the ways they affected his work. On the whole these didn't seem as pernicious to me, and instead point to interesting questions about where we draw the line between lazy stereotyping, and carefully observing general characteristics. There is something like a trigger warning before some of the papers in later versions of Essays in Biography on these points, though it seems unnecessary to me. In any case, I haven't found anything in his generalisations about other European countries that's nearly as appalling as the anti-semitic views he occasionally let slip out.
