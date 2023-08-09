@@ -10,6 +10,32 @@ image: "npg-keynes.jpeg"
 
 John Maynard Keynes (1883-1946) was the most important economist of his generation, and arguably of any generation. But before he was an economist, he was a philosopher, and philosophical themes recur throughout his writings. This seminar is going to look at his early philosophical work, and some of the philosophical themes in his later economic and political work.
 
+# Aims of Seminar
+
+There are five things I'm hoping to do with this seminar. The chance that we'll do all of them well is perhaps not the greatest. But I'm setting them out here in part to explain why I'm doing a slightly unusual topic, and partially to give everyone a chance to help steer the seminar in ways they'll find interesting.
+
+## Foundations of Probability
+
+Keynes's 1921 book, *A Treatise on Probability*, is the foundation of work in formal epistemology in the last 100 years. It's not as widely read today as it might be, because it was quickly surpassed in popularity by Ramsey's pragmatist approach to probability. But it has three big advantages over Ramsey's work. (Which is not to deny that Ramsey's work also has distinct virtues; the aim here is to get everyone to read more, not to stop reading Ramsey.)
+
+One is that it works out a lot of the interesting questions that arise from applying probability theory to problems in epistemology in much more detail than Ramsey does. This is largely a consequence of Keynes writing a book and Ramsey writing a handful of papers, only one of which is really widely read in philosophy of probability. But it's still useful to see the original workings out of various problems in a probabilistic framework.
+
+Another is that it develops the notion of weight, and with it some interesting ideas for the limits of the application of probability to human problems. Exactly what Keynesian weight is supposed to be, indeed whether there is anything coherent in it at all, is a tricky question. And it's also a tricky question whether it has any practical significance. But Keynes clearly thought it did, and the notion makes a surprise guest appearance at a key point in his economic work.
+
+Finally, Keynes's work grows out of a broad metaphysical picture, roughly Moorean realism, that is both more popular nowadays than Ramsey's pragmatism/positivism, and is, at least in my opinion, more plausible. At least some of the early criticisms of Keynes were simply based in the incompatibility between his work and positivism. But that, most of us think these days, is a virtue not a vice. So it's worthwhile revisiting what a realist approach to probability looks like.
+
+## Philosophy and Economics
+
+Keynes was a philosopher before he was an economist, and he never ceased looking at things with at least one eye on the philosophical questions. One question that's fascinating to me is whether there are places where we can see real connections between Keynes's philosophical work, his theoretical work in economics, and his practical suggestions. Given how influential his practical suggestions were for half a century, the historical questions about the influence of philosophy on the world seem fascinating.
+
+## Philosophical Questions in Economics
+
+The previous point was about the influence from philosophy to economics, and hence to the wider world. But we should think about the reverse direction of influence too, and here Keynes's work is again helpful. His economic writings include a lot of work on what we'd now call social metaphysics, including really interesting thoughts on the metaphysics of money, and the nature of inflation. He has a lot to say about questions about pooling, as in forming a group belief state, or value function, from individual believers or valuers. (Some of the work on the nature of inflation is relevant here too; similar questions arise.) And his work on developing the concepts that are the center of contemporary economic statistics, things like GDP, is a fascinating case study in conceptual engineering.
+
+## History of Philosophy
+
+Keynes was an undergraduate at Cambridge
+
 Keynes (or Maynard as he was primarily known) was the son of John Neville Keynes (1852-1949) and Florence Ada Keynes (1861-1958). His mother was a remarkable figure, who in the 1930s became Mayor of Cambridge, and who was probably very important to Keynes's education and character development. But his father is a little more interesting to our story.
 
 Neville Keynes, like Maynard, was both an economist and a philosopher. As we'll see through the course, this was not at all an uncommon combination during the late 19th and early 20th centuries, especially in England. Neville worked at Cambridge for most of his career, moving between academic and administrative roles. He published two notable books, a logic book in 1884, and an economics book in 1891. The logic book was the last great text of pre-Fregean logic, and gets cited throughout the 20th (and occasionally the 21st) centuries, especially by philosophers keen to present a more nuanced view of pre-Fregean logic than the caricatured version presented in standard histories.
@@ -42,7 +68,7 @@ The book has two central claims. One is that the demands of the treaty will be l
 
 That last claim might seem absurd until you realise how big a deal the book was. It sold 100,000 copies, was translated into 12 languages, and its view of the peace treaty, especially the phrase that it was a Carthaginian Peace, became commonplace throughout the world. It contributed, somewhat unintentionally, to America's refusal to join the League of Nations. And while it led to Keynes becoming famous throughout the world, it meant that he was well and truly out of favour in official London.
 
-That last point is relevant to our story because the next few years would be amongst the most prolific in Keynes's already prolific writing career. In quick succession he published three books. In 1921 he finally published the long gestating *Treatise on Probability*. In 1922 he published a sequel to the Versailles book, *A Revision of the Treaty*, which had a much smaller impact than its prequel. And in 1923 he published *A Tract on Monetary Reform*. The *Tract* grew out of some columns he wrote for the *Guardian*, who sent him to a conference on post-war reconstruction as a columnist. On the one hand, being a columnist for a national newspaper means one is still somewhat part of the national conversation. Still, it's a long way from the official standing Keynes had had before the publication of his Versailles book.
+That last point is relevant to our story because the next few years would be amongst the most prolific in Keynes's already prolific writing career. In quick succession he published three books. In 1921 he finally published the long gestating *A Treatise on Probability*. In 1922 he published a sequel to the Versailles book, *A Revision of the Treaty*, which had a much smaller impact than its prequel. And in 1923 he published *A Tract on Monetary Reform*. The *Tract* grew out of some columns he wrote for the *Guardian*, who sent him to a conference on post-war reconstruction as a columnist. On the one hand, being a columnist for a national newspaper means one is still somewhat part of the national conversation. Still, it's a long way from the official standing Keynes had had before the publication of his Versailles book.
 
 The *Tract*, and some of the writings around that time, are interesting in part because they address a question that has recently taken on some practical significance. Assume we think, as Keynes will later come to deny, that something like price stability is an important object of government policy. And assume also that prices have recently risen sharply. What should the government now aim at? One option is to try to stabilise prices at this new higher level. Another is to return prices to where they were, i.e., to have a bout of deflation to ensure that long-term prices are stable. As far as I know, the latter view has no serious proponents nowadays. But it was taken seriously when Keynes was writing. Indeed, it seems to have been behind some of the disastrous decisions Churchill made as Chancellor of the Exchequer (the UK equivalent of Treasury Secretary) during the 1920s. Keynes, though not yet as relaxed about inflation as he would be in his later career, thought this was a terrible idea, and that whatever evils inflation might have, deflation was so much worse that we'd have to just live with this new higher price level. On this point, conventional wisdom now entirely agrees with Keynes. Milton Friedman later said that he liked this book very much. If you don't know Friedman's work, it's probably too much of a digression to go into why this might be a bit surprising, but it is indicative both of how much more centrist Keynes was in the 1920s than the 1930s, and how much political debates have shifted over the last 100 years.
 
@@ -74,7 +100,7 @@ I've listed these in the narrative, but it's worthwhile having a list of Keynes'
 
 -   *Indian Currency and Finance* (1913)
 -   *The Economic Consequences of the Peace* (1919)
--   *Treatise on Probability* (1921)
+-   *A Treatise on Probability* (1921)
 -   *A Revision of the Treaty* (1922)
 -   *A Tract on Monetary Reform* (1923)
 -   *Treatise on Money* 2 vols (1930)
