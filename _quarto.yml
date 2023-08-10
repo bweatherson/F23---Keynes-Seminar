@@ -5,15 +5,25 @@ website:
   title: "Keynes Seminar, Fall 2023"
   navbar:
     right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - icon: mortarboard
+        href: https://canvas.umich.edu/
 format:
   html:
-    theme: cosmo
-    css: styles.css
-
+      theme: 
+        light: 
+          - cosmo
+      linestretch: 1.5
+      toc: true
+      toc-depth: 3
+      toc-location: left
+      reference-location: margin
+      margin-header: "&nbsp;"
+      fontsize: 1.2em
+      include-in-header:
+        - text: |
+            <link rel="stylesheet" href="https://use.typekit.net/uzz2drx.css">
+      mainfont: "ff-scala-sans-pro, sans-serif"
+      html-math-method: mathjax
+      
 editor: visual
 
