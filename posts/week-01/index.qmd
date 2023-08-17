@@ -142,6 +142,22 @@ And despite all these personal interactions, he still managed to harbor some awf
 
 Keynes had a lot more stereotypical beliefs (in both senses) about people from various European countries, with the stereotypes he had about French, German, and Welsh people being possibly the most notable in the ways they affected his work. On the whole these didn't seem as pernicious to me, and instead point to interesting questions about where we draw the line between lazy stereotyping, and carefully observing general characteristics. There is something like a trigger warning before some of the papers in later versions of Essays in Biography on these points, though it seems unnecessary to me. In any case, I haven't found anything in his generalisations about other European countries that's nearly as appalling as the anti-semitic views he occasionally let slip out.
 
+# Famous Quotes
+
+I've already quoted one notable Keynes passage at length. But I want to end with three more. That's in part to give you a feel for Keynes's writing; though you get a better sense of that from reading some of the biographies and memoirs. And it's in part because each of these three quotes are going to be important for our course.
+
+First, from 1923's *A Tract on Monetary Reform*. One line from this, which you may recognise, is Keynes's most infamous quote, but in context the whole thing is philosophically fascinating.
+
+> But this *long run* is a misleading guide to current affairs. *In the long run* we are all dead. Economists set themselves too easy, too useless a task if in tempestuous seasons they can only tell us that when the storm is long past the ocean is flat again.
+
+Next, from the conclusion of 1936's *General Theory of Employment, Interest and Money*. (Summaries of this quote often leave out the 'and political philosophers'.)
+
+> But if the ideas are correct --- an hypothesis on which the author himself must necessarily base what he writes --- it would be a mistake, I predict, to dispute their potency over a period of time. At the present moment people are unusually expectant of a more fundamental diagnosis; more particularly ready to receive it; eager to try it out, if it should be even plausible. But apart from this contemporary mood, the ideas of economists and political philosophers, both when they are right and when they are wrong, are more powerful than is commonly understood. Indeed the world is ruled by little else. Practical men, who believe themselves to be quite exempt from any intellectual influences, are usually the slaves of some defunct economist. Madmen in authority, who hear voices in the air, are distilling their frenzy from some academic scribbler of a few years back. I am sure that the power of vested interests is vastly exaggerated compared with the gradual encroachment of ideas. Not, indeed, immediately, but after a certain interval; for in the field of economic and political philosophy there are not many who are influenced by new theories after they are twenty-five or thirty years of age, so that the ideas which civil servants and politicians and even agitators apply to current events are not likely to be the newest. But, soon or late, it is ideas, not vested interests, which are dangerous for good or evil.
+
+Finally, from 1937's "General Theory of Employment". The philosophical relevance of this one may perhaps be clearer than the previous two.
+
+> By "uncertain" knowledge, let me explain, I do not mean merely to distinguish what is known for certain from what is only probable. The game of roulette is not subject, in this sense, to uncertainty; nor is the prospect of a Victory bond being drawn. Or, again, the expectation of life is only slightly**\]** uncertain. Even the weather is only moderately uncertain. The sense in which I am using the term is that in which the prospect of a European war is uncertain, or the price of copper and the rate of interest twenty years hence, or the obsolescence of a new invention, or the position of private wealth-owners in the social system in 1970. About these matters there is no scientific basis on which to form any calculable probability whatever. We simply do not know. Nevertheless, the necessity for action and for decision compels us as practical men to do our best to overlook this awkward fact and to behave exactly as we should if we had behind us a good Benthamite calculation of a series of prospective advantages and disadvantages, each multiplied by its appropriate probability, waiting to be summed.
+
 # For Next Time
 
 We're going to look at two of Keynes's more famous essays, a 1938 memoir looking back at his early years at Cambridge, aptly called "My Early Beliefs", and a 1930 essay looking forward to what the future economy might look like, called "Economic Possibilities for Our Grandchildren".
@@ -184,6 +200,7 @@ From right to left, the three parties were the Conservative, or Tory, Party, the
 
 ```{r echo=FALSE}
 #| warning: false
+#| cache: true
 require(tidyverse)
 require(readxl)
 tps <- read_excel("tps.xlsx")
@@ -219,3 +236,28 @@ Keynes seems to have had a real visceral dislike for most Conservatives. See for
 But Keynes's obituary for Balfour, while somewhat impersonal, is very generous in its intellectual praise, favourably comparing Balfour's early economic work in the 1890s to that of the more famous economists of the time.
 
 ## Britain's Economy Between the Wars
+
+If you grew up in Australia or America, and you heard anything about economic history, you probably heard about the Roaring 20s, and the Great Depression of the 1930s. After a decade of unbelievable prosperity, it all came crashing down. The numbers certainly bear that out. We don't have exact statistics for this period, in part because the conceptual engineering that Keynes and others did to construct the statistics we now rely on hadn't been done. (I don't know these debates very well, but my sense is that Keynes often lost; he was causally relevant to the prominence of the statistics we now rely on, but not always in the way he intended.) Nevertheless, we can make rough estimates of inflation and unemployment, and this tells us something about the US economy. (Estimates about Australia seem even more fuzzy, so we'll stick to America.)
+
+First inflation. These are the annual inflation rates according to the records of the [Minneapolis Fed](https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-) (who are in turn relying on the BLS).
+
+```{r echo=FALSE}
+#| warning: false
+#| cache: true
+require(tidyverse)
+require(readxl)
+tps <- read_excel("tps.xlsx")
+tps <- tps |>
+  filter(Election <= 1979) |>
+  filter(Party %in% c("CON", "LAB", "LD"))
+
+my_colors <- c("blue", "red", "gold3")
+
+tps_graph <- ggplot(tps, aes(x = Election, y = Seats, color = Party)) +
+  geom_step() +
+  theme_minimal() +
+  scale_color_manual(values = my_colors) +
+  labs(title = "Seats in UK House of Commons")
+
+tps_graph
+```
