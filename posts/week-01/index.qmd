@@ -246,18 +246,56 @@ First inflation. These are the annual inflation rates according to the records o
 #| cache: true
 require(tidyverse)
 require(readxl)
-tps <- read_excel("tps.xlsx")
-tps <- tps |>
-  filter(Election <= 1979) |>
-  filter(Party %in% c("CON", "LAB", "LD"))
+infl <- read_excel("us-inflation.xlsx")
 
-my_colors <- c("blue", "red", "gold3")
-
-tps_graph <- ggplot(tps, aes(x = Election, y = Seats, color = Party)) +
-  geom_step() +
+infl_graph <- ggplot(infl, aes(x = Year, y = Inflation, label = Inflation)) +
+  geom_line() +
+  geom_point(size = 0.5) +
+#  geom_text(check_overlap = TRUE) +
   theme_minimal() +
-  scale_color_manual(values = my_colors) +
-  labs(title = "Seats in UK House of Commons")
+  scale_y_continuous(labels = scales::percent) +
+#  scale_color_manual(values = my_colors) +
+  labs(title = "US Inflation")
 
-tps_graph
+infl_graph
 ```
+
+It's a bit surprising how low inflation is in the 1920s, after the weirdness of prices bouncing all over the place after the war. (They also spiked after the two biggest supply chain disruptions of the last 100 years, World War II and the COVID pandemic. In each case prices never came back to pre-disruption levels, but inflation subsided fairly quickly.)
+
+Unemployment tells a clearer story. The following table is a screenshot from Gene Smiley's 1983 paper "[Recent Unemployment Rate Estimates for the 1920s and 1930s](https://users.ssc.wisc.edu/~gwallace/Papers/2120839.pdf)".
+
+![Estimates of unemployment in the US between the World Wars.](us-interwar-unemploy.png)
+
+There isn't a standard way of measuring unemployment at the time, in part because of disagreements about how to classify people in New Deal "work relief" programs. Darby counts them as employed, while most statisticians do not. But however we think about that question, two things stand out from columns 5 to 7, which I think are the closest to current statistics. The first is that after the complications of demobilisation (and a pandemic), unemployment was fairly low through the 1920s. The second is that no matter what you think about work relief, things were completely horrible for workers in the 1930s. (Though apparently if one had a job, wages did not in fact fall, a point that's important for chapter 2 of the *General Theory*.)
+
+The big thing I want to stress in this appendix is that the situation in the UK was very very different to this. Again, we'll start with inflation.
+
+```{r echo=FALSE}
+#| warning: false
+#| cache: true
+require(tidyverse)
+require(readxl)
+infl_uk <- read_csv("uk-inflation.csv", show_col_types = FALSE) |>
+  filter(Year >= 1913, Year <=1955) |>
+  mutate(Inflation = Inflation/100)
+
+
+infl_graph_uk <- ggplot(infl_uk, aes(x = Year, y = Inflation, label = Inflation)) +
+  geom_line() +
+  geom_point(size = 0.5) +
+#  geom_text(check_overlap = TRUE) +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::percent) +
+#  scale_color_manual(values = my_colors) +
+  labs(title = "UK Inflation")
+
+infl_graph_uk
+```
+
+World War I was a catastrophe for prices in the UK; by the time things settled down prices were two-and-a-half times what they were at the start of the war. There was a push both from politicians and (I suspect) the public to get not just inflation but prices down. And they did this, and it was a crisis. There was first a huge deflation (getting rid of the 'half' in the 'two-and-a-half' price rise) then somewhere between price stability and deflation every year until rearmament gets seriously under way in the late 1930s. What does this do to unemployment? Now that we have Keynes we'd expect it would be brutal, and well, it was brutal. It isn't easy to get the data, but the best estimate I've found is a recent estimate by Meredith Baker in her paper ["Re-Evaluating British Unemployment Between the Wars"](https://www.dropbox.com/s/2kzcff3ubcdat5d/Re-EvaluatingBritishUnemployment.pdf?dl=0). Here's a screenshot of her summary finding.
+
+![UK unemployment from 1920-1936 (via Meredith Baker)](uk-unemployment.png)
+
+Now the 1930s are definitely worse than the 1920s; the graph does go up as the decade changes. But the 1920s were not actually good. The dislocation of ending the war produced as much unemployment as the Depression. And while a bit more than half of that was transitory, unemployment barely dropped below 10% for the decade. If you're used to thinking of 10% unemployment as the border between things being merely bad and it being a full-blown crisis, you'd say that Britain was in crisis for practically the entire interwar period.
+
+This matters to our story because it's hard to make sense of what Keynes was saying in the late 1920s if your worldview is American (or Australian). A common caricature of Keynes is that he supported unlimited government spending in all circumstances. And he certainly was in favour of big public works programs in the late 1920s. But this wasn't because he thought these were always called for; it was because the crisis was entering its second decade. This is all important context for Keynes's 1930 paper Economic Possibilities for our Grandchildren, which we'll look at next time.
