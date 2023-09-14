@@ -1,0 +1,55 @@
+---
+title: "Week 4: Indifference"
+author: "Brian Weatherson"
+date: "2023-09-25"
+categories: [weekly handout]
+abstract: "Keynes discusses the Principle of Indifference, his new name for the best hope we have for getting numerical probabilities out of ignorance."
+draft: false
+image: "malaprop.jpg"
+---
+
+# "Indifference"
+
+Every time I read this chapter I'm surprised again at learning Keynes is responsible for the name "The Principle of Indifference". It has stuck so thoroughly. And it is so much better than "The Principle of Non-Sufficient Reason", which would make everyone think we were about to get into PSR and Leibniz and the cosmological argument. Anyway, it's a good name, for what may or may not be a good principle.
+
+Remember that Keynes thinks it is a wide-open question whether an argument may even have a probability. So let _a_ be some proposition wholly disconnected from _h_. Then even if we'd convinced ourselves that _a_ / _h_ couldn't be any number other than 0.5, it doesn't follow for Keynes that it is 0.5. It might just be non-numerical.
+
+# Counterexamples to Indifference
+
+Keynes kind of goes to town on the PoI in paragraphs 4-9. There are two big things to note here, neither of which I think is always properly reflected in the secondary literature on this problem.
+
+1. This whole discussion is an in-house argument among people who have broadly epistemic theories of probability. If your response to these examples is "We need to know more about the physical setup, or underlying facts, or ...", then that means you really don't believe the epistemic theory of probability. That's fine - it's a controversial theory. But Keynes isn't arguing with you here; he's talking to his fellow epistemic theorists.
+2. There are a *lot* of examples here. Don't think that by finding some solution to one of them, you've found some general solution to the problems with indifference.
+
+## One that isn't there - the cube factory
+
+The cube factory example that van Fraassen uses in _Laws and Symmetry_ isn't quite there in Keynes. A similar example is. Van Fraassen's example is that we know a factory produces perfect cubes of side length at most 2cm. Given that knowledge, and nothing else, what is the probability that the next cube has a side length under 1cm? Related question. We know that a factory produces perfect cubes of volume at most 8cm^3^. Given that knowledge, and nothing else, what is the probability that the next cube has a volume under 1cm^3^? Uh oh, these are the same question, but PoI (Principle of Indifference) says they get different answers.
+
+Keynes will have an example like this, but it's really striking how much variety there is to his counterexamples. One rather often sees people try to resolve the cube factory problem and thereby conclude that they have somehow rescued some version of the PoI.
+
+## Three Book Colours
+
+We know nothing about a book. What's the probability that it (or I guess its cover) is red? What about blue? What about black? If PoI says that they are each 0.5, we get a contradiction given the background knowledge that nothing is red, blue, and black.
+
+Small question: Are these contraries? Surely some covers are blue and red. Does getting clear on the nature of the claim make it more plausible that the PoI wouldn't apply.
+
+## Adding a Detail
+
+Assume we know nothing whatsoever about an object A. Consider the proposition _A is a book_. Since we know nothing about whether it is or isn't a book, PoI says that its probability is 0.5. Now consider the proposition _A is a red book_. Since we know nothing about whether it is or isn't a red book, PoI says that its probability is 0.5. Putting these together, we get that the probability that A is red, conditional on being a book, is 1. That's absurd.
+
+## Having Names for Parts
+
+We know nothing about the world other than that it contains people, each of whom inhabit a point, and that it has regions which have points in them and that Great Britain, France, the British Isles, and Ireland, are among those regions. B is one of the people in the world. By PoI, each of the following are equiprobable: _B is in France_, _B is in Great Britain_, _B is in Ireland_, _B is in the British Isles_. We then learn that the British Isles just are Great Britain plus Ireland.^[Did Keynes have to do last minute changes to this example after Irish independence?!] Either the PoI leads to a contradiction here, or each of these has probability 0, or learning that a region has named parts tells us _a lot_ about the probability of people being in it. None of these is particularly plausible.
+
+## Volume and Density
+
+This is the closest we get to the cube factory (and the one that Keynes most clearly attributes to someone else). Assume we know nothing about a substance except that it's specific volume^[i.e., the number of cubic meters occupied by 1kg of the stuff] is between 1 and 3. PoI suggests that the probability that the specific volume is between 1 and 2 is 0.5. Compare, we get a substance and no nothing except that its specific density^[i.e., the inverse of the specific volume; this is not a term in widespread usage these days] is between 1/3 and 1. By PoI the probability that the specific density is between 1/3 and 2/3 is 0.5. But this is inconsistent with what we say about volumes.
+
+Keynes uses a similar example when worrying about averaging prices in his 1909 essay on Index Numbers. Should we average the dollars per unit, or the units per dollars, when finding out the average price of various things? He argues that there is no particular reason to prefer one to the other.
+
+## Bertrand's Chord Example
+
+I'm not going to try explaining this one here, but we possibly should talk through it in class. Again, it feels somewhat like the cube factory, but I'm not sure it is subject to the same objections. (I do think the sphere example is basically the same as the chord example, but I might be misunderstanding the geometry here, since I was never very good at solid geometry.)
+
+The real point Keynes makes is at the end of paragraph 7 about _f_.  
+
