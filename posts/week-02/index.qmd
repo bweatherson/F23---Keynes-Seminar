@@ -157,13 +157,13 @@ All that said, it's time to look at some actual numbers. It's hard to get data g
 
 Let's start with real GDP. We don't care about 'growth' that's just inflation, so everything here will be in real terms. (There are very big philosophical questions about just what it means to put things in real terms, and if people are interested we can do a week or two on that at the end of the semester. But not now.) Here is US GDP from 1974 onwards, setting the value in 1974 to 100.
 
-:::{.column-page}
+::: column-page
 ![Real GDP of the US, 1974-present](images/realgdp.png)
 :::
 
 That looks pretty good. We're as a whole 3.6 times richer than 50 years ago, well over the 2.8 that we need for a factor of 8 growth per century. But hang on, the US also has many more people than 50 years ago, and just having more of us doesn't make us wealthier. Let's put that in per capita terms to see how much there is to go around.
 
-:::{.column-page}
+::: column-page
 ![Real GDP per capita of the US, 1974-present](images/realgdp_capita.png)
 :::
 
@@ -171,7 +171,7 @@ We're already under the pace needed for factor of 8 growth per century. But stil
 
 But who gets that wealth? Remember what happened before 1870; Britain got much richer, but most British people did not. A quick first check is to see how much of that money is going to labour. So here is a measure of average real wages over time.
 
-:::{.column-page}
+::: column-page
 ![Real mean personal/family income in the US, 1974-present](images/real_mean_income.png)
 :::
 
@@ -179,7 +179,7 @@ I've done two graphs there, one for average family income, the other for average
 
 But even that doesn't tell us everything. If LeBron James gets \$50 million per year (and is probably underpaid relative to what he brings to the company), that alone is a 50 cent or something a year increase in average household income. But most people do not see those extra 50 cents from LeBron, or any other high income earner. A better measure of how most people are doing is median income. That still leaves out a lot of people, but it's a start. Here's how it looks.
 
-:::{.column-page}
+::: column-page
 ![Real median personal income in the US, 1974-present](images/real_median_personal_income.png)
 :::
 
