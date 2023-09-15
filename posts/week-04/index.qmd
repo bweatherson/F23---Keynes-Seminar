@@ -98,7 +98,7 @@ On page 60 Keynes makes a bad slip, and it's going to have significant consequen
 
 And as I'm sure has been pointed out before (I think I learned it from Carnap's *Logical Foundations of Probability*, but I'm not sure it was new there), this rules out too much. On this definition, practically will be irrelevant. The problem is that the disjunction *h*~1~ $\vee$ *x* is (typically) inferrable from *hh*~1~ but not from *h* alone and (almost always), *x*/*h* \< *x*/*h*(*h*~1~ $\vee$ *x*).
 
-As I said, I think this is, and similar examples, are going to land Keynes in all sorts of hot water.
+As I said, I think this is, and similar examples, are going to land Keynes in all sorts of hot water. Some of the problems will come up later in this chapter.
 
 I said last week that the sets of probability function model is, I once argued, a pretty good formalisation of Keynes's intuitions. This point is relevant to that idea, in a roundabout way. On the sets of probability functions approach, you really don't get anything like Keynes's general notion of irrelevance. But that's a *good* thing, because we should want to be rid of it, and any part of his theory that relies on it. What parts are those? Well, that's a question we'll need to keep an eye on.
 
@@ -108,4 +108,44 @@ The points at the top of 61, which are nowadays commonplaces, are important obse
 
 After so many attacks on the PoI, it is somewhat surprising, to me at least, that Keynes ends the chapter by offering his own version of the PoI. It is very heavily qualified, as we're about to see more qualified than Keynes realises, but it is a version of the PoI. When I got to this part there were two problems I expected to find, which in retrospect I'm not sure were there. But there's a much bigger problem that relates to the previous point about irrelevance.
 
-First, I thought that the PoI would lead to some kind of problem with countable additivity. Keynes is careful to say that he only intends the PoI to apply to finite cases. 
+## Countable Additivity
+
+First, I thought that the PoI would lead to some kind of problem with countable additivity. Keynes is careful to say that he only intends the PoI to apply to finite cases. But it's very hard to get a philosophical principle here that doesn't lead to countable additivity violations. Here's the basic idea.^[Jake Ross has a couple of papers on Sleeping Beauty, one in _Phil Review_ and one in _Phil Studies_ that make a similar point. And I make a similar complaint, less clearly, in my objection to Adam Elga's version of the PoI in an old PPR paper.]
+
+The cash value of Keynes's version of the PoI is the following idea. Let $\phi(x)$ be some propositional radical such that $\exists x x \in S \wedge \phi (x)$ is known (and is more or less trivial) for some set $S$, and so is $\forall x \forall y (\phi(x) \wedge \phi(y)) \rightarrow x = y$ is also trivial. In words, exactly one thing is $\phi$, and it is in $S$. And let the evidence $h$ be symmetric with respect to any two substitution instances $\phi(a), \phi(b)$, at least where $a, b \in S$. Then what Keynes really wants is that $\phi(a)/h = \phi(b)/h$. And that sounds kind of plausible enough, perhaps even after everything that we've seen previously in chapters 3 and 4.
+
+That principle works fine when $S$ is finite; the probability of any one thing being the $\phi$ is $1/|S|$. And it works fine when $S$ is uncountably infinite. The probability of any one thing being the $\phi$ is 0, but that's probably what we want. And you can't deduce any annoying things about cube volumes or substance density from these 0 values.^[Does everyone understand why? Maybe we should pause over this if not.]
+
+But it very much does not work when $S$ is countably infinite. In that case we get that the probability of any one thing being the $\phi$ is 0, but the probability of one of these things being the $\phi$ is 1. So the probability of this countably infinite disjunction, i.e., the first one is the $\phi$, or the second one is, or the third one is, or ..., is not equal to the sum of the probability of the disjuncts.
+
+Now it's a _very big question_ in the last 100 years of philosophy of probability whether countable additivity is a requirement. It's somewhat disappointing that Keynes doesn't really address it. Indeed, he just seems to treat the only salient division among sample spaces to be finite vs infinite, whereas the modern tendency is to treat the big division as finite vs countably infinite vs uncountably infinite. Plenty of people think that it's obviously true that you can have an equiprobable distribution over a countable set, so finite additivity must fail. And there are other reasons people have had for rejecting countable additivity.^[Dmitri Gallow, formerly of this parish, just posted a note arguing against countable additivity on grounds that should appeal to a Keynesian, because it appeals to the idea that conditional distributions are primitive. I think it's a variant on the idea that if X is a flat distribution over the reals in \[0, 1\], then conditionalising on the evidence that X is rational will give you a violation of countable additivity. But that's simplifying Dmitri's views a little bit I suspect.] Still, I think countable additivity is a good constraint, and if the PoI violates it, all the worse for the PoI.^[If we have time, I'll go over the conglomerability argument for countable additivity, and maybe why not everyone buys it.]
+
+## Syntax and Semantics
+
+Keynes's version of the PoI makes heavy use of a _syntactic_ constraint. It's all about whether the competing claims, which are meant to be equiprobable, can be put into the form $\phi(a), \phi(b)$. The contrast is with _semantic_ constraints on indifference principles. Adam Elga, in his [Dr Evil paper](https://philpapers.org/rec/ELGDDE), has such a principle. Two propositions are equiprobable iff there is the right kind of bijection between the sets of centred worlds the two propositions represent.^[There's a bunch of jargon in that last sentence, and I'm more than happy to go over it. But if you don't want to know the details, the big picture point I'm trying to make here is that Elga's version doesn't look at how the two propositions are textually represented, but at the ways in which they are made true.] And it's very natural nowadays to have semantic versions of these principles.
+
+The syntax/semantics split here recurs in a bunch of related fields. It is kind of the same as the debate between proof-theoretic and model-theoretic conceptions of validity in philosophy of logic. And it is kind of the same as the debate between syntactic and semantic conceptions of laws in philosophy of science. And there are probably debates in metaphysics that have the same structure; or, if not, it's only because the semantic side so comprehensively won.
+
+And outside of logic, the semantic side has basically been on a 75 year winning streak, for a fairly simple reason. A very widespread view (which I kind of share) is that syntactic approaches can't help with anything to do with probability/epistemology because of the grue paradox.^[If we have time, I'll definitely go over this.]
+
+Keynes has a syntactic approach for a few reasons. One is that it's the early 20th century, and nobody was using semantic approaches; everything was syntactic. Another was that the grue paradox hadn't been discovered. And a third, perhaps most important, was that Keynes was really committed to the idea that he was extending _logic_ here, and everyone (even the model theorists) agrees that logic has _something_ to do with syntax.
+
+Still, when I read this my first thought was, Ah, Keynes is bringing syntactic weapons to a semantic fight, and this is bound to fail. So I started trying to come up with grue-like counterexamples to his theory. And I didn't quite find them. Because there's a more fundamental problem with the view.
+
+## Disjunctive Parts
+
+Let's look a little more closely at precisely what Keynes says is the constraint on the PoI.
+
+> The Principle of Indifference is applicable to the alternatives $\phi(a)$ and $\phi(b)$, when the evidence $h$ is so constituted that, if $f(a)$ is an independent part of $h$ (see §14) which is relevant to $\phi(a)$, and does not contain any independent parts which are irrelevant to $\phi(a)$, then $h$ includes $f(b)$ also.
+
+What is an 'independent part'? When we look back at 14, we find this.
+
+> It will be convenient to define also two other phrases. $h_1$ and $h_2$ are independent and complementary parts of the evidence, if between them they make up $h$ and neither can be inferred from the other. 
+
+But now we have a problem. For any $h, \phi$, we can define an $f$ as follows
+
+$$
+f(x) =_{df} h \vee (\phi(a) \wedge x=x)
+$$
+
+For any $x$ That is entailed by $h$, and together with $h \vee (\neg \phi(a) \wedge x=x)$ entails $h$. So it is an independent part of $h$. But it is relevant to $\phi(a)$. So for any $h, phi$, there is some independent part of $h$ that is relevant to 
