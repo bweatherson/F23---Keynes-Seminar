@@ -145,7 +145,9 @@ What is an 'independent part'? When we look back at 14, we find this.
 But now we have a problem. For any $h, \phi$, we can define an $f$ as follows
 
 $$
-f(x) =_{df} h \vee (\phi(a) \wedge x=x)
+f(x) =_{df} (h \vee \phi(a)) \wedge (h \rightarrow (a=x))
 $$
 
-For any $x$ That is entailed by $h$, and together with $h \vee (\neg \phi(a) \wedge x=x)$ entails $h$. So it is an independent part of $h$. But it is relevant to $\phi(a)$. So for any $h, phi$, there is some independent part of $h$ that is relevant to 
+If $x=a$ that is entailed by $h$, and together with $h \vee \neg \phi(a)$ entails $h$. So those two are complementary and independent, and hence $f(a)$ is an independent part of $h$. But $f(b)$ is false given $h$, so clearly not part of $h$. So for any $h, \phi, a, b$ there will be an $f$ such that $h$ includes $f(a)$ and not $f(b)$, and $f(a)$ is an independent part of $h$.
+
+Does $f(a)$ satisfy the other clause Keynes gives that it "does not contain any independent parts which are irrelevant to $\phi(a)$"? I'm not sure. This has gone on long enough, and maybe I'll leave that one as a question for the readers.
