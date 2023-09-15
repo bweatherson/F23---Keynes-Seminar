@@ -12,18 +12,18 @@ image: "malaprop.jpg"
 
 Every time I read this chapter I'm surprised again at learning Keynes is responsible for the name "The Principle of Indifference". It has stuck so thoroughly. And it is so much better than "The Principle of Non-Sufficient Reason", which would make everyone think we were about to get into PSR and Leibniz and the cosmological argument. Anyway, it's a good name, for what may or may not be a good principle.
 
-Remember that Keynes thinks it is a wide-open question whether an argument may even have a probability. So let _a_ be some proposition wholly disconnected from _h_. Then even if we'd convinced ourselves that _a_ / _h_ couldn't be any number other than 0.5, it doesn't follow for Keynes that it is 0.5. It might just be non-numerical.
+Remember that Keynes thinks it is a wide-open question whether an argument may even have a probability. So let *a* be some proposition wholly disconnected from *h*. Then even if we'd convinced ourselves that *a* / *h* couldn't be any number other than 0.5, it doesn't follow for Keynes that it is 0.5. It might just be non-numerical.
 
 # Counterexamples to Indifference
 
 Keynes kind of goes to town on the PoI in paragraphs 4-9. There are two big things to note here, neither of which I think is always properly reflected in the secondary literature on this problem.
 
-1. This whole discussion is an in-house argument among people who have broadly epistemic theories of probability. If your response to these examples is "We need to know more about the physical setup, or underlying facts, or ...", then that means you really don't believe the epistemic theory of probability. That's fine - it's a controversial theory. But Keynes isn't arguing with you here; he's talking to his fellow epistemic theorists.
-2. There are a *lot* of examples here. Don't think that by finding some solution to one of them, you've found some general solution to the problems with indifference.
+1.  This whole discussion is an in-house argument among people who have broadly epistemic theories of probability. If your response to these examples is "We need to know more about the physical setup, or underlying facts, or ...", then that means you really don't believe the epistemic theory of probability. That's fine - it's a controversial theory. But Keynes isn't arguing with you here; he's talking to his fellow epistemic theorists.
+2.  There are a *lot* of examples here. Don't think that by finding some solution to one of them, you've found some general solution to the problems with indifference.
 
 ## One that isn't there - the cube factory
 
-The cube factory example that van Fraassen uses in _Laws and Symmetry_ isn't quite there in Keynes. A similar example is. Van Fraassen's example is that we know a factory produces perfect cubes of side length at most 2cm. Given that knowledge, and nothing else, what is the probability that the next cube has a side length under 1cm? Related question. We know that a factory produces perfect cubes of volume at most 8cm^3^. Given that knowledge, and nothing else, what is the probability that the next cube has a volume under 1cm^3^? Uh oh, these are the same question, but PoI (Principle of Indifference) says they get different answers.
+The cube factory example that van Fraassen uses in *Laws and Symmetry* isn't quite there in Keynes. A similar example is. Van Fraassen's example is that we know a factory produces perfect cubes of side length at most 2cm. Given that knowledge, and nothing else, what is the probability that the next cube has a side length under 1cm? Related question. We know that a factory produces perfect cubes of volume at most 8cm^3^. Given that knowledge, and nothing else, what is the probability that the next cube has a volume under 1cm^3^? Uh oh, these are the same question, but PoI (Principle of Indifference) says they get different answers.
 
 Keynes will have an example like this, but it's really striking how much variety there is to his counterexamples. One rather often sees people try to resolve the cube factory problem and thereby conclude that they have somehow rescued some version of the PoI.
 
@@ -35,15 +35,21 @@ Small question: Are these contraries? Surely some covers are blue and red. Does 
 
 ## Adding a Detail
 
-Assume we know nothing whatsoever about an object A. Consider the proposition _A is a book_. Since we know nothing about whether it is or isn't a book, PoI says that its probability is 0.5. Now consider the proposition _A is a red book_. Since we know nothing about whether it is or isn't a red book, PoI says that its probability is 0.5. Putting these together, we get that the probability that A is red, conditional on being a book, is 1. That's absurd.
+Assume we know nothing whatsoever about an object A. Consider the proposition *A is a book*. Since we know nothing about whether it is or isn't a book, PoI says that its probability is 0.5. Now consider the proposition *A is a red book*. Since we know nothing about whether it is or isn't a red book, PoI says that its probability is 0.5. Putting these together, we get that the probability that A is red, conditional on being a book, is 1. That's absurd.
 
 ## Having Names for Parts
 
-We know nothing about the world other than that it contains people, each of whom inhabit a point, and that it has regions which have points in them and that Great Britain, France, the British Isles, and Ireland, are among those regions. B is one of the people in the world. By PoI, each of the following are equiprobable: _B is in France_, _B is in Great Britain_, _B is in Ireland_, _B is in the British Isles_. We then learn that the British Isles just are Great Britain plus Ireland.^[Did Keynes have to do last minute changes to this example after Irish independence?!] Either the PoI leads to a contradiction here, or each of these has probability 0, or learning that a region has named parts tells us _a lot_ about the probability of people being in it. None of these is particularly plausible.
+We know nothing about the world other than that it contains people, each of whom inhabit a point, and that it has regions which have points in them and that Great Britain, France, the British Isles, and Ireland, are among those regions. B is one of the people in the world. By PoI, each of the following are equiprobable: *B is in France*, *B is in Great Britain*, *B is in Ireland*, *B is in the British Isles*. We then learn that the British Isles just are Great Britain plus Ireland.[^1] Either the PoI leads to a contradiction here, or each of these has probability 0, or learning that a region has named parts tells us *a lot* about the probability of people being in it. None of these is particularly plausible.
+
+[^1]: Did Keynes have to do last minute changes to this example after Irish independence?!
 
 ## Volume and Density
 
-This is the closest we get to the cube factory (and the one that Keynes most clearly attributes to someone else). Assume we know nothing about a substance except that it's specific volume^[i.e., the number of cubic meters occupied by 1kg of the stuff] is between 1 and 3. PoI suggests that the probability that the specific volume is between 1 and 2 is 0.5. Compare, we get a substance and no nothing except that its specific density^[i.e., the inverse of the specific volume; this is not a term in widespread usage these days] is between 1/3 and 1. By PoI the probability that the specific density is between 1/3 and 2/3 is 0.5. But this is inconsistent with what we say about volumes.
+This is the closest we get to the cube factory (and the one that Keynes most clearly attributes to someone else). Assume we know nothing about a substance except that it's specific volume[^2] is between 1 and 3. PoI suggests that the probability that the specific volume is between 1 and 2 is 0.5. Compare, we get a substance and no nothing except that its specific density[^3] is between 1/3 and 1. By PoI the probability that the specific density is between 1/3 and 2/3 is 0.5. But this is inconsistent with what we say about volumes.
+
+[^2]: i.e., the number of cubic meters occupied by 1kg of the stuff
+
+[^3]: i.e., the inverse of the specific volume; this is not a term in widespread usage these days
 
 Keynes uses a similar example when worrying about averaging prices in his 1909 essay on Index Numbers. Should we average the dollars per unit, or the units per dollars, when finding out the average price of various things? He argues that there is no particular reason to prefer one to the other.
 
@@ -51,5 +57,53 @@ Keynes uses a similar example when worrying about averaging prices in his 1909 e
 
 I'm not going to try explaining this one here, but we possibly should talk through it in class. Again, it feels somewhat like the cube factory, but I'm not sure it is subject to the same objections. (I do think the sphere example is basically the same as the chord example, but I might be misunderstanding the geometry here, since I was never very good at solid geometry.)
 
-The real point Keynes makes is at the end of paragraph 7 about _f_.  
+The real point Keynes makes is at the end of paragraph 7 about *f*.
 
+# Magnitudes and Learning
+
+This is in a sense another one of the counterexamples to PoI, but I've separated it out because it has such dramatic consequences. Start with a simple case. There is an urn with two balls in it, and all we know is that each ball is black or white, but we do not know the distribution. What does the PoI tell us should be the probability distribution. It turns out there are two different answers here that seem equally plausible at first blush.
+
+First answer. There are three possibilities:
+
+1.  Two black;
+2.  One black, one white;
+3.  Two white.
+
+Second answer. There are four possibilities:
+
+1.  The first is black, and the second is black.
+2.  The first is black, and the second is white.
+3.  The first is white, and the second is black.
+4.  The first is white, and the second is white.
+
+On the first way of thinking, the PoI says that the probability of an all white urn is 1/3; on the second way of thinking, the PoI says that the probability of an all white urn is 1/4. Keynes goes on to give a reason for thinking the second way is right, and I guess as far as it goes that seems fair.
+
+But think about an example that isn't obviously different in form to this one. There are *n* swans in the world, and all we know *a priori* is that swans are no colour other than black or white. What are the possibilities that PoI says we should be indifferent between. Again, two possibilities jump out.
+
+The first says that we should be indifferent between the *n*+1 possibilities of the form, *There are no white swans*, *There is one white swan*, *There are two white swans*, etc. The second says that we should be indifferent over the 2^*n*^ distribution of black-white over the different swans.
+
+The second does seem in some ways more natural. But it has a shocking consequence. It makes inductive learning impossible. Consider all questions of the following form.
+
+-   Assume you start with the probability distribution recommended by the PoI, and learn that the first *k* swans are white. What, as a function of *k*, is the probability that the next swan is white?
+
+Answer, on the second model, is that it is 1/2 no matter what. That seems absurd, so either (a) the PoI is wrong, or (b) it has been misapplied here, or (c) learning does not go by conditionalisation.
+
+I think this is a problem even for the weaker, heavily qualified, version of the PoI that Keynes ends up endorsing, and it really ends up being a problem for lots of versions of the PoI. It might be, as I once argued, that (c) is the villain here, so this isn't actually a problem for PoI. But it's a worry.
+
+# General Irrelevance
+
+On page 60 Keynes makes a bad slip, and it's going to have significant consequences for us down the line. He is asking when the addition of evidence *h*~1~ is irrelevant to *x*/*h*. He first gives the familiar contemporary answer: it's when *x*/*h* = *x*/*hh*~1~. But then he says something stronger.
+
+> *h*~1~ is irrelevant to x on evidence *h*, if there is no proposition, inferrible from *h*~1~*h* but not from *h*, such that its addition to evidence *h* affects the probability of *x*.
+
+And as I'm sure has been pointed out before (I think I learned it from Carnap's *Logical Foundations of Probability*, but I'm not sure it was new there), this rules out too much. On this definition, practically will be irrelevant. The problem is that the disjunction *h*~1~ $\vee$ *x* is (typically) inferrable from *hh*~1~ but not from *h* alone and (almost always), *x*/*h* \< *x*/*h*(*h*~1~ $\vee$ *x*).
+
+As I said, I think this is, and similar examples, are going to land Keynes in all sorts of hot water.
+
+I said last week that the sets of probability function model is, I once argued, a pretty good formalisation of Keynes's intuitions. This point is relevant to that idea, in a roundabout way. On the sets of probability functions approach, you really don't get anything like Keynes's general notion of irrelevance. But that's a *good* thing, because we should want to be rid of it, and any part of his theory that relies on it. What parts are those? Well, that's a question we'll need to keep an eye on.
+
+The points at the top of 61, which are nowadays commonplaces, are important observations. Irrelevance (in either Keynes's defective strict sense, or our more familiar loose sense), is closed under negation, and is symmetric. These are sometimes useful things to remember.
+
+# Keynes's Positive Version of the PoI
+
+I really just have one point here, though I haven't quite been able to figure out a way to turn this into a full objection. In his (heavily) restricted version of the PoI, Keynes has propositional schema do some fairly heavy lifting. At a somewhat impressionistic level, Keynes is getting what's ultimately a syntactic tool to try to do a metaphysical task. One might think that the lesson of Goodman's grue paradox is that syntactic tools are ultimately not up to performing metaphysical tasks. I haven't (yet) been able to figure out a way to turn Goodman's ideas into a counterexample to what Keynes says, but I suspect someone else may be able to.
