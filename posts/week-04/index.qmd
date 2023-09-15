@@ -106,4 +106,6 @@ The points at the top of 61, which are nowadays commonplaces, are important obse
 
 # Keynes's Positive Version of the PoI
 
-I really just have one point here, though I haven't quite been able to figure out a way to turn this into a full objection. In his (heavily) restricted version of the PoI, Keynes has propositional schema do some fairly heavy lifting. At a somewhat impressionistic level, Keynes is getting what's ultimately a syntactic tool to try to do a metaphysical task. One might think that the lesson of Goodman's grue paradox is that syntactic tools are ultimately not up to performing metaphysical tasks. I haven't (yet) been able to figure out a way to turn Goodman's ideas into a counterexample to what Keynes says, but I suspect someone else may be able to.
+After so many attacks on the PoI, it is somewhat surprising, to me at least, that Keynes ends the chapter by offering his own version of the PoI. It is very heavily qualified, as we're about to see more qualified than Keynes realises, but it is a version of the PoI. When I got to this part there were two problems I expected to find, which in retrospect I'm not sure were there. But there's a much bigger problem that relates to the previous point about irrelevance.
+
+First, I thought that the PoI would lead to some kind of problem with countable additivity. Keynes is careful to say that he only intends the PoI to apply to finite cases. 
