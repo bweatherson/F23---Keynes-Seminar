@@ -8,7 +8,7 @@ draft: false
 image: "images/waratah.jpg"
 ---
 
-I'm thinking of chapter 1 and 2 as making up one part, and chapter 3 the other part. In chapters 1 and 2 it seemed best to concentrate on almost line-by-line reading, to get the precise view he's setting forwward. So I'll work through each of the numbered sections, which I guess I'll call paragraphs for want of a better name, highlighting quotes that seemed particularly important. In chapter 3 I'll primarily focus on bigger themes, first on why Keynes rejects existing arguments for numerical probabilities, then on some issues about his non-numerical probabilties.
+I'm thinking of chapter 1 and 2 as making up one part, and chapter 3 the other part. In chapters 1 and 2 it seemed best to concentrate on almost line-by-line reading, to get the precise view he's setting forward. So I'll work through each of the numbered sections, which I guess I'll call paragraphs for want of a better name, highlighting quotes that seemed particularly important. In chapter 3 I'll primarily focus on bigger themes, first on why Keynes rejects existing arguments for numerical probabilities, then on some issues about his non-numerical probabilities.
 
 # Chapter 1
 
