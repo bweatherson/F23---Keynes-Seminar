@@ -1,0 +1,34 @@
+# Three big points
+
+1. This seems like a really good idea, and we should have something like it
+2. It doesn't work as stated because of Carnap's example. Let p be an arbitrary proposition, let H be that an arbitrary coin lands heads. The person who learns (p v H), then (~p v H) is back where they started, but each of these increase weight as Keynes states it. (Don't think the more precise sense of irrelevance will save Keynes here. That makes it *harder*, not easier, for it to be irrelevant. He might be saved from contradiction by it, but only because H increases the weight.)
+3. This exactly is hackneyed, but there are real life cases. Think about the Chernobyl 3.6, then learning that 3.6 is the maximum the machine reads. This looks like you get evidence and then lose it, in a sense. But of course you do still know more things at each stage. The general point is that **defeaters** are real, and Keynes needs to account for them.
+
+#  Two possibilities
+
+1. Need a non-probabilistic definition of relevance. Maybe something can change the probability but be irrelevant. Something something Fine on grounding/truthmakers? Will be a little tricky, because p v ~p will increase weight of p/h, so that can't be it either.
+2. That still probably won't help with defeaters.
+
+# Recent literature
+
+There is a lot of recent work on the idea that reasons can be put into some kind of scale. Since evidence is a kind of reason, this is probably related, though note most of this is in ethics, and a central question has been how to think about the possibility of supererogation. Maybe there isn't an equivalent there.
+
+But one way to think about what Keynes is doing is saying "Yeah, the balance pan model is right, and I think it's interesting to think about what happens if you think not just about the difference between the sides, but about their sum." And my first reaction, and fifty-first reaction, is "Yes, if that's the right model, it does sound like the sum should in principle be interesting. But is it the right model? And how do we deal with the Carnap problem and the Chernobyl problem."
+
+# Paragraph by paragraph notes
+
+End of para 2 - I love the casual way Keynes talks about a priori here. That might be the right thing to say.
+
+Paragraph 4 is interesting, and I wonder if it can be detached. I sometimes think in the sets of probability functions approach that weight is something like inverse of the size of the interval that Pr(p) takes for Pr in S. Keynes is quite explicitly rejecting that here. That's sort of interesting.
+
+# Cohen's 12 questions
+
+1 seems boring. Cohen says that it is strength of entitlement to believe conclusion to degree x. But that isn't right, and I think it only seems right if you think all degrees are numerical.
+
+2 is why didn't Keynes agree with my 1. And the answer is that Keynes doesn't think probabilities are numerical.
+
+3 is the Carnap point, which maybe Cohen independently rediscovered. (Though Cohen's example is I think a little cleaner.)
+
+Actually the rest is boring, it's just 3 that I want to focus on.
+
+
