@@ -1,3 +1,48 @@
+# Weight
+
+## A Story
+
+Here's the basic idea. Someone is doing an investigation into a particular proposition _p_. Let's say _p_ is a particular theory about the origins of COVID-19.^[There are wild conspiracies about this which I think should be set aside. But to the best of my knowledge, there are reasonable grounds for uncertainty about even the basic timeline. So it's a good example of something we can be very uncertain about.] The evidence here is a complete mess, partially because the questions are very hard, and partially because the Chinese government isn't exactly helpful.^[To be sure, I'm not sure which government would be.] So the inquirer might often get evidence that supports _p_ one day, and then opposes it the next.
+
+Keynes has this mental picture of the investigator having an old fashioned scale. When the evidence comes in, they classify it as either for or against _p_, and place it on the scale. How much the scale tips says something about the probability of _p_.
+
+As the investigation continues, the probability might move in all sorts of directions. One side or the other of the balance might have more 'weight' on it. But, says Keynes, the total evidence keeps going up. The difference between the sides might change, and change direction. But the sum of the sides keeps rising as we add more things to one or other pan.
+
+That's the picture at least. And the thought is given that picture of how evidence is accumulated, there is some interest in this value of the sum of the evidence, not just its difference. Actually, maybe we'll come back to this, is it difference or ratio that a balance beam is sensitive to? I guess it's difference. Anyway, that's the picture.
+
+## A Problem
+
+### Setting Up the Problem
+
+Our investigator is bored one day, so they start flipping a coin. And, being an investigator, they write the results down. First Tails, then Heads, then three Tails in a row, and so on. The effect this has on the investigation is zero; completely and utterly zero. This doesn't add anything to the investigation. It is evidence; it could affect our probability that the coin is biased. But it isn't evidence that's relevant this investigation.^[If weight is just a function of how much total evidence one has, then we'd have $V(a/h) = V(b/h)$ for any $a, b$. And Keynes explicitly doesn't want that.] So it shouldn't add to the weight.
+
+That sounds like an easy enough problem to solve. Say that $V(a/hh_1) = V(a/h)$ if $a/hh_1 = a/h$. That is, if $h_1$ doesn't change the probability of $a$, it doesn't change the weight of $a/h$. In this case, $a$ is the old hypothesis about COVID-19, $h$ is the old evidence, and $h_1$ is that this coin flip landed heads.
+
+Unfortunately, there are several problems with this. Assume that for any $x, y, z$, if $y, z$ are logically equivalent, then $V(x/y) = V(x/z)$. That is, assume substitutivity of logical equivalents within a weight operator. Then note that $h_1$ is logically equivalent to $(h_1 \vee p) \wedge (h_1 \vee \neg p)$. Then we can reason as follows. I'll also assume something that I think we can't do without, namely that on the right hand side of $a/h$, set theoretic union is conjunction. That is, adding two bits of evidence is equivalent to adding their conjunction.^[Keynes certainly writes as if this is a trivial assumption in many places, and I don't think it's avoidable.] 
+
+\begin{align*}
+V(a/h) &= V(a/hh_1) \\
+   &= V(a/h \wedge ((h_1 \vee p) \wedge (h_1 \vee \neg p)) \\
+   &= V(a/h \cup \{h_1 \vee p\} \cup \{h_1 \vee \neg p\}) \\
+   &> V(a/h \cup \{h_1 \vee p\}) \\
+   &> V(a/h)
+\end{align*}
+
+And oops, we have a contradiction. How could we avoid this? I can see two options that are relatively simple, and which don't seem attractive, and one that is less simple, but might do the trick.
+
+### Keynes's Solution
+
+Keynes says, without quite realising it, that the argument fails at the first step. He says that independent evidence can add to weight as long as it's (equivalent to) a conjunction of two things that change the probability. And the problem, as Carnap pointed out and as Cohen also noted, was that everything is equivalent to the conjunction of two things that change the probability. So on Keynes's solution, flipping the coin does add weight.
+
+### Denying Equivalence
+
+Is there a way out of this? I'm not sure, but let's try some things. We could play with the idea that weight is a function of arguments, and arguments are made of sentences, not propositions. We don't have to say that if $y, z$ are equivalent, then $V(x/y) = V(x/z)$. We definitely do have that $x/y = x/z$, but Keynes explicitly rejects the inference from that to $V(x/y) = V(x/z)$.
+
+Then we might say that evidence adds no weight if it is independent, and, if it is of the form $A \wedge B$, both $A$ and $B$ are independent.
+
+I don't know how much trouble this will raise elsewhere. I kind of think this might work, but it's
+
+
 # Three big points
 
 1. This seems like a really good idea, and we should have something like it
@@ -30,5 +75,4 @@ Paragraph 4 is interesting, and I wonder if it can be detached. I sometimes thin
 3 is the Carnap point, which maybe Cohen independently rediscovered. (Though Cohen's example is I think a little cleaner.)
 
 Actually the rest is boring, it's just 3 that I want to focus on.
-
 
