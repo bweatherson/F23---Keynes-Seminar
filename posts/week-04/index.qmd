@@ -160,7 +160,7 @@ I think this is a problem even for the weaker, heavily qualified, version of the
 
 On page 60 Keynes makes a bad slip, and it's going to have significant consequences for us down the line. He is asking when the addition of evidence *h*~1~ is irrelevant to *x*/*h*. He first gives the familiar contemporary answer: it's when *x*/*h* = *x*/*hh*~1~. But then he says something stronger.
 
-> *h*~1~ is irrelevant to x on evidence *h*, if there is no proposition, inferrible from *h*~1~*h* but not from *h*, such that its addition to evidence *h* affects the probability of *x*.
+> *h*~1~ is irrelevant to x on evidence *h*, if there is no proposition, inferrable from *h*~1~*h* but not from *h*, such that its addition to evidence *h* affects the probability of *x*.
 
 And this rules out too much[^8]. On this definition, practically will be irrelevant. The problem is that the disjunction *h*~1~ $\vee$ *x* is (typically) inferrable from *hh*~1~ but not from *h* alone and (almost always), *x*/*h* \< *x*/*h*(*h*~1~ $\vee$ *x*).
 

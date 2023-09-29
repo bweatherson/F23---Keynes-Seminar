@@ -2,9 +2,9 @@
 
 ## A Story
 
-Here's the basic idea. Someone is doing an investigation into a particular proposition _p_. Let's say _p_ is a particular theory about the origins of COVID-19.^[There are wild conspiracies about this which I think should be set aside. But to the best of my knowledge, there are reasonable grounds for uncertainty about even the basic timeline. So it's a good example of something we can be very uncertain about.] The evidence here is a complete mess, partially because the questions are very hard, and partially because the Chinese government isn't exactly helpful.^[To be sure, I'm not sure which government would be.] So the inquirer might often get evidence that supports _p_ one day, and then opposes it the next.
+Here's the basic idea. Someone is doing an investigation into a particular proposition $p$. Let's say $p$ is a particular theory about the origins of COVID-19.^[There are wild conspiracies about this which I think should be set aside. But to the best of my knowledge, there are reasonable grounds for uncertainty about even the basic timeline. So it's a good example of something we can be very uncertain about.] The evidence here is a complete mess, partially because the questions are very hard, and partially because the Chinese government isn't exactly helpful.^[To be sure, I'm not sure which government would be.] So the inquirer might often get evidence that supports $p$ one day, and then opposes it the next.
 
-Keynes has this mental picture of the investigator having an old fashioned scale. When the evidence comes in, they classify it as either for or against _p_, and place it on the scale. How much the scale tips says something about the probability of _p_.
+Keynes has this mental picture of the investigator having an old fashioned scale. When the evidence comes in, they classify it as either for or against $p$, and place it on the scale. How much the scale tips says something about the probability of $p$.
 
 As the investigation continues, the probability might move in all sorts of directions. One side or the other of the balance might have more 'weight' on it. But, says Keynes, the total evidence keeps going up. The difference between the sides might change, and change direction. But the sum of the sides keeps rising as we add more things to one or other pan.
 
@@ -18,7 +18,9 @@ Our investigator is bored one day, so they start flipping a coin. And, being an 
 
 That sounds like an easy enough problem to solve. Say that $V(a/hh_1) = V(a/h)$ if $a/hh_1 = a/h$. That is, if $h_1$ doesn't change the probability of $a$, it doesn't change the weight of $a/h$. In this case, $a$ is the old hypothesis about COVID-19, $h$ is the old evidence, and $h_1$ is that this coin flip landed heads.
 
-Unfortunately, there are several problems with this. Assume that for any $x, y, z$, if $y, z$ are logically equivalent, then $V(x/y) = V(x/z)$. That is, assume substitutivity of logical equivalents within a weight operator. Then note that $h_1$ is logically equivalent to $(h_1 \vee p) \wedge (h_1 \vee \neg p)$. Then we can reason as follows. I'll also assume something that I think we can't do without, namely that on the right hand side of $a/h$, set theoretic union is conjunction. That is, adding two bits of evidence is equivalent to adding their conjunction.^[Keynes certainly writes as if this is a trivial assumption in many places, and I don't think it's avoidable.] 
+Unfortunately, there are several problems with this. Start with the following problem. Imagine that there are two investigators looking into $p$. One of them is off sick for a couple of days. While they are out, the first investigator discovers $h_2$, which raises the probability of $p$. On Tuesday, they discover $h_3$, which lowers the probability of $p$. On Wednesday, when the second investigator comes back to work, and they are told of what was found while they were away, i.e., $h_2h_3$, the probability of $p$ is unchanged. But the weight has surely risen. After all, it rose on Monday and again on Tuesday. So adding $h_2h_3$ raises the weight. So sometimes, adding an independent bit of evidence raises the weight.
+
+There is a formal version of this problem. Assume that for any $x, y, z$, if $y, z$ are logically equivalent, then $V(x/y) = V(x/z)$. That is, assume substitutivity of logical equivalents within a weight operator. Then note that $h_1$ is logically equivalent to $(h_1 \vee p) \wedge (h_1 \vee \neg p)$. Then we can reason as follows. I'll also assume something that I think we can't do without, namely that on the right hand side of $a/h$, set theoretic union is conjunction. That is, adding two bits of evidence is equivalent to adding their conjunction.^[Keynes certainly writes as if this is a trivial assumption in many places, and I don't think it's avoidable.] 
 
 \begin{align*}
 V(a/h) &= V(a/hh_1) \\
@@ -40,39 +42,74 @@ Is there a way out of this? I'm not sure, but let's try some things. We could pl
 
 Then we might say that evidence adds no weight if it is independent, and, if it is of the form $A \wedge B$, both $A$ and $B$ are independent.
 
-I don't know how much trouble this will raise elsewhere. I kind of think this might work, but it's
+I don't know how much trouble this will raise elsewhere. I kind of think this might work, but it's a big change at least to how we think about probability in contemporary work.
 
+### Weight as Projection
 
-# Three big points
+Here's the thing about the coin flip. It's not just that it doesn't make a difference to the probability of $p$ now. We know (in some intuitive sense of 'know') that it won't make a difference going forward. It's not just irrelevant given $h$, it's irrelevant given any reasonable extension of $h$.
 
-1. This seems like a really good idea, and we should have something like it
-2. It doesn't work as stated because of Carnap's example. Let p be an arbitrary proposition, let H be that an arbitrary coin lands heads. The person who learns (p v H), then (~p v H) is back where they started, but each of these increase weight as Keynes states it. (Don't think the more precise sense of irrelevance will save Keynes here. That makes it *harder*, not easier, for it to be irrelevant. He might be saved from contradiction by it, but only because H increases the weight.)
-3. This exactly is hackneyed, but there are real life cases. Think about the Chernobyl 3.6, then learning that 3.6 is the maximum the machine reads. This looks like you get evidence and then lose it, in a sense. But of course you do still know more things at each stage. The general point is that **defeaters** are real, and Keynes needs to account for them.
+Compare this kind of case. We're gossiping and trying to figure out if Jack and Jill are dating. Someone adds that they saw Jack at a couple of places last night; having hamburgers early in the night at Blimpy and then at the comedy club later. That doesn't seem like it moves the probability that Jack and Jill are dating one way or the other. Then someone else adds that they saw Jill at both these places. That could be a coincidence, but that's a bit of interesting information.
 
-#  Two possibilities
+So what's happened there is the first bit of information, where Jack was, is arguably independent of whether Jack and Jill are dating. And similarly on its own, the information about where Jill was, is also independent. But put those two pieces of information together, and now we have something. Hardly conclusive proof, but enough of a probability shifter to make fun gossip.
 
-1. Need a non-probabilistic definition of relevance. Maybe something can change the probability but be irrelevant. Something something Fine on grounding/truthmakers? Will be a little tricky, because p v ~p will increase weight of p/h, so that can't be it either.
-2. That still probably won't help with defeaters.
+Intuitively, it seems that we want to say is that new evidence raises the weight if it changes the probability, or it could change the probability in the future. This doesn't on it's own solve the problem. Go back to the coin flip, and let $h_1$ be a proposition about the coin flip. For any $a$, we could learn $h_1 \supset a$, and then $h_1$ would be relevant. I think what's going on is that while we logically could learn that, it's not going to happen. There is no reasonable world in which we learn a material conditional connecting a coin flip to the origins of COVID, and nothing else. So here's my worked out hypothesis.
 
-# Recent literature
+- Given $h$, there is a set $S$ of things that are possible items of future evidence.
+- $V(a/hh_1) > V(a/h)$ iff for some $e \in S: a/heh_1 \neq a/he$.
 
-There is a lot of recent work on the idea that reasons can be put into some kind of scale. Since evidence is a kind of reason, this is probably related, though note most of this is in ethics, and a central question has been how to think about the possibility of supererogation. Maybe there isn't an equivalent there.
+This won't quite work for a reason we'll get to below, but it's progress. I think it helps with the two investigators problem. We could learn on Thursday that there was something wrong with the way the Monday or Tuesday investigations were conducted. And then $h_2h_3$ would be relevant to $p$. So I think this does the job that Keynes introduced general irrelevance to do. The problem is that there are three other issues that I don't think Keynes has the start of an answer to, and I'm not really sure what to say about them.
 
-But one way to think about what Keynes is doing is saying "Yeah, the balance pan model is right, and I think it's interesting to think about what happens if you think not just about the difference between the sides, but about their sum." And my first reaction, and fifty-first reaction, is "Yes, if that's the right model, it does sound like the sum should in principle be interesting. But is it the right model? And how do we deal with the Carnap problem and the Chernobyl problem."
+## Three More Problems
 
-# Paragraph by paragraph notes
+### How Many Scales?
 
-End of para 2 - I love the casual way Keynes talks about a priori here. That might be the right thing to say.
+The issue of how the weighing metaphor works is one of the biggest topics in philosophy in the last 15 years. The starting point for this is Joshua Gert's paper "Normative Strength and the Balance of Reasons".^[_Philosophical Review_, 2007] In 2016 there was a useful edited collection on the topic by Errol Lord and Barry Maguire.^[Called simply _Weighing Reasons_, and Jussi Suikkanen has a [useful review of it in NDPR](https://ndpr.nd.edu/reviews/weighing-reasons-2/).] And there has been a flood of work since. There are two issues that come up in this literature that I'll briefly mention. 
 
-Paragraph 4 is interesting, and I wonder if it can be detached. I sometimes think in the sets of probability functions approach that weight is something like inverse of the size of the interval that Pr(p) takes for Pr in S. Keynes is quite explicitly rejecting that here. That's sort of interesting.
+One important bit of background is that in the usual division of philosophical topics, this has all been taking place in what we think of as ethics, not what we think of as epistemology, let alone probability. But I think it's fundamentally the same set of problems. The folks in the ethics literature have all been talking about weighing _reasons_, but it's commonly (and I think correctly) thought that evidence is a kind of reason, so weighing evidence is the same set of issues.
 
-# Cohen's 12 questions
+The topic that has been central to this debate in ethics I don't think is relevant here. Assume that you think that there are actions that are permissible but not obligatory. And not just because they are tied for best with some other actions; they are permissible but other actions are _better_. What should we say about the weight of reasons in favor of the less good, but permissible, action? If it's less than the weight of reasons in favor of the other action, then why is it permissible? If it's the same as the weight of reasons in favor of the other action, why is the other better?
 
-1 seems boring. Cohen says that it is strength of entitlement to believe conclusion to degree x. But that isn't right, and I think it only seems right if you think all degrees are numerical.
+The standard solution here is to say that there are (in the metaphor) two kinds of scales: a permission scale and an obligation scale. And the options are tied on one and not on the other. I don't really love this move; it seems like the two should be integrated more. But anyway, I don't think it's relevant here since I don't think this division between permission and obligation is relevant.^[Maybe that's going to be wrong at the end, given what we say about the _General Theory_. But I think it's a separate issue.]
 
-2 is why didn't Keynes agree with my 1. And the answer is that Keynes doesn't think probabilities are numerical.
+### Adding Weights
 
-3 is the Carnap point, which maybe Cohen independently rediscovered. (Though Cohen's example is I think a little cleaner.)
+Keynes seems to miss the relevance of a deeply Moorean point here: evidence satisfies an organic unity principle. (Confirmation is holistic, in slightly more updated lingo, but I prefer the Moorean terms.) Think again about the Jack and Jill example. What's the weight of each piece of evidence? Honestly, not that much. But the weight of their sum is, intuitively, substantial.
 
-Actually the rest is boring, it's just 3 that I want to focus on.
+This is one of the big points in the recent ethics literature, and I think it does create a problem here. The metaphor relies on the idea that bits of evidence are like blocks you put on a scale. But they don't satisfy an organic unity principle. I think this is a reason to be sceptical of the whole 'weighing' metaphor. And without the metaphor, the idea of summing the weights of the two sides is a bit dubious.
+
+### Defeaters
+
+This is in some sense a version of the previous problem, but it's distinctive enough to be worth it's own note. Sometimes, evidence is **defeated**. Here's a famous example.
+
+After Chernobyl melted down, they were understandably worried about the radiation levels in the reactor and the surrounding area. So they got out the trusty Measure-Background-Radiation-Meter, and it read 3.6. That's not great; it should be 0. But it's not bad; it will take months of exposure at 3.6 to develop radiation linked illnesses. Let $a$ be that people are in immediate danger, $h$ the background information (i.e., that there was a meltdown), and $h_1$ the reading of 3.6. Then it seems $a/hh_1 < a/h$, and that $V(a/hh_1) > V(a/h)$.
+
+If you've seen the show, or read about Chernobyl, you know what comes next. It turns out the machine was capped out at 3.6; it simply wouldn't show any higher.^[I read somewhere that the cap was at 1/1000 per second, and the 3.6 was the rate per hour at 1/1000 per second. Capping at 3.6 seemed odd to me, but this might explain it.] Let $h_2$ be that the machine does not have a reading above 3.6. Then $a/hh_1h_2 \approx a/h$. But, and this is the important part, arguably $V(a/hh_1h_2) \approx V(a/h)$. It's not just that the new evidence $h_2$ pushed in the other direction to $h_1$. It's that it showed $h_1$ wasn't really evidence in the first place.
+
+Keynes doesn't have any way of capturing that. His core idea is that new evidence, i.e., evidence that changes our view, adds to the weight. And I don't think that's the case. Sometimes it tells us that what we thought was evidence was not in fact evidence.
+
+There is a small literature on how to model this kind of _defeat_ in probabilistic terms. I don't know it that well, but I didn't get the sense that anyone had a very good idea about what to do. We need a way of differentiating evidence that undermines previous evidence, from evidence that simply points in the opposite direction. Imagine if instead of $h_2$ we'd discovered $h_3$, that people near the reactor had a particular condition that meant even at 3.6 they were in immediate danger. That would raise the probability of $a$ back up, but intuitively in a way that did increase the weight. Just looking at probability kinematics, adding $h_2$ and adding $h_3$ have the same effect, but one decreases weight, the other increases it.
+
+Maybe the idea I floated earlier about a future-directed view could help? In the real world, where we learned $h_2$, we think $h_1$ is useless, _and will remain useless in any realistic scenario_. Maybe after learning $h_1h_3$, there is still some importance to $h_1$ in this inquiry? At least, perhaps it could be relevant given some future learning?
+
+## Weight and Imprecise Probabilities
+
+In a long ago paper^["Keynes, Uncertainty and Interest Rates", in _Cambridge Journal of Economics_] I argued that we should understand $V(a/h)$ using imprecise probabilities. If $S$ is the set of prior probability functions, then $V(a/h) = max(Pr(a|h)) - min(Pr(a|h))$, where the $max$ and $min$ range over the members of $S$. This is massively different to how Keynes understood weight, but at the time I thought it was the best way to capture what was right about the view.
+
+One problem is that because of dilation, on my view weight can go down. At the time I thought that was fine because defeaters imply that weight can go down. But now I don't think this really works. The cases like Chernobyl where weight goes down, are very different to the Gibbon example of dilation.
+
+Another problem is that it implies something Keynes explicitly rejects, namely that $a/h_1 = b/h_2$ implies that $V(a/h_1) = V(b/h_2)$. And I now think the examples in paragraph 4 of chapter 6 are a better case for rejecting that than I'd previous realised.
+
+Here's the case I have in mind. Imagine we have some $\phi$ which (given background $h$) satisfies all the conditions we could want for Indifference, and (also given $h$) the possible satisfiers of $\phi$ are $x,y,z$. Then $\phi(x)/h = 1/3$. Now imagine we also have a die, and we've carefully measured it to see that it's fair, and tested some automated rolling mechanism many times and seen neither bias nor pattern in the rolls. Assume this is also all part of $h$. Let $b$ be that the die will land 1 or 2 on its next roll. Then $b/h = 1/3$ also. But $V(b/h) > V(\phi(x)/h)$, since the former is based on a huge body of evidence, and the latter is based on Indifference.
+
+## Weight in the Economics Work
+
+Assume we can somehow fix these problems and get a notion of weight that works. Is it theoretically useful? In the _Treatise_, Keynes is unsure here. He says that it seems interesting, but he can't see how to give it an application. In the _General Theory_, he does give it an application, and an incredibly interesting one. We are going to talk about this much more in later weeks, but I wanted to flag it here because it's really a pivot point of this course. Here's a key paragraph from the remarkable [chapter 12 of the _General Theory_](http://brian.weatherson.org/general-theory/12.html).
+
+> It would be foolish, in forming our expectations, to attach great weight to matters which are very uncertain. It is reasonable, therefore, to be guided to a considerable degree by the facts about which we feel somewhat confident, even though they may be less decisively relevant to the issue than other facts about which our knowledge is vague and scanty. For this reason the facts of the existing situation enter, in a sense disproportionately, into the formation of our long-term expectations; our usual practice being to take the existing situation and to project it into the future, modified only to the extent that we have more or less definite reasons for expecting a change.
+
+And at the end of the first sentence, we get this footnote.
+
+> By "very uncertain" I do not mean the same thing as "improbable". Cf. my _Treatise on Probability_, chap. 6, on "The Weight of Arguments".
+
+Why is chapter 12 remarkable? Because it doesn't read much like an economics paper, at least not a mainstream one. There are no equations. There are hardly any numbers. It's all about how no one knows anything, and we're all guessing, and we have to basically pretend that we're in a position to do anything like probabilistic  
 
