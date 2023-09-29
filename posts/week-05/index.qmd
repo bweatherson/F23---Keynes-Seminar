@@ -111,5 +111,39 @@ And at the end of the first sentence, we get this footnote.
 
 > By "very uncertain" I do not mean the same thing as "improbable". Cf. my _Treatise on Probability_, chap. 6, on "The Weight of Arguments".
 
-Why is chapter 12 remarkable? Because it doesn't read much like an economics paper, at least not a mainstream one. There are no equations. There are hardly any numbers. It's all about how no one knows anything, and we're all guessing, and we have to basically pretend that we're in a position to do anything like probabilistic  
+Why is chapter 12 remarkable? Because it doesn't read much like an economics paper, at least not a mainstream one. There are no equations. There are hardly any numbers. It's all about how no one knows anything, and we're all guessing, and we have to basically pretend that we're in a position to do anything like probabilistic reasoning.
 
+The idea that we know very little about what we need in order to invest is a frequently recurring theme in the chapter. I could quote practically the whole thing, but here are a couple more relevant passages.
+
+> The outstanding fact is the extreme precariousness of the basis of knowledge on which our estimates of prospective yield have to be made. Our knowledge of the factors which will govern the yield of an investment some years hence is usually very slight and often negligible. If we speak frankly, we have to admit that our basis of knowledge for estimating the yield ten years hence of a railway, a copper mine, a textile factory, the goodwill of a patent medicine, an Atlantic liner, a building in the City of London amounts to little and sometimes to nothing; or even five years hence. In fact, those who seriously attempt to make any such estimate are often so much in the minority that their behaviour does not govern the market.
+
+And a bit later (this crosses sections 3 and 4 of the chapter), after a discussion of how stock market prices bounce so much during the day:
+
+> How then are these highly significant daily, even hourly, revaluations of existing investments carried out in practice?    
+>    
+> In practice we have tacitly agreed, as a rule, to fall back on what is, in truth, a convention. The essence of this convention — though it does not, of course, work out quite so simply — lies in assuming that the existing state of affairs will continue indefinitely, except in so far as we have specific reasons to expect a change. This does not mean that we really believe that the existing state of affairs will continue indefinitely. We know from extensive experience that this is most unlikely. The actual results of an investment over a long term of years very seldom agree with the initial expectation. Nor can we rationalise our behaviour by arguing that to a man in a state of ignorance errors in either direction are equally probable, so that there remains a mean actuarial expectation based on equi-probabilities. For it can easily be shown that the assumption of arithmetically equal probabilities based on a state of ignorance leads to absurdities. We are assuming, in effect, that the existing market valuation, however arrived at, is uniquely _correct_ in relation to our existing knowledge of the facts which will influence the yield of the investment, and that it will only change in proportion to changes in this knowledge; though, philosophically speaking it cannot be uniquely correct, since our existing knowledge does not provide a sufficient basis for a calculated mathematical expectation. In point of fact, all sorts of considerations enter into the market valuation which are in no way relevant to the prospective yield.    
+>    
+> Nevertheless the above conventional method of calculation will be compatible with a considerable measure of continuity and stability in our affairs, _so long as we can rely on the maintenance of the convention_.    
+>    
+> For if there exist organised investment markets and if we can rely on the maintenance of the convention, an investor can legitimately encourage himself with the idea that the only risk he runs is that of a genuine change in the news _over the near future_, as to the likelihood of which he can attempt to form his own judgment, and which is unlikely to be very large. For, assuming that the convention holds good, it is only these changes which can affect the value of his investment, and he need not lose his sleep merely because he has not any notion what his investment will be worth ten years hence.
+
+And in a contribution the following year to a symposium on the book, he writes:
+
+> By "uncertain" knowledge, let me explain, I do not mean merely to distinguish what is known for certain from what is only probable. The game of roulette is not subject, in this sense, to uncertainty; nor is the prospect of a Victory bond being drawn. Or, again, the expectation of life is only slightly uncertain. Even the weather is only moderately uncertain. The sense in which I am using the term is that in which the prospect of a European war is uncertain, or the price of copper and the rate of interest twenty years hence, or the obsolescence of a new invention, or the position of private wealth-owners in the social system in 1970. About these matters there is no scientific basis on which to form any calculable probability whatever. We simply do not know. Nevertheless, the necessity for action and for decision compels us as practical men to do our best to overlook this awkward fact and to behave exactly as we should if we had behind us a good Benthamite calculation of a series of prospective advantages and disadvantages, each multiplied by its appropriate probability, waiting to be summed.
+>    
+> How do we manage in such circumstances to behave in a manner which saves our faces as rational, economic men? We have devised for the purpose a variety of techniques, of which much the most important are the three following:
+> 
+> \(1\) We assume that the present is a much more serviceable guide to the future than a candid examination of past experience would show it to have been hitherto. In other words we largely ignore the prospect of future changes about the actual character of which we know nothing.
+>    
+> \(2\) We assume that the existing state of opinion as expressed in prices and the character of existing output is based on a _correct_ summing up of future prospects, so that we can accept it as such unless and until something new and relevant comes into the picture.
+>    
+> (3) Knowing that our own individual judgment is worthless, we endeavor to fall back on the judgment of the rest of the world which is perhaps better informed. That is, we endeavor to conform with the behavior of the majority or the average. The psychology of a society of individuals each of whom is endeavoring to copy the others leads to what we may strictly term a _conventional_ judgment.
+> 
+> Now a practical theory of the future based on these three principles has certain marked characteristics. In particular, being based on so flimsy a foundation, it is subject to sudden and violent changes. The practice of calmness and immobility, of certainty and security, suddenly breaks down. New fears and hopes will, without warning, take charge of human conduct. The forces of disillusion may suddenly impose a new conventional basis of valuation. All these pretty, polite techniques, made for a well-panelled Board Room and a nicely regulated market, are liable to collapse. At all times the vague panic fears and equally vague and unreasoned hopes are not really lulled, and lie but a little way below the surface.
+> 
+> Perhaps the reader feels that this general, philosophical disquisition on the behavior of mankind is somewhat remote from the economic theory under discussion. But I think not.
+
+I want to note a few points about this, which we can discuss more in seminar.
+
+1. There is a connection of low weight, in the sense of the _Treatise_ to the very uncertain, in the sense of the _General Theory_. I don't see any other way to read that footnote.
+2. We get a lot of examples of "uncertain" things. And, to my eye, they all fit the high value for 
