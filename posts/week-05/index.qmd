@@ -73,7 +73,7 @@ Keynes says, without quite realising it, that the argument fails at the first st
 
 Is there a way out of this? I'm not sure, but let's try some things. We could play with the idea that weight is a function of arguments, and arguments are made of sentences, not propositions.[^8] We don't have to say that if $y, z$ are equivalent, then $V(x/y) = V(x/z)$. We definitely do have that $x/y = x/z$, but Keynes explicitly rejects the inference from that to $V(x/y) = V(x/z)$.
 
-[^8]: I think Lloyd Humberstone defined an argument place as *congruent* if it allowed for substitution of logical equivalents, but I'm not 100% sure I've got the term right, and I'd hvae to look up the reference.
+[^8]: I think Lloyd Humberstone defined an argument place as *congruent* if it allowed for substitution of logical equivalents, but I'm not 100% sure I've got the term right, and I'd have to look up the reference.
 
 Then we might say that evidence adds no weight if it is independent, and, if it is of the form $A \wedge B$, both $A$ and $B$ are independent.
 
@@ -210,11 +210,11 @@ And in a contribution the following year to a symposium on the book, he writes:
 >
 > \(2\) We assume that the existing state of opinion as expressed in prices and the character of existing output is based on a *correct* summing up of future prospects, so that we can accept it as such unless and until something new and relevant comes into the picture.
 >
-> (3) Knowing that our own individual judgment is worthless, we endeavor to fall back on the judgment of the rest of the world which is perhaps better informed. That is, we endeavor to conform with the behavior of the majority or the average. The psychology of a society of individuals each of whom is endeavoring to copy the others leads to what we may strictly term a *conventional* judgment.
+> (3) Knowing that our own individual judgment is worthless, we endeavour to fall back on the judgment of the rest of the world which is perhaps better informed. That is, we endeavour to conform with the behaviour of the majority or the average. The psychology of a society of individuals each of whom is endeavouring to copy the others leads to what we may strictly term a *conventional* judgment.
 >
 > Now a practical theory of the future based on these three principles has certain marked characteristics. In particular, being based on so flimsy a foundation, it is subject to sudden and violent changes. The practice of calmness and immobility, of certainty and security, suddenly breaks down. New fears and hopes will, without warning, take charge of human conduct. The forces of disillusion may suddenly impose a new conventional basis of valuation. All these pretty, polite techniques, made for a well-panelled Board Room and a nicely regulated market, are liable to collapse. At all times the vague panic fears and equally vague and unreasoned hopes are not really lulled, and lie but a little way below the surface.
 >
-> Perhaps the reader feels that this general, philosophical disquisition on the behavior of mankind is somewhat remote from the economic theory under discussion. But I think not.
+> Perhaps the reader feels that this general, philosophical disquisition on the behaviour of mankind is somewhat remote from the economic theory under discussion. But I think not.
 
 [^26]: The talk of weight has dropped out, but 'uncertain' seems a callback to this.
 
