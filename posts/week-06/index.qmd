@@ -1,0 +1,72 @@
+---
+title: "Week 6: Induction"
+author: "Brian Weatherson"
+date: "2023-10-09"
+categories: [weekly handout]
+abstract: "Keynes aims to respond to a problem of induction from Hume, but not Hume's Problem of Induction."
+draft: false
+image: "keynes-coin.png"
+---
+
+# Three Humean Problems
+
+## How Do We Know We're Not in The Bad Place?
+
+Assume we have evidence $h$, and there is some proposition $a$ that is not part of, or entailed by, our evidence, but we know. Since we know $a$, and all of us here at least can do propositional logic, we can do $\vee$-introduction to infer $a \vee \neg h$. It's trivial to show that $\Pr(a \vee \neg h | h) \leq \Pr(a \vee \neg h)$. Add in the extra assumption that one only knows something on the basis of one's evidence if the evidence raises the probability of that thing, and it follows that we don't know $a \vee \neg h$ on the basis of $h$. But $h$ was our evidence, so we don't know $a \vee \neg h$ empirically, i.e., on the basis of our evidence. On the other hand, since $h \wedge \neg a$ is coherent, we don't know that it is false, i.e., that $a \vee \neg h$ is true, on the basis of purely conceptual reasoning either. And everything we know we know either empirically or on the basis of conceptual reasoning. So we don't know $a \vee \neg h$. So we don't know $a$, contradicting our original assumption that we could know $a$ on the basis of $h$. Scepticism looms.
+
+This last paragraph uses a lot of conceptual and mathematical machinery that was not available to Hume. But I think it's a recognisably Humean argument. The proposition $h \wedge \neg a$ says that one is in a particular kind of Bad Place, where someone has a past just like yours, but a future that goes wildly off in certain ways. And that argument, stripped of the mathematical machinery, asks how can you know you aren't in that Bad Place. It can't be by your evidence; your evidence seems to be in favour of your being in that Bad Place, relative to _à priori_ probabilities.^[I started using the grave, even though it is a little ridiculous. Resa Hasidi pointed out to me that Russell was writing it this way in his early work, which is probably the connection to Keynes.] And it can't be by mathematical or logical reasoning, since the Bad Place is coherent. So, problem.
+
+Keynes's solution to this Humean problem is, I'm sad to say, a little disappointing. He doesn't care about knowledge in the ordinary sense, and simply accepts the conclusion of the argument. We do not in fact know anything beyond our evidence. Beyond that it's all probability. It's true that some coherent possibilities, like very particular Bad Places, have incredibly low probability. That's all there is to say.
+
+## Induction is Logically Valid
+
+Australian philosophy in the era I came up in was full of views that the rest of the world thought were outlandish. Graham Priest argued that there were true contradictions. Jack Smart simply accepted the conclusion of any attempted reductio of utilitarianism. David Braddon-Mitchell argued that laws of nature could be false.^[Maybe this one shouldn't be there, since Nancy Cartwright had already said something similar.] Jeanette Kennett argued that being a good friend sometimes required being immoral.^[A friend helps you move houses. A real friend helps you move bodies. That apparently made her very unpopular with some Kantians, but I have some sympathy for it.]  David Lewis, who was basically one of us, argued that dinosaurs and unicorns exist. But the view that really shocked everyone was when two professors at my old school, John Bigelow and Robert Pargetter, argued that good inductive arguments were logically valid.^["[The Validation of Induction](https://doi.org/10.1080/00048409712347671)", AJP, 1997.] Even people who were willing to at least contemplate all of the earlier views listed thought this was a sign that something had gone seriously wrong in Australian philosophy, or at least philosophy at Monash.
+
+Keynes, however, is sort of on their side. And this explains how he responds to a different Humean argument. (The response is not explicit in the bits we're reading, but I wanted to note it here.) Here's what Bigelow and Pargetter thought. Consider the following argument.
+
+1. I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+2. So, all swans are black.
+
+I guess that conclusion isn't very plausible, surely there are albino swans somewhere, so maybe we should restrict it.^[Keynes says something odd on roughly this point, which maybe we'll come back to.]
+
+1. I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+2. So, the next swan I see will be black.
+
+But look, everyone knows that even that's a stretch. That albino swan might be waiting just in the next stream. So really, the argument is
+
+1. I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+2. So, **probably** the next swan I see will be black.
+
+But let's be clear about what probability claims are. They are claims about what is likely given one's evidence. And I just told you what my evidence is. So really the argument should be.
+
+1. I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+2. So, **probably** the next swan I see will be black, given that I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+
+And the thing is, that conclusion is, if true, necessarily true. On any broadly epistemic account of probability, if that evidence makes it probable that the next swan I see will be black, that's a necessary truth. The world couldn't be that I have that evidence, and it isn't probable.
+
+But it's misleading at best to say this is a valid argument. It's valid in the sense that any argument with a logically true conclusion is valid. But it's not that the premises guarantee the conclusion; it's that the conclusion is independently guaranteed.
+
+Anyway, this is all relevant to Keynes because the Humean problem of the previous section comes back. OK, so you agree that $h \wedge \neg a$ is possible. And you agree that for that reason with evidence $h$ you can't know it isn't actual. But this new knowledge you claim, that given $h$, $\not a$ is really improbable, is this empirical or conceptual? The answer, Keynes gives, is the latter.
+
+Now this doesn't really catch on because positivism happens. But Keynes is trying ever so hard to make this answer acceptable to positivists. One of the reasons chapter 19 is so dense is that he's trying to work out a way in which it's really part of logic that $h$ makes $a$ probable. He doesn't really get there, I think, but it's a bold effort.
+
+## Sheer Repetition
+
+That said, neither of these are the Humean problem that Keynes is addressing in these chapters. What he's actually addressing is what we might call the problem of sheer repetition. How does getting more and more tasty eggs give us a stronger reason to think the next egg will be tasty? And his answer, roughly, is that on it's own, it doesn't.
+
+There are a flurry of related problems here that I think Keynes is addressing. It's worth separating them out.
+
+1. How do extra repetitions provide extra evidence, given the intuition that they do not?
+2. In general, what's the relationship between reasoning by Pure Induction and reasoning by Analogy?
+3. Why, when using Pure Induction, is it good to have a diverse evidence base?
+
+Keynes takes 1 to be the organising question. And his answer is, roughly, that Pure Induction is bad, but in practice the more evidence you've got, the better the analogy is between the next case and the existing cases. I think that's a really interesting answer to a not so interesting question. I just don't get the Humean intuition here that repetitions are intuitively not evidence. But I still think this is really interesting, because 2 and 3 are interesting questions, and Keynes's answer is really interesting.
+
+Let's take the above questions in reverse order, starting with 3. Why is a diverse evidence base important. It surely is important. If you visit hundreds of college campuses in the US, you might find patterns in them that it would be very irrational to project into non-US campuses. And the solution isn't to visit a few hundred more campuses; it's to visit non-US campuses. Russell, when spelling out a broadly Keynesian view in chapter 6 of _Problems of Philosophy_, doesn't mention this. And it's a glaring problem.
+
+But why is it a problem? Why, philosophically, does having a diverse evidence base make for a better induction than a more numerous but narrower base? The answer, says Keynes, is that it's always argument by analogy. The thing about having a diverse evidence base, is that it increases the likelihood that the next case is really closely analogous to one of the cases in your evidence set. That's a neat idea I think.
+
+Now Keynes, because he shares the Humean intuition about sheer repetition, is committed to a really strong version of the idea. He thinks it's only when you increase the probability that the next case is analogous to an old case that you get any better evidence. And I don't think you have to think that to think that he's got a good story about why diversity matters.
+
+His story also has a couple of other nice features, both of which are related to question 2 above. When I teach induction, and this is roughly how I was taught induction, we are taught that there are these distinctive inductive methods. Keynes focuses on Pure Induction and Analogy; by the time I was a student we'd added Inference to the Best Explanation. Maybe these days some people would add Testimony.^[If this were a different seminar, I'd connect this to the old Indian debate about how many Pramāṇa there are. Are Induction, Analogy, IBE, and Testimony, all pramāṇa. I don't think any Indian tradition would agree, but they'd understand the question.] Why such diversity? Can we reduce the list a little? Yes, says Keynes; we can scrap Pure Induction.^[Historical question I have no idea about. In 1912, Russell says he's presenting a Keynesian theory of induction, then makes Pure Induction, with no attention to diversity, the core of the theory. Is that what Keynes thought in the earlier versions? That might be worth archival study.]
+
