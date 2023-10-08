@@ -68,5 +68,70 @@ But why is it a problem? Why, philosophically, does having a diverse evidence ba
 
 Now Keynes, because he shares the Humean intuition about sheer repetition, is committed to a really strong version of the idea. He thinks it's only when you increase the probability that the next case is analogous to an old case that you get any better evidence. And I don't think you have to think that to think that he's got a good story about why diversity matters.
 
-His story also has a couple of other nice features, both of which are related to question 2 above. When I teach induction, and this is roughly how I was taught induction, we are taught that there are these distinctive inductive methods. Keynes focuses on Pure Induction and Analogy; by the time I was a student we'd added Inference to the Best Explanation. Maybe these days some people would add Testimony.^[If this were a different seminar, I'd connect this to the old Indian debate about how many Pramāṇa there are. Are Induction, Analogy, IBE, and Testimony, all pramāṇa. I don't think any Indian tradition would agree, but they'd understand the question.] Why such diversity? Can we reduce the list a little? Yes, says Keynes; we can scrap Pure Induction.^[Historical question I have no idea about. In 1912, Russell says he's presenting a Keynesian theory of induction, then makes Pure Induction, with no attention to diversity, the core of the theory. Is that what Keynes thought in the earlier versions? That might be worth archival study.]
+His story also has a couple of other nice features, both of which are related to question 2 above. 
+
+When I teach induction, and this is roughly how I was taught induction, we are taught that there are these distinctive inductive methods. Keynes focuses on Pure Induction and Analogy; by the time I was a student we'd added Inference to the Best Explanation. Maybe these days some people would add Testimony.^[If this were a different seminar, I'd connect this to the old Indian debate about how many Pramāṇa there are. Are Induction, Analogy, IBE, and Testimony, all pramāṇa? I don't think any Indian tradition would agree, but they'd understand the question.] Why such diversity? Can we reduce the list a little? Yes, says Keynes; we can scrap Pure Induction.^[Historical question I have no idea about. In 1912, Russell says he's presenting a Keynesian theory of induction, then makes Pure Induction, with no attention to diversity, the core of the theory. Is that what Keynes thought in the earlier versions? That might be worth archival study.]
+
+The other thing that's tricky about the standard way of teaching is that we tend to say these things that are at best in tension, and probably outright inconsistent. But tension here is reflected in ordinary thought. Here are two things that we say.
+
+1. In Pure Induction, you need a large evidence base. You can't do induction on _n_ = 1.
+2. In Analogy, you don't need a large evidence base. If you put your hand on a hot plate, and it really really hurts, you learn that's dumb and don't do it again. You don't think, _and you shouldn't think_, wow I wonder if that was a weird hot plate, or something that only happens in one or other hemisphere, or at a certain time of day? You get the very clear lesson, really hot things hurt.
+
+Now here's the challenge. Why isn't this latter inference a bad case of Pure Induction on _n_ = 1? To be honest, I don't actually have a great answer here. But I can at least see how there is a Keynesian answer. Mix Keynes's view about Analogy being primary, with the idea that we can see what the relevant analogy is. To be sure, the latter part here is not part of Keynes's epistemology; he has a very standard early 20th century view about perception as being little more than sense-data. But maybe the person who burns their hand can see something about what feature of the world is central to the analogy here. Maybe; I don't have a worked out theory here.
+
+# How Analogy Works
+
+## Analogy and Causation
+
+I briefly mentioned Indian theories above. I don't know the relevant theories that well, but I think analogy doesn't play a huge role in them. If I recall correctly, it plays some role in some theories, but not a huge one. Still, it's bigger than the role Pure Induction plays, which is maybe a sign Keynes is a step closer to them.
+
+But in a very important respect in which Keynes is rather different to these Indian theories, and to what I think is ordinary commonsense. Keynes thinks that these two epistemic methods are, at best, special cases of the general method of Analogy.
+
+1. Same cause $\rightarrow$ same effect.
+2. Same effect $\rightarrow$ same cause.
+
+Keynes thinks that in principle these are no better than a rule like _same colour $\rightarrow$ same shape_. It's all just correlation matching. And that's not a view you find, to the best of my knowledge, in other traditions, or in ordinary thought.
+
+Now the reason here isn't too surprising. Keynes is very much a product of his time. And at the time Russell was very hostile to the idea of giving causation a central role in philosophy. There's this famous quote from Bertrand Russell's paper "On the Notion of Cause"^[_Proceedings of the Aristotelian Society, 1912.]
+
+> The law of causality, I believe, like much that passes muster among philosophers, is a relic of a bygone age, surviving, like the monarchy, only because it is erroneously supposed to do no harm.
+
+This I think has mildly disastrous effects on Keynes's theory here. It's an important part of ordinary thought that 1 is a better inference than 2. And this is something you see other epistemological traditions giving a central place to. But Keynes can't get this being anything other than a contingent thing we've learned, if he can even get that. And while I can't be sure, I suspect Russell's influence was a big factor here.^[There is a historical connection here. One of the most famous uses of Analogy in philosophy is the design argument for God's existence. Hume launches several criticisms of this argument, one of which is that it's the wrong direction; it's from effect to cause and that's not a great analogical argument.]
+
+He does say one thing in Chapter 21 about why he doesn't start with principles about causation. He's aiming higher than you could possibly get with arguments about causation. He wants a general ground for the logic of inference about the unobserved. And this should work even in domains where there isn't causation, and it should work before we've discovered the causal facts. (After all, we need to use it to discover general causal facts.) I guess I'm a little pessimistic about having anything this general to say, but this is perhaps an in-text reason to explain what a little role causation plays.
+
+## Analogy and Tractarian Metaphysics
+
+I didn't assign it for this week, but in chapter 22 there's an attempt to derive Analogy from metaphysical first principles. I couldn't quite make sense of it, but I think it went something like this.
+
+Posit, as a working assumption, that there is a special class of natural properties, or real universals. He calls these the 'generator' properties. And assume that there are only finitely many of these. If there are $k$ generators, then there are $2^k$ possible combinations of having and not having these.
+
+Now imagine we're trying to figure out whether all cows eat grass. In Keynes's term, we're trying to find whether $F$, being a cow, is invariably correlated with $G$, eating grass. Given that there are only finitely many ways a thing could be, the $2^k$ generator combinations, this means we're trying to figure out whether a conjunction with $2^k$ conjuncts is true:
+
+- Things of type 1 are not cows, or they eat grass; and
+- Things of type 2 are not cows, or they eat grass; and ...
+- Things of type $2^k$ are not cows, or they eat grass.
+
+Put this way, we get some nice results. Assuming, as is plausible, that each of these conjuncts has positive prior probability, then every new type of cow we see that eats grass, the probability of the conjunction increases. And in the limit it gets to 1, assuming it's true that all cows eat grass. And the more different the cows are that we see, probably the more of these conjuncts we can verify, so we get the result that variety is good.
+
+But after a bit of thought I think this is quite absurd. Here are three quick reasons to worry.
+
+First, if there is literally any continuous quantity in the universe, the underlying metaphysics won't work. Well, maybe that's a bit strong; Keynes says that position in space and time have a distinctive role in his metaphysics, and he can maybe allow that they are continuous. But it seems pretty unlikely.
+
+Second, while Keynes is right that the probability of the generalisation will have the right directional properties, it's not like it's going to get very high very fast. If each of these conjuncts is 50/50 to start with, then the generalisation will be incredibly improbable even if we have as much evidence as is humanly attainable. It's not much help to say that the probability is incredibly low but rising.
+
+Third, there is a ravens paradox looming. If I've understood the view right, then we get just as much evidence that all cows eat grass when we see a novel kind of non-cow, as when we see a novel kind of grass-eating cow. Both of these rule out one way the conjunction could fail. 
+
+Maybe these problems can all be fixed, but I'm not optimistic that it is going to work.
+
+# Imprecise Probabilities
+
+To end these notes, two very small technical notes.
+
+Keynes's inequality signs are weird. I don't know why sometimes the second line is above the wedge, and sometimes they are below.
+
+More importantly, Keynes carefully does not say that if a probability is not equal to 1, then it is less than 1. This happens a bit in paragraph 4 of chapter 19, for example. This is good and careful, and exactly what you'd expect to see if he really had the contemporary imprecise credences view.
+
+
+
 
