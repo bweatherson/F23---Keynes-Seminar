@@ -5,7 +5,7 @@ date: "2023-10-09"
 categories: [weekly handout]
 abstract: "Keynes aims to respond to a problem of induction from Hume, but not Hume's Problem of Induction."
 draft: false
-image: "keynes-coin.png"
+image: "swan.png"
 ---
 
 # Three Humean Problems
@@ -14,33 +14,43 @@ image: "keynes-coin.png"
 
 Assume we have evidence $h$, and there is some proposition $a$ that is not part of, or entailed by, our evidence, but we know. Since we know $a$, and all of us here at least can do propositional logic, we can do $\vee$-introduction to infer $a \vee \neg h$. It's trivial to show that $\Pr(a \vee \neg h | h) \leq \Pr(a \vee \neg h)$. Add in the extra assumption that one only knows something on the basis of one's evidence if the evidence raises the probability of that thing, and it follows that we don't know $a \vee \neg h$ on the basis of $h$. But $h$ was our evidence, so we don't know $a \vee \neg h$ empirically, i.e., on the basis of our evidence. On the other hand, since $h \wedge \neg a$ is coherent, we don't know that it is false, i.e., that $a \vee \neg h$ is true, on the basis of purely conceptual reasoning either. And everything we know we know either empirically or on the basis of conceptual reasoning. So we don't know $a \vee \neg h$. So we don't know $a$, contradicting our original assumption that we could know $a$ on the basis of $h$. Scepticism looms.
 
-This last paragraph uses a lot of conceptual and mathematical machinery that was not available to Hume. But I think it's a recognisably Humean argument. The proposition $h \wedge \neg a$ says that one is in a particular kind of Bad Place, where someone has a past just like yours, but a future that goes wildly off in certain ways. And that argument, stripped of the mathematical machinery, asks how can you know you aren't in that Bad Place. It can't be by your evidence; your evidence seems to be in favour of your being in that Bad Place, relative to _à priori_ probabilities.^[I started using the grave, even though it is a little ridiculous. Resa Hasidi pointed out to me that Russell was writing it this way in his early work, which is probably the connection to Keynes.] And it can't be by mathematical or logical reasoning, since the Bad Place is coherent. So, problem.
+This last paragraph uses a lot of conceptual and mathematical machinery that was not available to Hume. But I think it's a recognisably Humean argument. The proposition $h \wedge \neg a$ says that one is in a particular kind of Bad Place, where someone has a past just like yours, but a future that goes wildly off in certain ways. And that argument, stripped of the mathematical machinery, asks how can you know you aren't in that Bad Place. It can't be by your evidence; your evidence seems to be in favour of your being in that Bad Place, relative to *à priori* probabilities.[^1] And it can't be by mathematical or logical reasoning, since the Bad Place is coherent. So, problem.
+
+[^1]: I started using the grave, even though it is a little ridiculous. Resa Hasidi pointed out to me that Russell was writing it this way in his early work, which is probably the connection to Keynes.
 
 Keynes's solution to this Humean problem is, I'm sad to say, a little disappointing. He doesn't care about knowledge in the ordinary sense, and simply accepts the conclusion of the argument. We do not in fact know anything beyond our evidence. Beyond that it's all probability. It's true that some coherent possibilities, like very particular Bad Places, have incredibly low probability. That's all there is to say.
 
 ## Induction is Logically Valid
 
-Australian philosophy in the era I came up in was full of views that the rest of the world thought were outlandish. Graham Priest argued that there were true contradictions. Jack Smart simply accepted the conclusion of any attempted reductio of utilitarianism. David Braddon-Mitchell argued that laws of nature could be false.^[Maybe this one shouldn't be there, since Nancy Cartwright had already said something similar.] Jeanette Kennett argued that being a good friend sometimes required being immoral.^[A friend helps you move houses. A real friend helps you move bodies. That apparently made her very unpopular with some Kantians, but I have some sympathy for it.]  David Lewis, who was basically one of us, argued that dinosaurs and unicorns exist. But the view that really shocked everyone was when two professors at my old school, John Bigelow and Robert Pargetter, argued that good inductive arguments were logically valid.^["[The Validation of Induction](https://doi.org/10.1080/00048409712347671)", AJP, 1997.] Even people who were willing to at least contemplate all of the earlier views listed thought this was a sign that something had gone seriously wrong in Australian philosophy, or at least philosophy at Monash.
+Australian philosophy in the era I came up in was full of views that the rest of the world thought were outlandish. Graham Priest argued that there were true contradictions. Jack Smart simply accepted the conclusion of any attempted reductio of utilitarianism. David Braddon-Mitchell argued that laws of nature could be false.[^2] Jeanette Kennett argued that being a good friend sometimes required being immoral.[^3] David Lewis, who was basically one of us, argued that dinosaurs and unicorns exist. But the view that really shocked everyone was when two professors at my old school, John Bigelow and Robert Pargetter, argued that good inductive arguments were logically valid.[^4] Even people who were willing to at least contemplate all of the earlier views listed thought this was a sign that something had gone seriously wrong in Australian philosophy, or at least philosophy at Monash.
+
+[^2]: Maybe this one shouldn't be there, since Nancy Cartwright had already said something similar.
+
+[^3]: A friend helps you move houses. A real friend helps you move bodies. That apparently made her very unpopular with some Kantians, but I have some sympathy for it.
+
+[^4]: "[The Validation of Induction](https://doi.org/10.1080/00048409712347671)", AJP, 1997.
 
 Keynes, however, is sort of on their side. And this explains how he responds to a different Humean argument. (The response is not explicit in the bits we're reading, but I wanted to note it here.) Here's what Bigelow and Pargetter thought. Consider the following argument.
 
-1. I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
-2. So, all swans are black.
+1.  I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+2.  So, all swans are black.
 
-I guess that conclusion isn't very plausible, surely there are albino swans somewhere, so maybe we should restrict it.^[Keynes says something odd on roughly this point, which maybe we'll come back to.]
+I guess that conclusion isn't very plausible, surely there are albino swans somewhere, so maybe we should restrict it.[^5]
 
-1. I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
-2. So, the next swan I see will be black.
+[^5]: Keynes says something odd on roughly this point, which is relevant to the discussion of the cows example below.
+
+1.  I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+2.  So, the next swan I see will be black.
 
 But look, everyone knows that even that's a stretch. That albino swan might be waiting just in the next stream. So really, the argument is
 
-1. I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
-2. So, **probably** the next swan I see will be black.
+1.  I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+2.  So, **probably** the next swan I see will be black.
 
 But let's be clear about what probability claims are. They are claims about what is likely given one's evidence. And I just told you what my evidence is. So really the argument should be.
 
-1. I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
-2. So, **probably** the next swan I see will be black, given that I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+1.  I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
+2.  So, **probably** the next swan I see will be black, given that I've seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they've all been black.
 
 And the thing is, that conclusion is, if true, necessarily true. On any broadly epistemic account of probability, if that evidence makes it probable that the next swan I see will be black, that's a necessary truth. The world couldn't be that I have that evidence, and it isn't probable.
 
@@ -56,28 +66,32 @@ That said, neither of these are the Humean problem that Keynes is addressing in 
 
 There are a flurry of related problems here that I think Keynes is addressing. It's worth separating them out.
 
-1. How do extra repetitions provide extra evidence, given the intuition that they do not?
-2. In general, what's the relationship between reasoning by Pure Induction and reasoning by Analogy?
-3. Why, when using Pure Induction, is it good to have a diverse evidence base?
+1.  How do extra repetitions provide extra evidence, given the intuition that they do not?
+2.  In general, what's the relationship between reasoning by Pure Induction and reasoning by Analogy?
+3.  Why, when using Pure Induction, is it good to have a diverse evidence base?
 
 Keynes takes 1 to be the organising question. And his answer is, roughly, that Pure Induction is bad, but in practice the more evidence you've got, the better the analogy is between the next case and the existing cases. I think that's a really interesting answer to a not so interesting question. I just don't get the Humean intuition here that repetitions are intuitively not evidence. But I still think this is really interesting, because 2 and 3 are interesting questions, and Keynes's answer is really interesting.
 
-Let's take the above questions in reverse order, starting with 3. Why is a diverse evidence base important. It surely is important. If you visit hundreds of college campuses in the US, you might find patterns in them that it would be very irrational to project into non-US campuses. And the solution isn't to visit a few hundred more campuses; it's to visit non-US campuses. Russell, when spelling out a broadly Keynesian view in chapter 6 of _Problems of Philosophy_, doesn't mention this. And it's a glaring problem.
+Let's take the above questions in reverse order, starting with 3. Why is a diverse evidence base important. It surely is important. If you visit hundreds of college campuses in the US, you might find patterns in them that it would be very irrational to project into non-US campuses. And the solution isn't to visit a few hundred more campuses; it's to visit non-US campuses. Russell, when spelling out a broadly Keynesian view in chapter 6 of *Problems of Philosophy*, doesn't mention this. And it's a glaring problem.
 
 But why is it a problem? Why, philosophically, does having a diverse evidence base make for a better induction than a more numerous but narrower base? The answer, says Keynes, is that it's always argument by analogy. The thing about having a diverse evidence base, is that it increases the likelihood that the next case is really closely analogous to one of the cases in your evidence set. That's a neat idea I think.
 
 Now Keynes, because he shares the Humean intuition about sheer repetition, is committed to a really strong version of the idea. He thinks it's only when you increase the probability that the next case is analogous to an old case that you get any better evidence. And I don't think you have to think that to think that he's got a good story about why diversity matters.
 
-His story also has a couple of other nice features, both of which are related to question 2 above. 
+His story also has a couple of other nice features, both of which are related to question 2 above.
 
-When I teach induction, and this is roughly how I was taught induction, we are taught that there are these distinctive inductive methods. Keynes focuses on Pure Induction and Analogy; by the time I was a student we'd added Inference to the Best Explanation. Maybe these days some people would add Testimony.^[If this were a different seminar, I'd connect this to the old Indian debate about how many Pramāṇa there are. Are Induction, Analogy, IBE, and Testimony, all pramāṇa? I don't think any Indian tradition would agree, but they'd understand the question.] Why such diversity? Can we reduce the list a little? Yes, says Keynes; we can scrap Pure Induction.^[Historical question I have no idea about. In 1912, Russell says he's presenting a Keynesian theory of induction, then makes Pure Induction, with no attention to diversity, the core of the theory. Is that what Keynes thought in the earlier versions? That might be worth archival study.]
+When I teach induction, and this is roughly how I was taught induction, we are taught that there are these distinctive inductive methods. Keynes focuses on Pure Induction and Analogy; by the time I was a student we'd added Inference to the Best Explanation. Maybe these days some people would add Testimony.[^6] Why such diversity? Can we reduce the list a little? Yes, says Keynes; we can scrap Pure Induction.[^7]
+
+[^6]: If this were a different seminar, I'd connect this to the old Indian debate about how many Pramāna there are. Are Induction, Analogy, IBE, and Testimony, all pramāna? I don't think any Indian tradition would agree, but they'd understand the question.
+
+[^7]: Historical question I have no idea about. In 1912, Russell says he's presenting a Keynesian theory of induction, then makes Pure Induction, with no attention to diversity, the core of the theory. Is that what Keynes thought in the earlier versions? That might be worth archival study.
 
 The other thing that's tricky about the standard way of teaching is that we tend to say these things that are at best in tension, and probably outright inconsistent. But tension here is reflected in ordinary thought. Here are two things that we say.
 
-1. In Pure Induction, you need a large evidence base. You can't do induction on _n_ = 1.
-2. In Analogy, you don't need a large evidence base. If you put your hand on a hot plate, and it really really hurts, you learn that's dumb and don't do it again. You don't think, _and you shouldn't think_, wow I wonder if that was a weird hot plate, or something that only happens in one or other hemisphere, or at a certain time of day? You get the very clear lesson, really hot things hurt.
+1.  In Pure Induction, you need a large evidence base. You can't do induction on *n* = 1.
+2.  In Analogy, you don't need a large evidence base. If you put your hand on a hot plate, and it really really hurts, you learn that's dumb and don't do it again. You don't think, *and you shouldn't think*, wow I wonder if that was a weird hot plate, or something that only happens in one or other hemisphere, or at a certain time of day? You get the very clear lesson, really hot things hurt.
 
-Now here's the challenge. Why isn't this latter inference a bad case of Pure Induction on _n_ = 1? To be honest, I don't actually have a great answer here. But I can at least see how there is a Keynesian answer. Mix Keynes's view about Analogy being primary, with the idea that we can see what the relevant analogy is. To be sure, the latter part here is not part of Keynes's epistemology; he has a very standard early 20th century view about perception as being little more than sense-data. But maybe the person who burns their hand can see something about what feature of the world is central to the analogy here. Maybe; I don't have a worked out theory here.
+Now here's the challenge. Why isn't this latter inference a bad case of Pure Induction on *n* = 1? To be honest, I don't actually have a great answer here. But I can at least see how there is a Keynesian answer. Mix Keynes's view about Analogy being primary, with the idea that we can see what the relevant analogy is. To be sure, the latter part here is not part of Keynes's epistemology; he has a very standard early 20th century view about perception as being little more than sense-data. But maybe the person who burns their hand can see something about what feature of the world is central to the analogy here. Maybe; I don't have a worked out theory here.
 
 # How Analogy Works
 
@@ -87,16 +101,20 @@ I briefly mentioned Indian theories above. I don't know the relevant theories th
 
 But in a very important respect in which Keynes is rather different to these Indian theories, and to what I think is ordinary commonsense. Keynes thinks that these two epistemic methods are, at best, special cases of the general method of Analogy.
 
-1. Same cause $\rightarrow$ same effect.
-2. Same effect $\rightarrow$ same cause.
+1.  Same cause $\rightarrow$ same effect.
+2.  Same effect $\rightarrow$ same cause.
 
-Keynes thinks that in principle these are no better than a rule like _same colour $\rightarrow$ same shape_. It's all just correlation matching. And that's not a view you find, to the best of my knowledge, in other traditions, or in ordinary thought.
+Keynes thinks that in principle these are no better than a rule like *same colour* $\rightarrow$ same shape. It's all just correlation matching. And that's not a view you find, to the best of my knowledge, in other traditions, or in ordinary thought.
 
-Now the reason here isn't too surprising. Keynes is very much a product of his time. And at the time Russell was very hostile to the idea of giving causation a central role in philosophy. There's this famous quote from Bertrand Russell's paper "On the Notion of Cause"^[_Proceedings of the Aristotelian Society, 1912.]
+Now the reason here isn't too surprising. Keynes is very much a product of his time. And at the time Russell was very hostile to the idea of giving causation a central role in philosophy. There's this famous quote from Bertrand Russell's paper "On the Notion of Cause"[^8]
+
+[^8]: _Proceedings of the Aristotelian Society_, 1912.
 
 > The law of causality, I believe, like much that passes muster among philosophers, is a relic of a bygone age, surviving, like the monarchy, only because it is erroneously supposed to do no harm.
 
-This I think has mildly disastrous effects on Keynes's theory here. It's an important part of ordinary thought that 1 is a better inference than 2. And this is something you see other epistemological traditions giving a central place to. But Keynes can't get this being anything other than a contingent thing we've learned, if he can even get that. And while I can't be sure, I suspect Russell's influence was a big factor here.^[There is a historical connection here. One of the most famous uses of Analogy in philosophy is the design argument for God's existence. Hume launches several criticisms of this argument, one of which is that it's the wrong direction; it's from effect to cause and that's not a great analogical argument.]
+This I think has mildly disastrous effects on Keynes's theory here. It's an important part of ordinary thought that 1 is a better inference than 2. And this is something you see other epistemological traditions giving a central place to. But Keynes can't get this being anything other than a contingent thing we've learned, if he can even get that. And while I can't be sure, I suspect Russell's influence was a big factor here.[^9]
+
+[^9]: There is a historical connection here. One of the most famous uses of Analogy in philosophy is the design argument for God's existence. Hume launches several criticisms of this argument, one of which is that it's the wrong direction; it's from effect to cause and that's not a great analogical argument.
 
 He does say one thing in Chapter 21 about why he doesn't start with principles about causation. He's aiming higher than you could possibly get with arguments about causation. He wants a general ground for the logic of inference about the unobserved. And this should work even in domains where there isn't causation, and it should work before we've discovered the causal facts. (After all, we need to use it to discover general causal facts.) I guess I'm a little pessimistic about having anything this general to say, but this is perhaps an in-text reason to explain what a little role causation plays.
 
@@ -108,9 +126,9 @@ Posit, as a working assumption, that there is a special class of natural propert
 
 Now imagine we're trying to figure out whether all cows eat grass. In Keynes's term, we're trying to find whether $F$, being a cow, is invariably correlated with $G$, eating grass. Given that there are only finitely many ways a thing could be, the $2^k$ generator combinations, this means we're trying to figure out whether a conjunction with $2^k$ conjuncts is true:
 
-- Things of type 1 are not cows, or they eat grass; and
-- Things of type 2 are not cows, or they eat grass; and ...
-- Things of type $2^k$ are not cows, or they eat grass.
+-   Things of type 1 are not cows, or they eat grass; and
+-   Things of type 2 are not cows, or they eat grass; and ...
+-   Things of type $2^k$ are not cows, or they eat grass.
 
 Put this way, we get some nice results. Assuming, as is plausible, that each of these conjuncts has positive prior probability, then every new type of cow we see that eats grass, the probability of the conjunction increases. And in the limit it gets to 1, assuming it's true that all cows eat grass. And the more different the cows are that we see, probably the more of these conjuncts we can verify, so we get the result that variety is good.
 
@@ -120,7 +138,7 @@ First, if there is literally any continuous quantity in the universe, the underl
 
 Second, while Keynes is right that the probability of the generalisation will have the right directional properties, it's not like it's going to get very high very fast. If each of these conjuncts is 50/50 to start with, then the generalisation will be incredibly improbable even if we have as much evidence as is humanly attainable. It's not much help to say that the probability is incredibly low but rising.
 
-Third, there is a ravens paradox looming. If I've understood the view right, then we get just as much evidence that all cows eat grass when we see a novel kind of non-cow, as when we see a novel kind of grass-eating cow. Both of these rule out one way the conjunction could fail. 
+Third, there is a ravens paradox looming. If I've understood the view right, then we get just as much evidence that all cows eat grass when we see a novel kind of non-cow, as when we see a novel kind of grass-eating cow. Both of these rule out one way the conjunction could fail.
 
 Maybe these problems can all be fixed, but I'm not optimistic that it is going to work.
 
@@ -131,7 +149,3 @@ To end these notes, two very small technical notes.
 Keynes's inequality signs are weird. I don't know why sometimes the second line is above the wedge, and sometimes they are below.
 
 More importantly, Keynes carefully does not say that if a probability is not equal to 1, then it is less than 1. This happens a bit in paragraph 4 of chapter 19, for example. This is good and careful, and exactly what you'd expect to see if he really had the contemporary imprecise credences view.
-
-
-
-
