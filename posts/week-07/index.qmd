@@ -1,0 +1,145 @@
+There are two things on tap for this week. Chapter 26 of the _Treatise_, and then Broad's critical notice. I regret that we're reading the Broad after the _Treatise_; it would have been better to quickly go over it as a guide to what's about to happen.
+
+# Broad's Critical Notice
+
+I don't have a lot to say about the Broad, so I'll just mention a couple of quick things here. One is that Broad didn't seem to be able to make any more sense of the theory of groups than we could. And I'm not sure there is anything there. But the other is that I think Broad's response is fairly typical of the kind of reaction that Keynes's book got. And it would have been even more representative of what the reaction would have been had the 1910 version been published, or even if he'd finished the book in the summer of 1914.
+
+By the early 1920s, the philosophical scene had changed. Russell had moved away from the strong form of realism he presented in _Problems of Philosophy_ into a kind of pragmatism/positivism (I'm going to use these terms interchangably). Ramsey was about to develop a very striking form of pragmatism, that wouldn't ever really catch on in the UK. On some points relevant to our discussion he was more extreme than Ayer would be in _Language, Truth and Logic_ a few years later. But that was the scene in the 1920s. And it wouldn't be the best one for Keynes's work to be received in.
+
+This is relevant because the literature in philosophy of probability has (a) not always been the most sensitive to these macro-trends, and (b) was heavily influenced in the latter half of the 20th century by Richard Jeffrey, who was much more sympathetic to a strong form of pragmatism. So we've been left with this position where Ramsey has been more influential than Keynes, even though the metaphysics of Keynes's view is much more in keeping with contemporary thought.^[An even more dramatic version of this is the way in which McTaggert gets discussed in philosophy of time without any reference to the role his theories of time played in his larger idealist project.]
+
+# Formal Ethics
+
+Most of chapter 26 is an early version of what we'd now call formal ethics. It is one of the places where the relationship of this book to Keynes's economic work is clearest. The history of formal ethics is a fascinating topic, and one dominated at this stage (i.e., early C20), by economists. I suspect it would be very useful for contemporary philosophers to have read Pigou^[Especially his 1912 book _Wealth and Welfare_ or his 1920 book _The Economics of Welfare_], Marshall, Robbins^[Do people these days read Robbins, and know why he was such a pivotal figure?], Kaldor and others on how the subject developed. I'm not sure there is anyone we'd normally think of as a philosopher, outside of Keynes and maybe some of the remarks on decision theory in Ramsey, who would be as important to the history.
+
+What's remarkable about this chapter is how many of the current controversies in formal ethics Keynes touches on. The less remarkable part is that he doesn't say very much about many of them. So we're left with more of a sense of what the state of play was at the time than a novel approach to the questions. 
+
+To start, here are some of the questions Keynes will touch on.
+
+- The importance of process norms.
+- The history of expected value.
+- The cluelessness objection to consequentialism.
+- The incommensurability of value.
+- The incommensurability of probability.
+- Whether weight means we shouldn't (just) maximise expected utility.
+- Whether expected utility theory is sufficiently sensitive to risk.
+- The (Saint) Petersburg Problem.
+- The ethics of gambling.
+- Population ethics.
+- Whether small probabilities should be ignored.
+
+Especially on the last three, we just get an allusion to what the problem is, not really any progress. But I wanted to briefly flag it here.
+
+# Background Assumptions
+
+There are two big assumptions that Keynes makes through this chapter, and I think his other broadly ethical work. More speculatively, I think he has a view that is not really represented in the contemporary literature, though I'm really not sure (a) that this is actually his view, or (b) that no one else has it.
+
+The first big assumption is **value realism**. It's very hard to read this chapter and not think that Keynes believes the following things.
+
+- There are facts about which things are more or less valuable than other things.
+- These facts don't just issue in comparisons, _this is more valuable than that_, they issue in _some kind_ of numerical output: _this has value 7_, or something like that.
+- We can, at least sometimes, detect some of these facts.
+ 
+The second assumption, one that is flagged in the first section of the chapter is what I'll call **process consequentialism**. This is the view that one should be motivated primarily by consequences, but the right way to judge an action is _not_ by looking at whether it produced the best consequences, but by whether it was the outcome of a process that in general produces good consequences. The most popular form of process consequentialism nowadays (and for most of the last 300 years) is the view that one ought maximise the *expected value* of one's actions. But the general idea is more general than that, and allows that one might use some function other than expected value.
+
+The big theory is a sort of modified consequentialism. In the second half of the twentieth century, it became fairly popular to endorse consequentialism with side-constraints. (I associate this kind of view primarily with Nozick, but I think it was, and maybe still is, pretty common.) This is a view that says that the first priority is to avoid violating certain constraints, e.g., don't violate people's rights, and then says that within the range of allowed actions, try to maximise (expected) consequences. I read Keynes as seeing things the other way around. The first priority is to produce the best (sort-of-expected) consequences. But that's often impossible because of the four problems he sets out in paragraph 5. And there might be a place for common-sense morality in filling in the gaps.
+
+Now to be sure, I don't know any place where he says precisely this. But I think it makes good sense of a lot of what he says in various places, and I think it's interesting in any case.
+
+# The Four Challenges for the Expectationist
+
+Call expectationism the view that one should maximise expected value. That is, one should value each action the following way. Look at the possible states of the world, and in each state multiply the probability of being in that state by the value of having taken that action in that state. Then sum the results across the various states. The result is the value of the act. And choose the act with the highest value, or choose arbitrarily if the values of different acts are equal.
+
+Some of us worry a lot about whether the probabilities should be raw probabilities of states, or the conditional probabilities of states conditional on taking the action, or the posterior probabilities of states after having taken actions, or something else. Keynes doesn't seem to be aware of the options here, or why they matter, and it's not obvious why he would have been, since the problems that caused people to focus on these questions only arose half a century later.
+
+He instead focusses on four questions for the expectationist. And while we've made some progress in the intervening century on one of these, I think they are still all pressing problems.
+
+## Incommensurability of Value
+
+Keynes raises this and quickly sets it aside, seemingly because he doesn't have anything useful to say about it. You can only multiple a probability by a value if both of them are numerical. And values may not be numerical. In fact, they can't be numerical if it's possible for two options to be such that neither is better than the other, but nor are they equally good.^[On this, see Ruth Chang, "The Possibility of Parity", _Ethics_, 2002.] Keynes clearly thinks this is possible, and doesn't have much more to say about it.
+
+## Incommensurability of Probability
+
+This we've already covered at much greater length earlier in the book, so I won't add to it here. It would be nice if he'd said more here about just how he thinks that how this relates to action, but I didn't see anything in this chapter. I think his view is what I called Caprice^[See chapter 3, paragraphs 4 and 8 for some textual evidence for this.), but it's hard to be sure.
+
+## Weight and Action
+
+Here's the case where I wish he'd said clearly what he thinks one should do. Say Chooser has two options.
+
+1. A bet that wins £1 if _p_ is true, where the Principle of Indifference says that the probability of _p_ is 1/6, and Chooser has no other evidence.
+2. A bet that wins £1 if _q_ is true, where _q_ is that a carefully examined and known to be fair die will land 3 on its next roll (and it is about to be rolled).
+
+I think he's committed by the vague comments here to say that 2 is a better option than 1. But does he really think this when it is put so bluntly. And is there anything more than intuition to back this up?
+
+## Risk-Sensitivity
+
+Keynes doesn't think that the expectationist approach is sufficiently sensitive to risk. In this respect his view looks like views that John Quiggin and, more recently, Lara Buchak^[See her 2013 book _Risk and Rationality_ for more details on this], have defended. The key thought is this:
+
+> The expected value approach "ignores the element of ‘risk' and assumes that an even chance of heaven or hell is precisely as much to be desired as the certain attainment of a state of mediocrity."
+
+Buchak puts forward a mathematical theory that is designed to not give this result. Keynes's reason for not going down that road is interesting.
+
+> "But if doubts as to the sufficiency of the conception of ‘mathematical expectation' be sustained, it is not likely that the solution will lie, as D'Alembert suggests, and as has been exemplified above, in the discovery of some more complicated function of the probability wherewith to compound the proposed good. The judgment of goodness and the judgment of probability both involve somewhere an element of direct apprehension, and both are quantitative."
+
+The thought, as is so often the case in the book, is that we should be using mathematics to set out problems clearly, not to solve them. While this approach is attractive (at least to me), there are a couple of reasons to be sceptical on this occasion.
+
+First, in the years since 1921, there have been a number of arguments in favour of broadly expectationist approaches that seem to be plausible even in cases involving risk. Here's one that I've been playing with recently.
+
+Two coins are going to be tossed. Chooser knows the bias of each of them. That is, we don't assume they are fair, but Chooser knows the chances. If the first lands Heads, chooser gets a payout of _a_, no matter what happens on the second. If the first lands Tails, Chooser has two options.
+
+1. A bet that pays _b_ if the second lands Heads, and 0 if it lands Tails.
+2. A fixed payout of _c_, no matter how the second lands.
+ 
+Here's the premise of the argument I'm working on. Which of 1 and 2 Chooser prefers shouldn't depend on whether they (a) don't know how the first coin landed, or (b) know that it landed Tails. (If it lands Heads they are presumably indifferent.) If this principle holds no matter the values of _a_, _b_, _c_, and the probability of the two coins, it's hard to have any theory other than expected value maximisation.
+
+This is a version of what's known as the Sure Thing Principle. And since shortly after Keynes's time, the Sure Thing Principle has been at the heart of debates about whether the expectationist approach is right. It's disappointing that Keynes doesn't have more to say about this kind of argument.
+
+Second, Keynes's intuition here depends on the idea that we have some independent way of latching on to the value of Heaven and Hell. That could well be questioned. It's clear that Heaven is better than mediocrity is better than Hell. But I think Keynes is assuming that we can just tell that Heaven has value _h_, and Hell has value -_h_, and mediocrity has value 0, and then we can ask the further question about whether a 50/50 chance of Heaven and Hell is better or worse than mediocrity.
+
+For what it's worth, I find these intuitions about quantity very hard to detect. I can only tell that one state is half-way between two others in value by just asking about whether it's better or worse than a coin-flip chance of one or the other. Maybe this is too sceptical/positivist on my part, but this is a big unargued for assumption Keynes is making. And it's an interesting choice point among value theorists to this day. Which folks think that numerical values are prior to values of bets, and which think they are best understood in terms of values of bets?
+
+# Petersburg Paradox
+
+I'm not sure whether this should be thought of as an extension of the previous point or not. Anyway, there is a long and not maximally fruitful discussion of the Petersburg Paradox. I thought about including a long section on why Keynes call it that rather than the _Saint_ Petersburg Paradox, but that's probably not the most important thing to say.
+
+Keynes goes through many versions of the problem that have clear solutions, and works out the solution for each. But by modern lights he doesn't really get to the heart of the problem. It's hard to think of the problem in modern times without thinking of the version Karl Menger developed in 1934.^[Apparently in "Das Unsicherheitsmoment in der Wertlehre: Betrachtungen im Anschluß an das sogenannte Petersburger Spiel", but I can't read the German to confirm this.] Menger noted that if utilities are unbounded, then there is a version where Chooser gets 1 util if the coin lands Heads the first time, 2 utils if it lands Heads the second time, 4 the third time, 8 the fourth, and so on. And none of the moves Keynes makes here will help.
+
+Well, that's not quite right. One of the things he suggests is that the problem is a reason to abandon expectationism. And that would help even with Menger's version of the problem, but we'd be back into the problems about Sure Thing. Still, most of the discussion here got outdated once Menger introduced his version of the problem.
+
+There is one exception to this, though the point Keynes is making is not new. Keynes alludes to a very widely discussed argument at the time, and I think he basically endorses it. Say that the utility of having wealth _w_ is _u_(_w_), and the first derivative of _u_ is everywhere negative. (That is, wealth has diminishing marginal utility.) Say also that the aim of policy makers should be to maximise the sum of _u_ across the population. (Or the average, this isn't a point about population ethics.) Then it follows that policy makers should simply transfer wealth from rich to poor. This is the diminishing marginal utility argument for socialism.
+
+We might come back to this in later weeks because it comes up a bit in Keynes's discussion of his predecessors. Basically everyone had to have a view about this argument. And as often as not, their view was that it was basically a sound argument, and policy should aim to make wealth more equal. Marshall somewhat dissented from this, but for fairly bad reasons I think. Anyway, it's such a simple argument that it should be more widely known.
+
+And Keynes very much was an egalitarian. One thing that I hope to come back to when we get to the _General Theory_ is the importance of distributional considerations in it, which I think isn't always appreciated in the literature on it. And his contributions to the Beveridge Report meant that he played a part (a big part I suspect) in the most effective and important egalitarian policy the UK has ever seen.
+
+# Four Other Topics
+
+We can talk a lot more about any of these, though in most cases I think Keynes is really just raising the topic; I'm not sure how much more is there.
+
+## Cluelessness
+
+At the start of the chapter Keynes alludes to what is these days, following work by James Lenman, called the problem of cluelessness.^[See, for instance, his "Consequentialism and Cluelessness", _Philosophy and Public Affairs_, 2000.] You can't say that best action involves doing what's best in the future unless you think you have some decent sense of what the future will bring. 
+
+The next couple of moves in the dialectic you can probably guess. To act well we don't need to know what will actually bring about good consequences, but only what probably will. But the future is so uncertain that even that is too hard. Here Keynes has a couple of things to say. Or, at least, he flags the two premises that he thinks the consequentialist will have to accept.
+
+The first is something like a Principle of Indifference. I help someone at the shops. What consequences will this have? Who knows? What consequences will it probably have? Well, if I've got equal reason to think it will make things better or worse in the long run, and I know it will make things a little better in the short run, Indifference says I can cancel out the long run, and go with the short run considerations.
+
+The second is that we need to rule out organic unities of a certain kind. Maybe the 'better' and 'worse' are equally likely, and equally good and bad, but one of the 'worse' options has a certain synergy with my action that means it ends up mattering more than the sum of the parts. That would again prevent the 'cancelling out'.
+
+I'm very surprised that he thinks the organic unities worry is a bigger concern than Indifference. It looks like a completely terrible application of Indifference to me, at least by the standards we saw earlier.
+
+## Ethics of Gambling
+
+I'm not sure what's going on in paragraph 10. I think there's a long-running conversation here about the effects of gambling that I'm missing, but which this is meant to be part of.
+
+## Population Ethics
+
+In paragraph 11 we get something like a discussion of Population Ethics. Keynes here I think makes two points.
+
+First, fairness might be a value in itself. This would be a kind of organic unity. In that case, there might be a value to equality.
+
+Second, in terms of the value to society as a whole, the value of one person getting a unit of goodness might be a decreasing function of how much the person already has. This would be a less direct way of making the theory somewhat more pro-fairness. A little anachronistically, we could say that it might help with the Repugnant Conclusion.^[On that, see Ted Sider's 1991 paper "Might Theory X be a Theory of Diminishing Marginal Value" in _Analysis_.]
+
+## Small Probabilities
+
+Finally in paragraph 12 we get a discussion of whether small probabilities can be ignored. But while the question is interesting, and comes up both in discussion of Petersburg and population ethics in contemporary work, I'm not sure there is much of interest in the discussion beyond merely raising the question.
