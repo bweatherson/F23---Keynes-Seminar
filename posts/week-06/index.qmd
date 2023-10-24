@@ -1,7 +1,7 @@
 ---
 title: "Week 6: Induction"
 author: "Brian Weatherson"
-date: "2023-10-09"
+date: "2023-10-16"
 categories: [weekly handout]
 abstract: "Keynes aims to respond to a problem of induction from Hume, but not Hume's Problem of Induction."
 draft: false
@@ -108,7 +108,7 @@ Keynes thinks that in principle these are no better than a rule like *same colou
 
 Now the reason here isn't too surprising. Keynes is very much a product of his time. And at the time Russell was very hostile to the idea of giving causation a central role in philosophy. There's this famous quote from Bertrand Russell's paper "On the Notion of Cause"[^8]
 
-[^8]: _Proceedings of the Aristotelian Society_, 1912.
+[^8]: *Proceedings of the Aristotelian Society*, 1912.
 
 > The law of causality, I believe, like much that passes muster among philosophers, is a relic of a bygone age, surviving, like the monarchy, only because it is erroneously supposed to do no harm.
 
