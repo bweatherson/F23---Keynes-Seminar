@@ -1,0 +1,71 @@
+# Ramsey 1922
+
+Rather blunt review. Kill yr elders etc. Doesn't do a great job of contextualising the book for the reader though. The same I think is true of Keynes's criticisms at places.
+
+## First Objection: Non-Numerical
+
+- Can get some of the intuitions by denying that the probability is always defined. Me: That won't really answer the objection if non-numerical probs just are absence of comparative relations.
+- Thinks Keynes is confusing the absence of a numerical value with the non-knowability of that number. That seems more plausible to me as an objection, and K sometimes I think does make this confusion. And Ramsey is on good footing here noting that K slides between his theory as a theory of ideal and non-ideal rationality. Still, I think this is fixable, but really see Jim on that.
+
+## Second Objection: Principle of Indifference
+
+I don't understand the objection here. One of Keynes's rules was that the various examples not be further divisible. And the examples Ramsey gives violate that rule. The problem is really that Keynes's rules are too strict, not that they are too slack.
+
+The answer is terms of determinables seems plausible, but needs a theory of what a determinable is.
+
+## Third Objection: Missing Assumption
+
+This seems really uncharitable. Of course if you write x = y, you mean that this the unique value for x. In any case, that a/h is unique is kind of a rolling assumption for K throughout.
+
+## Fourth Objection: Method of Difference
+
+This seems a bit uncharitable, but maybe is right. Ramsey's point is that sometimes finding a red ball sometimes is evidence that all ravens are black. That's not always true, but is sometimes. When a non-F non-G is evidence that all Fs are Gs is an interesting question.
+
+## Fifth Objection: Limited Independent Variety
+
+Here we get to a real philosophical difference. K definitely needs there to be some restriction of the notion of property beyond being members of a common set. If you say any set of objects determines a property, then yeah the account of induction falls apart. If you think that, however, it isn't clear what's left of induction.
+
+## Sixth Objection: The Relata
+
+K apparently (I'm not sure where) talks about the probability between two propositional functions, rather than propositions. This is surely a slip on K's part, and not a reason to think that he's generalised the notion of probability beyond what it will bear.
+
+There is a question, which Russell also raises, of whether the propositional function notion is primary. This is what frequentists need to believe. It's a bit odd to see it coming from Ramsey.
+
+# Ramsey 1926
+
+Using the electronic version that Fitelson made available.
+
+## Section 2 Criticisms
+
+Starts with a very strange argument against the combination of (a) probability corresponds to rational degree of belief, and (b) probability is non-numerical. But the argument assumes degrees of belief are/must be numerical. And surely the natural move is to reject that.
+
+Then we get one of the two most quoted parts:
+
+> But let us now return to a more fundamental criticism of Mr Keynes' views, which is the obvious one that there really do not seem to be any such things as the probability relations he describes.  He supposes that, at any rate in certain cases, they can be perceived; but speaking for myself I feel confident that this is not true. I do not perceive them, and if I am to be persuaded that they exist it must be by argument; moreover I shrewdly suspect that others do not perceive them either, because they are able to come to so very little agreement as to which of them relates any two given propositions.
+
+As stated, this is clearly absurd. We all know that it's more probable that Oswald killed Kennedy given our evidence than that an alien killed Kennedy. Lots of these relations are very easy to see in pretty broad outline. But he goes on to make some other more interesting arguments.
+
+First, when do we go from having (0, 1) probability to having something comparable to numerical probabilities. This is a hard question for anyone, and he's right that there will be some kind of vagueness in the answer. But we can pull out the vagueness moves here.
+
+Second, it should be easiest to identify logical relations in simple cases, but here it's easiest in hard cases. This does seem to be an interesting point. And it brings up a reason you might prefer an *objective* approach over a *logical* approach.
+
+Third, we always go via thinking about ideal rational behavior. In modern terms, it's kind of like Pr facts are true because they are what ideally rational people would do, and not vice versa.
+
+Fourth, Keynes doesn't really adhere to his own there. But this is hardly an objection to the theory is it? The paragraphs Ramsey draws out are weird, but they look like slips.
+
+Finally, he discusses a view on which probability is objective, but not itself a logical relation. The arguments against this seem not very strong to me.
+
+Big background point here: do we think any two people with the same evidence (in any possible worlds) should have the same degrees of belief? If so, we need something like what Keynes offers and Ramsey denies. But Ramsey says that isn't true; we should be reliabilists. And reliability is world-sensitive.
+
+
+## Section 4 Criticisms
+
+R: Logic is just a matter of self-consistency, of accepting what is already contained in the premises. And that's not true of induction. So induction is not part of logic. Me: I don't think that's right when it comes to higher-order logic, or epistemic logic. For that matter, I don't really think it's true of propositional logic. Is p really contained in (p -> q) -> p? Also, if you have the proof-theoretic account of validity, I don't think this is true. But on a model-theoretic account, the probability claim is true.
+
+R: Keynes can't justify the axioms. Me: This is a fair point; but there are solutions. Jim has one, I have another.
+
+R: Pragmatic theory lets us do without PoI. Me: True, but the alternative is that induction is just a good habit. Well, maybe that it's reliable. That's an interesting alternative. Can a reliabilist get conditionalisation?
+
+R: Trouble for Keynes from uncertain evidence. This is what triggered Jeffrey conditioning. This is a problem for K, and for contemporary evidentialists like TW or me. 
+   
+ 
