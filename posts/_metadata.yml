@@ -27,7 +27,7 @@ format:
       mainfont: "ff-scala-sans-pro, sans-serif"
       html-math-method: mathjax
     pdf: 
-#      geometry: "left=1.5in,right=1.5in,top=1.78in,bottom=1.78in"
+      #geometry: "left=1.5in,right=1.5in,top=1.78in,bottom=1.78in"
       mainfont: Scala Pro
       sansfont: Scala Sans Pro
       mainfontoptions: Scale = MatchLowercase
