@@ -115,3 +115,32 @@ Finally, though it doesn't come up yet, Keynes is going to want a theory of rati
 
 
 
+# Why Markets?
+
+In chapter 24 we get, by my count, three different arguments for wanting an economy (and even society) where markets play a key role.
+
+First, there is a very standard liberal style argument about the relationship between markets and freedom/autonomy. Some of these paragraphs look like they could have been written by Mill, or Friedman, or Hayek.
+
+Second, there is the closely related argument that totalitarian systems are really drab. Everything looks the same as everything else, and there is no place for 'fancy'. As arguments go, we should reject Bolshevism because the buildings are ugly and the music is boring isn't the most high-minded, but I think he's got a point.^[I'm using 'Bolshevism' as opposed to 'Marxism', or 'communism', let alone 'socialism', because the opponent here really is the very specific system being implemented in the Soviet Union. And if I use any other term I'd have to get into interpretative disputes about whether northern European social democratic movements, which Keynes is very friendly to, are excluded from those terms.]
+
+Third, there is the argument that people who are really keen on playing with markets, who are really obsessed with money are, to put it bluntly, kind of psychopaths. If you don't have markets, they'll start playing with something else. And that will be worse.^[The premise that the something else will be worse is, I guess, somewhat questionable, given the downside effects of pollution, money laundering, etc.]
+
+Note that while Keynes is largely pro-market, he is anti-capitalist. What he objects to is the central role that holders of capital play in the then operative system. In his ideal world, capital is so plentiful that it isn't a constraint. It's worth spending a bit of time I think on what an anti-capitalist, pro-market system might look like.
+
+Think for a bit about what's happened to the music business over the last half century. Fifty years ago, you really needed capital to play in the music business, and the people who had it served as gatekeepers. Home recordings were dire, so you had to record in a studio, and these were expensive. And no one had ability to press vinyl records at home, so you have to pay one of the people who had a machine. And then you needed some way to distribute those (simultaneously heavy and fragile) across the country, probably to a retail store that was part of a chain. The distribution is typically managed by a label, and getting more than a handful of people to hear your music requires getting signed to one. But you can't start your own if you expect to succeed; they are big businesses.^[One of the biggest is even called Capitol.] There are so many steps, and at every one of them you have to pay a fee. Indeed, you have to find someone who is willing to take your money.
+
+We can imagine a world that has none of those things. Technology has meant home recordings are easier. And those recordings are distributable in a way that does not require moving heavy or fragile things around. So far so good.
+
+Imagine a world where there was a site like Bandcamp, but it was run at cost by a state or state-adjacent agency.^[I'm using 'state-adjacent' here for things like USPS and UM that aren't part of the civil service, but aren't private actors either.] On this site people could upload whatever music they wanted, and charge whatever they wanted for it, and they got a large percentage of that money, with the site doing no more than covering its costs of hosting and payments processing.
+
+That's almost, but not quite, Keynes's vision. His actual vision is that the returns on capital are so low that someone will have been inspired to set up Bandcamp-with-low-fees to get more than the pittance they can earn in interest. Competition among people looking for places to invest will drive the value of capital goods down, and the result will be that there is a market for things made by actual producers (e.g., musicians), and the infrastructure for it will be provided at really minimal cost.
+
+This is the nirvana that we were supposed to get with low interest rates. And two decades ago I might have argued that it was a plausible story. But we had the low interest rate economy, and it didn't work that way. So let's end with why it didn't.
+
+# Euthanasia of the Rentier
+
+Anglophone economics, indeed European economics, in a modern sense starts with Adam Smith. And Smith, like most economists of his time, was really opposed to rent. Businessmen have their flaws, to be sure, but they are at least trying to provide goods and services. The landed aristocracy are just taking a cut. Developing economic theory is part of a broad campaign against these rent-seekers.^[Bankrupting the French monarchy and bringing on the French Revolution is also part of this campaign, though maybe not the most successful part.]
+
+A rentier is a person living off their rents in general; not necessarily rent of land or buildings, but possibly rent of capital goods. And Keynes is saying that they are just as problematic as the early moderns thought the landed aristocracy were. Keynes is on the side of entrepreneurs against the people who want to charge them fees in order to make businesses happen. It's just like Smith, except with 
+
+You can see the mode 
