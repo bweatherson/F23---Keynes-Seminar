@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.470">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -72,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Keynes Seminar, Fall 2023</span>
     </a>
@@ -86,14 +92,14 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://canvas.umich.edu/" rel="" target=""><i class="bi bi-mortarboard" role="img">
+    <a class="nav-link" href="https://canvas.umich.edu/"> <i class="bi bi-mortarboard" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -130,14 +136,14 @@ ul.task-list li input[type="checkbox"] {
     
   <div>
     <div class="abstract">
-      <div class="abstract-title">Abstract</div>
+      <div class="block-title">Abstract</div>
       Keynes aims to respond to a problem of induction from Hume, but not Hume’s Problem of Induction.
     </div>
   </div>
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
@@ -157,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p>&nbsp;</p>
@@ -169,24 +175,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <section id="three-humean-problems" class="level1 page-columns page-full">
 <h1>Three Humean Problems</h1>
 <section id="how-do-we-know-were-not-in-the-bad-place" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="how-do-we-know-were-not-in-the-bad-place">How Do We Know We’re Not in The Bad Place?</h2>
 <p>Assume we have evidence <span class="math inline">\(h\)</span>, and there is some proposition <span class="math inline">\(a\)</span> that is not part of, or entailed by, our evidence, but we know. Since we know <span class="math inline">\(a\)</span>, and all of us here at least can do propositional logic, we can do <span class="math inline">\(\vee\)</span>-introduction to infer <span class="math inline">\(a \vee \neg h\)</span>. It’s trivial to show that <span class="math inline">\(\Pr(a \vee \neg h | h) \leq \Pr(a \vee \neg h)\)</span>. Add in the extra assumption that one only knows something on the basis of one’s evidence if the evidence raises the probability of that thing, and it follows that we don’t know <span class="math inline">\(a \vee \neg h\)</span> on the basis of <span class="math inline">\(h\)</span>. But <span class="math inline">\(h\)</span> was our evidence, so we don’t know <span class="math inline">\(a \vee \neg h\)</span> empirically, i.e., on the basis of our evidence. On the other hand, since <span class="math inline">\(h \wedge \neg a\)</span> is coherent, we don’t know that it is false, i.e., that <span class="math inline">\(a \vee \neg h\)</span> is true, on the basis of purely conceptual reasoning either. And everything we know we know either empirically or on the basis of conceptual reasoning. So we don’t know <span class="math inline">\(a \vee \neg h\)</span>. So we don’t know <span class="math inline">\(a\)</span>, contradicting our original assumption that we could know <span class="math inline">\(a\)</span> on the basis of <span class="math inline">\(h\)</span>. Scepticism looms.</p>
-<div class="page-columns page-full"><p>This last paragraph uses a lot of conceptual and mathematical machinery that was not available to Hume. But I think it’s a recognisably Humean argument. The proposition <span class="math inline">\(h \wedge \neg a\)</span> says that one is in a particular kind of Bad Place, where someone has a past just like yours, but a future that goes wildly off in certain ways. And that argument, stripped of the mathematical machinery, asks how can you know you aren’t in that Bad Place. It can’t be by your evidence; your evidence seems to be in favour of your being in that Bad Place, relative to <em>à priori</em> probabilities.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> And it can’t be by mathematical or logical reasoning, since the Bad Place is coherent. So, problem.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;I started using the grave, even though it is a little ridiculous. Resa Hasidi pointed out to me that Russell was writing it this way in his early work, which is probably the connection to Keynes.</p></li></div></div>
-<p>Keynes’s solution to this Humean problem is, I’m sad to say, a little disappointing. He doesn’t care about knowledge in the ordinary sense, and simply accepts the conclusion of the argument. We do not in fact know anything beyond our evidence. Beyond that it’s all probability. It’s true that some coherent possibilities, like very particular Bad Places, have incredibly low probability. That’s all there is to say.</p>
+<p>This last paragraph uses a lot of conceptual and mathematical machinery that was not available to Hume. But I think it’s a recognisably Humean argument. The proposition <span class="math inline">\(h \wedge \neg a\)</span> says that one is in a particular kind of Bad Place, where someone has a past just like yours, but a future that goes wildly off in certain ways. And that argument, stripped of the mathematical machinery, asks how can you know you aren’t in that Bad Place. It can’t be by your evidence; your evidence seems to be in favour of your being in that Bad Place, relative to <em>à priori</em> probabilities.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> And it can’t be by mathematical or logical reasoning, since the Bad Place is coherent. So, problem.</p>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;I started using the grave, even though it is a little ridiculous. Resa Hasidi pointed out to me that Russell was writing it this way in his early work, which is probably the connection to Keynes.</p></li></div><p>Keynes’s solution to this Humean problem is, I’m sad to say, a little disappointing. He doesn’t care about knowledge in the ordinary sense, and simply accepts the conclusion of the argument. We do not in fact know anything beyond our evidence. Beyond that it’s all probability. It’s true that some coherent possibilities, like very particular Bad Places, have incredibly low probability. That’s all there is to say.</p>
 </section>
 <section id="induction-is-logically-valid" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="induction-is-logically-valid">Induction is Logically Valid</h2>
-<div class="page-columns page-full"><p>Australian philosophy in the era I came up in was full of views that the rest of the world thought were outlandish. Graham Priest argued that there were true contradictions. Jack Smart simply accepted the conclusion of any attempted reductio of utilitarianism. David Braddon-Mitchell argued that laws of nature could be false.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Jeanette Kennett argued that being a good friend sometimes required being immoral.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> David Lewis, who was basically one of us, argued that dinosaurs and unicorns exist. But the view that really shocked everyone was when two professors at my old school, John Bigelow and Robert Pargetter, argued that good inductive arguments were logically valid.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Even people who were willing to at least contemplate all of the earlier views listed thought this was a sign that something had gone seriously wrong in Australian philosophy, or at least philosophy at Monash.</p><div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Maybe this one shouldn’t be there, since Nancy Cartwright had already said something similar.</p></li><li id="fn3"><p><sup>3</sup>&nbsp;A friend helps you move houses. A real friend helps you move bodies. That apparently made her very unpopular with some Kantians, but I have some sympathy for it.</p></li><li id="fn4"><p><sup>4</sup>&nbsp;“<a href="https://doi.org/10.1080/00048409712347671">The Validation of Induction</a>”, AJP, 1997.</p></li></div></div>
-<p>Keynes, however, is sort of on their side. And this explains how he responds to a different Humean argument. (The response is not explicit in the bits we’re reading, but I wanted to note it here.) Here’s what Bigelow and Pargetter thought. Consider the following argument.</p>
+<p>Australian philosophy in the era I came up in was full of views that the rest of the world thought were outlandish. Graham Priest argued that there were true contradictions. Jack Smart simply accepted the conclusion of any attempted reductio of utilitarianism. David Braddon-Mitchell argued that laws of nature could be false.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Jeanette Kennett argued that being a good friend sometimes required being immoral.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> David Lewis, who was basically one of us, argued that dinosaurs and unicorns exist. But the view that really shocked everyone was when two professors at my old school, John Bigelow and Robert Pargetter, argued that good inductive arguments were logically valid.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Even people who were willing to at least contemplate all of the earlier views listed thought this was a sign that something had gone seriously wrong in Australian philosophy, or at least philosophy at Monash.</p>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Maybe this one shouldn’t be there, since Nancy Cartwright had already said something similar.</p></li><li id="fn3"><p><sup>3</sup>&nbsp;A friend helps you move houses. A real friend helps you move bodies. That apparently made her very unpopular with some Kantians, but I have some sympathy for it.</p></li><li id="fn4"><p><sup>4</sup>&nbsp;“<a href="https://doi.org/10.1080/00048409712347671">The Validation of Induction</a>”, AJP, 1997.</p></li></div><p>Keynes, however, is sort of on their side. And this explains how he responds to a different Humean argument. (The response is not explicit in the bits we’re reading, but I wanted to note it here.) Here’s what Bigelow and Pargetter thought. Consider the following argument.</p>
 <ol type="1">
 <li>I’ve seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they’ve all been black.</li>
 <li>So, all swans are black.</li>
 </ol>
-<div class="page-columns page-full"><p>I guess that conclusion isn’t very plausible, surely there are albino swans somewhere, so maybe we should restrict it.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;Keynes says something odd on roughly this point, which is relevant to the discussion of the cows example below.</p></li></div></div>
-<ol type="1">
+<p>I guess that conclusion isn’t very plausible, surely there are albino swans somewhere, so maybe we should restrict it.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;Keynes says something odd on roughly this point, which is relevant to the discussion of the cows example below.</p></li></div><ol type="1">
 <li>I’ve seen a lot of swans, in a lot of places, everywhere from Perth to Brisbane, and they’ve all been black.</li>
 <li>So, the next swan I see will be black.</li>
 </ol>
@@ -219,8 +226,8 @@ ul.task-list li input[type="checkbox"] {
 <p>But why is it a problem? Why, philosophically, does having a diverse evidence base make for a better induction than a more numerous but narrower base? The answer, says Keynes, is that it’s always argument by analogy. The thing about having a diverse evidence base, is that it increases the likelihood that the next case is really closely analogous to one of the cases in your evidence set. That’s a neat idea I think.</p>
 <p>Now Keynes, because he shares the Humean intuition about sheer repetition, is committed to a really strong version of the idea. He thinks it’s only when you increase the probability that the next case is analogous to an old case that you get any better evidence. And I don’t think you have to think that to think that he’s got a good story about why diversity matters.</p>
 <p>His story also has a couple of other nice features, both of which are related to question 2 above.</p>
-<div class="page-columns page-full"><p>When I teach induction, and this is roughly how I was taught induction, we are taught that there are these distinctive inductive methods. Keynes focuses on Pure Induction and Analogy; by the time I was a student we’d added Inference to the Best Explanation. Maybe these days some people would add Testimony.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Why such diversity? Can we reduce the list a little? Yes, says Keynes; we can scrap Pure Induction.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;If this were a different seminar, I’d connect this to the old Indian debate about how many Pramāna there are. Are Induction, Analogy, IBE, and Testimony, all pramāna? I don’t think any Indian tradition would agree, but they’d understand the question.</p></li><li id="fn7"><p><sup>7</sup>&nbsp;Historical question I have no idea about. In 1912, Russell says he’s presenting a Keynesian theory of induction, then makes Pure Induction, with no attention to diversity, the core of the theory. Is that what Keynes thought in the earlier versions? That might be worth archival study.</p></li></div></div>
-<p>The other thing that’s tricky about the standard way of teaching is that we tend to say these things that are at best in tension, and probably outright inconsistent. But tension here is reflected in ordinary thought. Here are two things that we say.</p>
+<p>When I teach induction, and this is roughly how I was taught induction, we are taught that there are these distinctive inductive methods. Keynes focuses on Pure Induction and Analogy; by the time I was a student we’d added Inference to the Best Explanation. Maybe these days some people would add Testimony.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Why such diversity? Can we reduce the list a little? Yes, says Keynes; we can scrap Pure Induction.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;If this were a different seminar, I’d connect this to the old Indian debate about how many Pramāna there are. Are Induction, Analogy, IBE, and Testimony, all pramāna? I don’t think any Indian tradition would agree, but they’d understand the question.</p></li><li id="fn7"><p><sup>7</sup>&nbsp;Historical question I have no idea about. In 1912, Russell says he’s presenting a Keynesian theory of induction, then makes Pure Induction, with no attention to diversity, the core of the theory. Is that what Keynes thought in the earlier versions? That might be worth archival study.</p></li></div><p>The other thing that’s tricky about the standard way of teaching is that we tend to say these things that are at best in tension, and probably outright inconsistent. But tension here is reflected in ordinary thought. Here are two things that we say.</p>
 <ol type="1">
 <li>In Pure Induction, you need a large evidence base. You can’t do induction on <em>n</em> = 1.</li>
 <li>In Analogy, you don’t need a large evidence base. If you put your hand on a hot plate, and it really really hurts, you learn that’s dumb and don’t do it again. You don’t think, <em>and you shouldn’t think</em>, wow I wonder if that was a weird hot plate, or something that only happens in one or other hemisphere, or at a certain time of day? You get the very clear lesson, really hot things hurt.</li>
@@ -239,12 +246,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Same effect <span class="math inline">\(\rightarrow\)</span> same cause.</li>
 </ol>
 <p>Keynes thinks that in principle these are no better than a rule like <em>same colour</em> <span class="math inline">\(\rightarrow\)</span> same shape. It’s all just correlation matching. And that’s not a view you find, to the best of my knowledge, in other traditions, or in ordinary thought.</p>
-<div class="page-columns page-full"><p>Now the reason here isn’t too surprising. Keynes is very much a product of his time. And at the time Russell was very hostile to the idea of giving causation a central role in philosophy. There’s this famous quote from Bertrand Russell’s paper “On the Notion of Cause”<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn8"><p><sup>8</sup>&nbsp;<em>Proceedings of the Aristotelian Society</em>, 1912.</p></li></div></div>
-<blockquote class="blockquote">
+<p>Now the reason here isn’t too surprising. Keynes is very much a product of his time. And at the time Russell was very hostile to the idea of giving causation a central role in philosophy. There’s this famous quote from Bertrand Russell’s paper “On the Notion of Cause”<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn8"><p><sup>8</sup>&nbsp;<em>Proceedings of the Aristotelian Society</em>, 1912.</p></li></div><blockquote class="blockquote">
 <p>The law of causality, I believe, like much that passes muster among philosophers, is a relic of a bygone age, surviving, like the monarchy, only because it is erroneously supposed to do no harm.</p>
 </blockquote>
-<div class="page-columns page-full"><p>This I think has mildly disastrous effects on Keynes’s theory here. It’s an important part of ordinary thought that 1 is a better inference than 2. And this is something you see other epistemological traditions giving a central place to. But Keynes can’t get this being anything other than a contingent thing we’ve learned, if he can even get that. And while I can’t be sure, I suspect Russell’s influence was a big factor here.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn9"><p><sup>9</sup>&nbsp;There is a historical connection here. One of the most famous uses of Analogy in philosophy is the design argument for God’s existence. Hume launches several criticisms of this argument, one of which is that it’s the wrong direction; it’s from effect to cause and that’s not a great analogical argument.</p></li></div></div>
-<p>He does say one thing in Chapter 21 about why he doesn’t start with principles about causation. He’s aiming higher than you could possibly get with arguments about causation. He wants a general ground for the logic of inference about the unobserved. And this should work even in domains where there isn’t causation, and it should work before we’ve discovered the causal facts. (After all, we need to use it to discover general causal facts.) I guess I’m a little pessimistic about having anything this general to say, but this is perhaps an in-text reason to explain what a little role causation plays.</p>
+<p>This I think has mildly disastrous effects on Keynes’s theory here. It’s an important part of ordinary thought that 1 is a better inference than 2. And this is something you see other epistemological traditions giving a central place to. But Keynes can’t get this being anything other than a contingent thing we’ve learned, if he can even get that. And while I can’t be sure, I suspect Russell’s influence was a big factor here.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn9"><p><sup>9</sup>&nbsp;There is a historical connection here. One of the most famous uses of Analogy in philosophy is the design argument for God’s existence. Hume launches several criticisms of this argument, one of which is that it’s the wrong direction; it’s from effect to cause and that’s not a great analogical argument.</p></li></div><p>He does say one thing in Chapter 21 about why he doesn’t start with principles about causation. He’s aiming higher than you could possibly get with arguments about causation. He wants a general ground for the logic of inference about the unobserved. And this should work even in domains where there isn’t causation, and it should work before we’ve discovered the causal facts. (After all, we need to use it to discover general causal facts.) I guess I’m a little pessimistic about having anything this general to say, but this is perhaps an in-text reason to explain what a little role causation plays.</p>
 </section>
 <section id="analogy-and-tractarian-metaphysics" class="level2">
 <h2 class="anchored" data-anchor-id="analogy-and-tractarian-metaphysics">Analogy and Tractarian Metaphysics</h2>
@@ -354,10 +361,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -367,8 +373,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -381,6 +396,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -424,6 +561,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -449,6 +587,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -509,6 +673,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

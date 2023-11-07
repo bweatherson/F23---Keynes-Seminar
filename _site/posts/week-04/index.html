@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.340">
+<meta name="generator" content="quarto-1.4.470">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,7 +63,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <link rel="stylesheet" href="https://use.typekit.net/uzz2drx.css">
@@ -71,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Keynes Seminar, Fall 2023</span>
     </a>
@@ -85,14 +92,14 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://canvas.umich.edu/" rel="" target=""><i class="bi bi-mortarboard" role="img">
+    <a class="nav-link" href="https://canvas.umich.edu/"> <i class="bi bi-mortarboard" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -129,14 +136,14 @@ ul.task-list li input[type="checkbox"] {
     
   <div>
     <div class="abstract">
-      <div class="abstract-title">Abstract</div>
+      <div class="block-title">Abstract</div>
       Keynes discusses the Principle of Indifference, his new name for the best hope we have for getting numerical probabilities out of ignorance.
     </div>
   </div>
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
@@ -163,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p>&nbsp;</p>
@@ -171,6 +178,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
 
 
 
@@ -213,10 +221,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Therefore, probability is not logical, contra Keynes.</li>
 </ol>
 <p>Now question, where would Keynes reject this reasoning? Maybe he wouldn’t, maybe he’d say that oops, hadn’t thought about that example, back to the drawing board. And look, that’s not an unreasonable guess; he really didn’t know about ‘grue’. But let’s see if we can do a little better.</p>
-<div class="page-columns page-full"><p>When I was a student, and probably when any of you were students, there was no sharp distinction made between <strong>Formal</strong> and <strong>Formal-New</strong>. I think in the textbooks I used, <strong>Formal-New</strong> was just taken to be the translation of <strong>Formal</strong> into a mathematically precise language. But there are two important things to note about this. First, it really is a theory of how to understand 4. Second, it wasn’t (to the best of my knowledge) a theory in Keynes’s time.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> What happens if we reject the analysis of <strong>Formal</strong> as <strong>Formal-New</strong>, and hence the step from 1 to 2 in the last argument?</p><div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Again confession time: I haven’t read nearly enough of <em>Principia Mathematica</em> to be sure about this, but I’m pretty confident that it is from circa the 1930s.</p></li></div></div>
-<div class="page-columns page-full"><p>There are some twentieth century precedents for this? Not, to be sure, one Keynes could possibly have known about, but there are precedents. In so-called positive free logic, the inference from <span class="math inline">\(Fa\)</span> to <span class="math inline">\(\exists x: Fx\)</span> is valid iff <span class="math inline">\(F\)</span> is ‘positive’. So you can infer from <em>Brian is Australian</em> to <em>There is an Australian</em>, but not from <em>Santa Claus is unreal</em> to <em>Something is unreal</em>. This is usually spelled out as a constraint on the possible interpretations of the predicates: <span class="math inline">\(F\)</span> is only allowed to designate some positive property, like <em>Australian</em> and unlike <em>unreal</em>. In some non-normal modal logics, if <span class="math inline">\(p\)</span> is a primitive sentence-letter, then <span class="math inline">\(\diamond p\)</span> is an axiom. Again, it’s important here to put constraints on what sentence letters can designate. You can’t have <span class="math inline">\(p\)</span> mean <span class="math inline">\(a \neq a\)</span>, for example. These are obscure logics (to put it mildly), but they are definitely logics.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Maybe some similarly restricted notion of ‘same form’ can rescue Keynes here. That actually seems plausible to me, but I want to try a more twenty-first century defense instead.</p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;You can read about both of them in Graham Priest’s quite incredible <em>Introduction to Non-Classical Logics</em>. He thinks they are pretty weird, which is something coming from <em>Graham Priest</em>, but he does carefully set them out.</p></li></div></div>
-<div class="page-columns page-full"><p>The understanding of <strong>Formal</strong> as <strong>Formal-New</strong> follows a very common twentieth century paradigm. We understand claims of the form <em>X is true in virtue of Y</em> as invariance claims: No variation in <em>X</em> without variation in <em>Y</em>. That’s what’s going on here. <strong>Formal</strong> is an in virtue of claim: Peirce’s Law is true (/necessary/a prior) in virtue of its form. <strong>Formal-New</strong> is an invariance claim: you can’t change the truth (/modal status/epistemic status) of an instance of Peirce’s Law without changing its form. Merely changing its non-formal elements (i.e., the meanings of <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span>) won’t be enough. In the twentieth century, these understandings of ‘in virtue of’ claims as invariance claims were everywhere in metaphysics, theory of mind, logic, epistemology, and elsewhere.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;The invariance claims were usually taken to be necessary truths, but they need not be. Jerry Fodor’s asymmetric counterfactual dependence theory of mental content is an invariance theory where the invariance is contingent.</p></li></div></div>
-<p>In the twenty-first century, there has been a huge, discipline wide, rejection of the equation of these two types of claims. This largely traces to work Kit Fine did in the early 2000s, though it didn’t really take hold until around 2009. It’s often thought that that the connection fails in both directions.</p>
+<p>When I was a student, and probably when any of you were students, there was no sharp distinction made between <strong>Formal</strong> and <strong>Formal-New</strong>. I think in the textbooks I used, <strong>Formal-New</strong> was just taken to be the translation of <strong>Formal</strong> into a mathematically precise language. But there are two important things to note about this. First, it really is a theory of how to understand 4. Second, it wasn’t (to the best of my knowledge) a theory in Keynes’s time.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> What happens if we reject the analysis of <strong>Formal</strong> as <strong>Formal-New</strong>, and hence the step from 1 to 2 in the last argument?</p>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Again confession time: I haven’t read nearly enough of <em>Principia Mathematica</em> to be sure about this, but I’m pretty confident that it is from circa the 1930s.</p></li><li id="fn3"><p><sup>3</sup>&nbsp;You can read about both of them in Graham Priest’s quite incredible <em>Introduction to Non-Classical Logics</em>. He thinks they are pretty weird, which is something coming from <em>Graham Priest</em>, but he does carefully set them out.</p></li></div><p>There are some twentieth century precedents for this? Not, to be sure, one Keynes could possibly have known about, but there are precedents. In so-called positive free logic, the inference from <span class="math inline">\(Fa\)</span> to <span class="math inline">\(\exists x: Fx\)</span> is valid iff <span class="math inline">\(F\)</span> is ‘positive’. So you can infer from <em>Brian is Australian</em> to <em>There is an Australian</em>, but not from <em>Santa Claus is unreal</em> to <em>Something is unreal</em>. This is usually spelled out as a constraint on the possible interpretations of the predicates: <span class="math inline">\(F\)</span> is only allowed to designate some positive property, like <em>Australian</em> and unlike <em>unreal</em>. In some non-normal modal logics, if <span class="math inline">\(p\)</span> is a primitive sentence-letter, then <span class="math inline">\(\diamond p\)</span> is an axiom. Again, it’s important here to put constraints on what sentence letters can designate. You can’t have <span class="math inline">\(p\)</span> mean <span class="math inline">\(a \neq a\)</span>, for example. These are obscure logics (to put it mildly), but they are definitely logics.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Maybe some similarly restricted notion of ‘same form’ can rescue Keynes here. That actually seems plausible to me, but I want to try a more twenty-first century defense instead.</p>
+<p>The understanding of <strong>Formal</strong> as <strong>Formal-New</strong> follows a very common twentieth century paradigm. We understand claims of the form <em>X is true in virtue of Y</em> as invariance claims: No variation in <em>X</em> without variation in <em>Y</em>. That’s what’s going on here. <strong>Formal</strong> is an in virtue of claim: Peirce’s Law is true (/necessary/a prior) in virtue of its form. <strong>Formal-New</strong> is an invariance claim: you can’t change the truth (/modal status/epistemic status) of an instance of Peirce’s Law without changing its form. Merely changing its non-formal elements (i.e., the meanings of <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span>) won’t be enough. In the twentieth century, these understandings of ‘in virtue of’ claims as invariance claims were everywhere in metaphysics, theory of mind, logic, epistemology, and elsewhere.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;The invariance claims were usually taken to be necessary truths, but they need not be. Jerry Fodor’s asymmetric counterfactual dependence theory of mental content is an invariance theory where the invariance is contingent.</p></li></div><p>In the twenty-first century, there has been a huge, discipline wide, rejection of the equation of these two types of claims. This largely traces to work Kit Fine did in the early 2000s, though it didn’t really take hold until around 2009. It’s often thought that that the connection fails in both directions.</p>
 <p>You can have invariance without the in virtue of claim being true. I’m Australian in virtue of being born in Australia. But it’s not true that: I’m Australian in virtue of God knowing that I was born in Australia. And that’s the case even if it’s necessary that God knows everything, and so there’s no variation in my nationality without variation in God’s knowledge of where I’m both.</p>
 <p>And (I think, though not everyone agrees), you can have in virtue of claims being true without the invariance claim being true. Assume, as I think is right, that lying is wrong other things equal, but sometimes there are good reasons to lie. And assume that <em>x</em> lies in a situation where there was no good reason. Then I think this is simply true: <em>x</em> did something wrong, and it was wrong in virtue of being a lie. But I think this isn’t true: <em>x</em> did something wrong, and the moral status of <em>x</em>’s act couldn’t change without changing whether it was a lie. The last thing is false because if there were special circumstances, it would have been ok to lie.</p>
 <p>I suspect the best way to interpret Keynes, the way that makes him say the most interesting and plausible things, is to similarly say that he rejects the understanding of <strong>Formal</strong> as an invariance claim. True instances of Indifference are true in virtue of their form. That does not mean that anything with the same form is also true, any more than saying that <em>x</em>’s action is wrong in virtue of lying means that all lies are wrong. What it does mean is that when you have a correct instance of Indifference, it’s the formal features of the claim that <em>explain</em> why it is true, and which <em>make</em> it true. (Compare: In normal circumstances, it’s that it’s a lie that explains why it is wrong, and which makes it wrong.)</p>
@@ -250,12 +258,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="having-names-for-parts" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="having-names-for-parts">Having Names for Parts</h2>
-<div class="page-columns page-full"><p>We know nothing about the world other than that it contains people, each of whom inhabit a point, and that it has regions which have points in them and that Great Britain, France, the British Isles, and Ireland, are among those regions. B is one of the people in the world. By PoI, each of the following are equiprobable: <em>B is in France</em>, <em>B is in Great Britain</em>, <em>B is in Ireland</em>, <em>B is in the British Isles</em>. We then learn that the British Isles just are Great Britain plus Ireland.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> Either the PoI leads to a contradiction here, or each of these has probability 0, or learning that a region has named parts tells us <em>a lot</em> about the probability of people being in it. None of these is particularly plausible.</p><div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;Did Keynes have to do last minute changes to this example after Irish independence?!</p></li></div></div>
-</section>
+<p>We know nothing about the world other than that it contains people, each of whom inhabit a point, and that it has regions which have points in them and that Great Britain, France, the British Isles, and Ireland, are among those regions. B is one of the people in the world. By PoI, each of the following are equiprobable: <em>B is in France</em>, <em>B is in Great Britain</em>, <em>B is in Ireland</em>, <em>B is in the British Isles</em>. We then learn that the British Isles just are Great Britain plus Ireland.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> Either the PoI leads to a contradiction here, or each of these has probability 0, or learning that a region has named parts tells us <em>a lot</em> about the probability of people being in it. None of these is particularly plausible.</p>
+<div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;Did Keynes have to do last minute changes to this example after Irish independence?!</p></li></div></section>
 <section id="volume-and-density" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="volume-and-density">Volume and Density</h2>
-<div class="page-columns page-full"><p>This is the closest we get to the cube factory (and the one that Keynes most clearly attributes to someone else). Assume we know nothing about a substance except that it’s specific volume<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> is between 1 and 3. PoI suggests that the probability that the specific volume is between 1 and 2 is 0.5. Compare, we get a substance and no nothing except that its specific density<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> is between 1/3 and 1. By PoI the probability that the specific density is between 1/3 and 2/3 is 0.5. But this is inconsistent with what we say about volumes.</p><div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;i.e., the number of cubic meters occupied by 1kg of the stuff</p></li><li id="fn7"><p><sup>7</sup>&nbsp;i.e., the inverse of the specific volume; this is not a term in widespread usage these days</p></li></div></div>
-<p>Keynes uses a similar example when worrying about averaging prices in his 1909 essay on Index Numbers. Should we average the dollars per unit, or the units per dollars, when finding out the average price of various things? He argues that there is no particular reason to prefer one to the other.</p>
+<p>This is the closest we get to the cube factory (and the one that Keynes most clearly attributes to someone else). Assume we know nothing about a substance except that it’s specific volume<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> is between 1 and 3. PoI suggests that the probability that the specific volume is between 1 and 2 is 0.5. Compare, we get a substance and no nothing except that its specific density<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> is between 1/3 and 1. By PoI the probability that the specific density is between 1/3 and 2/3 is 0.5. But this is inconsistent with what we say about volumes.</p>
+<div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;i.e., the number of cubic meters occupied by 1kg of the stuff</p></li><li id="fn7"><p><sup>7</sup>&nbsp;i.e., the inverse of the specific volume; this is not a term in widespread usage these days</p></li></div><p>Keynes uses a similar example when worrying about averaging prices in his 1909 essay on Index Numbers. Should we average the dollars per unit, or the units per dollars, when finding out the average price of various things? He argues that there is no particular reason to prefer one to the other.</p>
 </section>
 <section id="bertrands-chord-example" class="level2">
 <h2 class="anchored" data-anchor-id="bertrands-chord-example">Bertrand’s Chord Example</h2>
@@ -295,8 +303,8 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p><em>h</em><sub>1</sub> is irrelevant to x on evidence <em>h</em>, if there is no proposition, inferrable from <em>h</em><sub>1</sub><em>h</em> but not from <em>h</em>, such that its addition to evidence <em>h</em> affects the probability of <em>x</em>.</p>
 </blockquote>
-<div class="page-columns page-full"><p>And this rules out too much<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>. On this definition, practically will be irrelevant. The problem is that the disjunction <em>h</em><sub>1</sub> <span class="math inline">\(\vee\)</span> <em>x</em> is (typically) inferrable from <em>hh</em><sub>1</sub> but not from <em>h</em> alone and (almost always), <em>x</em>/<em>h</em> &lt; <em>x</em>/<em>h</em>(<em>h</em><sub>1</sub> <span class="math inline">\(\vee\)</span> <em>x</em>).</p><div class="no-row-height column-margin column-container"><li id="fn8"><p><sup>8</sup>&nbsp;Carnap, for instance, says this in <em>Logical Foundations of Probability.</em></p></li></div></div>
-<p>As I said, I think this is, and similar examples, are going to land Keynes in all sorts of hot water. Some of the problems will come up later in this chapter.</p>
+<p>And this rules out too much<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>. On this definition, practically will be irrelevant. The problem is that the disjunction <em>h</em><sub>1</sub> <span class="math inline">\(\vee\)</span> <em>x</em> is (typically) inferrable from <em>hh</em><sub>1</sub> but not from <em>h</em> alone and (almost always), <em>x</em>/<em>h</em> &lt; <em>x</em>/<em>h</em>(<em>h</em><sub>1</sub> <span class="math inline">\(\vee\)</span> <em>x</em>).</p>
+<div class="no-row-height column-margin column-container"><li id="fn8"><p><sup>8</sup>&nbsp;Carnap, for instance, says this in <em>Logical Foundations of Probability.</em></p></li></div><p>As I said, I think this is, and similar examples, are going to land Keynes in all sorts of hot water. Some of the problems will come up later in this chapter.</p>
 <p>I said last week that the sets of probability function model is, I once argued, a pretty good formalisation of Keynes’s intuitions. This point is relevant to that idea, in a roundabout way. On the sets of probability functions approach, you really don’t get anything like Keynes’s general notion of irrelevance. But that’s a <em>good</em> thing, because we should want to be rid of it, and any part of his theory that relies on it. What parts are those? Well, that’s a question we’ll need to keep an eye on.</p>
 <p>The points at the top of 61, which are nowadays commonplaces, are important observations. Irrelevance (in either Keynes’s defective strict sense, or our more familiar loose sense), is closed under negation, and is symmetric. These are sometimes useful things to remember.</p>
 </section>
@@ -305,24 +313,24 @@ ul.task-list li input[type="checkbox"] {
 <p>After so many attacks on the PoI, it is somewhat surprising, to me at least, that Keynes ends the chapter by offering his own version of the PoI. It is very heavily qualified, as we’re about to see more qualified than Keynes realises, but it is a version of the PoI. When I got to this part there were two problems I expected to find, which in retrospect I’m not sure were there. But there’s a much bigger problem that relates to the previous point about irrelevance.</p>
 <section id="countable-additivity" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="countable-additivity">Countable Additivity</h2>
-<div class="page-columns page-full"><p>First, I thought that the PoI would lead to some kind of problem with countable additivity. Keynes is careful to say that he only intends the PoI to apply to finite cases. But it’s very hard to get a philosophical principle here that doesn’t lead to countable additivity violations. Here’s the basic idea.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn9"><p><sup>9</sup>&nbsp;Jake Ross has a couple of papers on Sleeping Beauty, one in <em>Phil Review</em> and one in <em>Phil Studies</em> that make a similar point. And I make a similar complaint, less clearly, in my objection to Adam Elga’s version of the PoI in an old PPR paper.</p></li></div></div>
-<p>The cash value of Keynes’s version of the PoI is the following idea. Let <span class="math inline">\(\phi(x)\)</span> be some propositional radical such that <span class="math inline">\(\exists x: x \in S \wedge \phi (x)\)</span> is known (and is more or less trivial) for some set <span class="math inline">\(S\)</span>, and so is <span class="math inline">\(\forall x \forall y (\phi(x) \wedge \phi(y)) \rightarrow x = y\)</span> is also trivial. In words, exactly one thing is <span class="math inline">\(\phi\)</span>, and it is in <span class="math inline">\(S\)</span>. And let the evidence <span class="math inline">\(h\)</span> be symmetric with respect to any two substitution instances <span class="math inline">\(\phi(a), \phi(b)\)</span>, at least where <span class="math inline">\(a, b \in S\)</span>. Then what Keynes really wants is that <span class="math inline">\(\phi(a)/h = \phi(b)/h\)</span>. And that sounds kind of plausible enough, perhaps even after everything that we’ve seen previously in chapters 3 and 4.</p>
-<div class="page-columns page-full"><p>That principle works fine when <span class="math inline">\(S\)</span> is finite; the probability of any one thing being the <span class="math inline">\(\phi\)</span> is <span class="math inline">\(1/|S|\)</span>. And it works fine when <span class="math inline">\(S\)</span> is uncountably infinite. The probability of any one thing being the <span class="math inline">\(\phi\)</span> is 0, but that’s probably what we want. And you can’t deduce any annoying things about cube volumes or substance density from these 0 values.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn10"><p><sup>10</sup>&nbsp;Does everyone understand why? Maybe we should pause over this if not.</p></li></div></div>
-<p>But it very much does not work when <span class="math inline">\(S\)</span> is countably infinite. In that case we get that the probability of any one thing being the <span class="math inline">\(\phi\)</span> is 0, but the probability of one of these things being the <span class="math inline">\(\phi\)</span> is 1. So the probability of this countably infinite disjunction, i.e., the first one is the <span class="math inline">\(\phi\)</span>, or the second one is, or the third one is, or …, is not equal to the sum of the probability of the disjuncts.</p>
-<div class="page-columns page-full"><p>Now it’s a <em>very big question</em> in the last 100 years of philosophy of probability whether countable additivity is a requirement. It’s somewhat disappointing that Keynes doesn’t really address it. Indeed, he just seems to treat the only salient division among sample spaces to be finite vs infinite, whereas the modern tendency is to treat the big division as finite vs countably infinite vs uncountably infinite. Plenty of people think that it’s obviously true that you can have an equiprobable distribution over a countable set, so finite additivity must fail. And there are other reasons people have had for rejecting countable additivity.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> Still, I think countable additivity is a good constraint, and if the PoI violates it, all the worse for the PoI.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn11"><p><sup>11</sup>&nbsp;Dmitri Gallow, formerly of this parish, just posted a note arguing against countable additivity on grounds that should appeal to a Keynesian, because it appeals to the idea that conditional distributions are primitive. I think it’s a variant on the idea that if X is a flat distribution over the reals in [0, 1], then conditionalising on the evidence that X is rational will give you a violation of countable additivity. But that’s simplifying Dmitri’s views a little bit I suspect.</p></li><li id="fn12"><p><sup>12</sup>&nbsp;If we have time, I’ll go over the conglomerability argument for countable additivity, and maybe why not everyone buys it.</p></li></div></div>
-</section>
+<p>First, I thought that the PoI would lead to some kind of problem with countable additivity. Keynes is careful to say that he only intends the PoI to apply to finite cases. But it’s very hard to get a philosophical principle here that doesn’t lead to countable additivity violations. Here’s the basic idea.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn9"><p><sup>9</sup>&nbsp;Jake Ross has a couple of papers on Sleeping Beauty, one in <em>Phil Review</em> and one in <em>Phil Studies</em> that make a similar point. And I make a similar complaint, less clearly, in my objection to Adam Elga’s version of the PoI in an old PPR paper.</p></li></div><p>The cash value of Keynes’s version of the PoI is the following idea. Let <span class="math inline">\(\phi(x)\)</span> be some propositional radical such that <span class="math inline">\(\exists x: x \in S \wedge \phi (x)\)</span> is known (and is more or less trivial) for some set <span class="math inline">\(S\)</span>, and so is <span class="math inline">\(\forall x \forall y (\phi(x) \wedge \phi(y)) \rightarrow x = y\)</span> is also trivial. In words, exactly one thing is <span class="math inline">\(\phi\)</span>, and it is in <span class="math inline">\(S\)</span>. And let the evidence <span class="math inline">\(h\)</span> be symmetric with respect to any two substitution instances <span class="math inline">\(\phi(a), \phi(b)\)</span>, at least where <span class="math inline">\(a, b \in S\)</span>. Then what Keynes really wants is that <span class="math inline">\(\phi(a)/h = \phi(b)/h\)</span>. And that sounds kind of plausible enough, perhaps even after everything that we’ve seen previously in chapters 3 and 4.</p>
+<p>That principle works fine when <span class="math inline">\(S\)</span> is finite; the probability of any one thing being the <span class="math inline">\(\phi\)</span> is <span class="math inline">\(1/|S|\)</span>. And it works fine when <span class="math inline">\(S\)</span> is uncountably infinite. The probability of any one thing being the <span class="math inline">\(\phi\)</span> is 0, but that’s probably what we want. And you can’t deduce any annoying things about cube volumes or substance density from these 0 values.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn10"><p><sup>10</sup>&nbsp;Does everyone understand why? Maybe we should pause over this if not.</p></li></div><p>But it very much does not work when <span class="math inline">\(S\)</span> is countably infinite. In that case we get that the probability of any one thing being the <span class="math inline">\(\phi\)</span> is 0, but the probability of one of these things being the <span class="math inline">\(\phi\)</span> is 1. So the probability of this countably infinite disjunction, i.e., the first one is the <span class="math inline">\(\phi\)</span>, or the second one is, or the third one is, or …, is not equal to the sum of the probability of the disjuncts.</p>
+<p>Now it’s a <em>very big question</em> in the last 100 years of philosophy of probability whether countable additivity is a requirement. It’s somewhat disappointing that Keynes doesn’t really address it. Indeed, he just seems to treat the only salient division among sample spaces to be finite vs infinite, whereas the modern tendency is to treat the big division as finite vs countably infinite vs uncountably infinite. Plenty of people think that it’s obviously true that you can have an equiprobable distribution over a countable set, so finite additivity must fail. And there are other reasons people have had for rejecting countable additivity.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> Still, I think countable additivity is a good constraint, and if the PoI violates it, all the worse for the PoI.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn11"><p><sup>11</sup>&nbsp;Dmitri Gallow, formerly of this parish, just posted a note arguing against countable additivity on grounds that should appeal to a Keynesian, because it appeals to the idea that conditional distributions are primitive. I think it’s a variant on the idea that if X is a flat distribution over the reals in [0, 1], then conditionalising on the evidence that X is rational will give you a violation of countable additivity. But that’s simplifying Dmitri’s views a little bit I suspect.</p></li><li id="fn12"><p><sup>12</sup>&nbsp;If we have time, I’ll go over the conglomerability argument for countable additivity, and maybe why not everyone buys it.</p></li></div></section>
 <section id="syntax-and-semantics" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="syntax-and-semantics">Syntax and Semantics</h2>
-<div class="page-columns page-full"><p>Keynes’s version of the PoI makes heavy use of a <em>syntactic</em> constraint. It’s all about whether the competing claims, which are meant to be equiprobable, can be put into the form <span class="math inline">\(\phi(a), \phi(b)\)</span>. The contrast is with <em>semantic</em> constraints on indifference principles. Adam Elga, in his <a href="https://philpapers.org/rec/ELGDDE">Dr Evil paper</a>, has such a principle<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>. Two propositions are equiprobable iff there is the right kind of bijection between the sets of centred worlds the two propositions represent.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> And it’s very natural nowadays to have semantic versions of these principles.</p><div class="no-row-height column-margin column-container"><li id="fn13"><p><sup>13</sup>&nbsp;The paper is called “Defeating Dr Evil with Self-Locating Belief”, and it’s in <em>Philosophy and Phenomenological Research.</em></p></li><li id="fn14"><p><sup>14</sup>&nbsp;There’s a bunch of jargon in that last sentence, and I’m more than happy to go over it. But if you don’t want to know the details, the big picture point I’m trying to make here is that Elga’s version doesn’t look at how the two propositions are textually represented, but at the ways in which they are made true.</p></li></div></div>
-<p>The syntax/semantics split here recurs in a bunch of related fields. It is kind of the same as the debate between proof-theoretic and model-theoretic conceptions of validity in philosophy of logic. And it is kind of the same as the debate between syntactic and semantic conceptions of laws in philosophy of science. And there are probably debates in metaphysics that have the same structure; or, if not, it’s only because the semantic side so comprehensively won.</p>
-<div class="page-columns page-full"><p>And outside of logic, the semantic side has basically been on a 75 year winning streak, for a fairly simple reason. A very widespread view (which I am definitely sympathetic to) is that syntactic approaches can’t help with anything to do with probability/epistemology because of the grue paradox. Maybe a syntactic approach with a restriction to a special subset of the language can work, but it would take some proving that it did work.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn15"><p><sup>15</sup>&nbsp;This is related to the points I was making about logicality.</p></li></div></div>
-<p>Keynes has a syntactic approach for a few reasons. One is that it’s the early 20th century, and nobody was using semantic approaches; everything was syntactic. Another was that the grue paradox hadn’t been discovered. And a third, perhaps most important, was that Keynes was really committed to the idea that he was extending <em>logic</em> here, and everyone (even the model theorists) agrees that logic has <em>something</em> to do with syntax.</p>
+<p>Keynes’s version of the PoI makes heavy use of a <em>syntactic</em> constraint. It’s all about whether the competing claims, which are meant to be equiprobable, can be put into the form <span class="math inline">\(\phi(a), \phi(b)\)</span>. The contrast is with <em>semantic</em> constraints on indifference principles. Adam Elga, in his <a href="https://philpapers.org/rec/ELGDDE">Dr Evil paper</a>, has such a principle<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>. Two propositions are equiprobable iff there is the right kind of bijection between the sets of centred worlds the two propositions represent.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> And it’s very natural nowadays to have semantic versions of these principles.</p>
+<div class="no-row-height column-margin column-container"><li id="fn13"><p><sup>13</sup>&nbsp;The paper is called “Defeating Dr Evil with Self-Locating Belief”, and it’s in <em>Philosophy and Phenomenological Research.</em></p></li><li id="fn14"><p><sup>14</sup>&nbsp;There’s a bunch of jargon in that last sentence, and I’m more than happy to go over it. But if you don’t want to know the details, the big picture point I’m trying to make here is that Elga’s version doesn’t look at how the two propositions are textually represented, but at the ways in which they are made true.</p></li></div><p>The syntax/semantics split here recurs in a bunch of related fields. It is kind of the same as the debate between proof-theoretic and model-theoretic conceptions of validity in philosophy of logic. And it is kind of the same as the debate between syntactic and semantic conceptions of laws in philosophy of science. And there are probably debates in metaphysics that have the same structure; or, if not, it’s only because the semantic side so comprehensively won.</p>
+<p>And outside of logic, the semantic side has basically been on a 75 year winning streak, for a fairly simple reason. A very widespread view (which I am definitely sympathetic to) is that syntactic approaches can’t help with anything to do with probability/epistemology because of the grue paradox. Maybe a syntactic approach with a restriction to a special subset of the language can work, but it would take some proving that it did work.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn15"><p><sup>15</sup>&nbsp;This is related to the points I was making about logicality.</p></li></div><p>Keynes has a syntactic approach for a few reasons. One is that it’s the early 20th century, and nobody was using semantic approaches; everything was syntactic. Another was that the grue paradox hadn’t been discovered. And a third, perhaps most important, was that Keynes was really committed to the idea that he was extending <em>logic</em> here, and everyone (even the model theorists) agrees that logic has <em>something</em> to do with syntax.</p>
 <p>Still, when I read this my first thought was, Ah, Keynes is bringing syntactic weapons to a semantic fight, and this is bound to fail. So I started trying to come up with grue-like counterexamples to his theory. And I didn’t quite find them. Because there’s a more fundamental problem with the view.</p>
 </section>
 <section id="disjunctive-parts" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="disjunctive-parts">Disjunctive Parts</h2>
-<div class="page-columns page-full"><p>Let’s look a little more closely at precisely what Keynes says is the constraint on the PoI.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn16"><p><sup>16</sup>&nbsp;Carnap, in <em>The Logical Foundations of Probability</em> is very critical of Keynes on just this point. He doesn’t quite have the example I’m giving below, but essentially the criticism I’m making here is in Carnap.</p></li></div></div>
-<blockquote class="blockquote">
+<p>Let’s look a little more closely at precisely what Keynes says is the constraint on the PoI.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p>
+<div class="no-row-height column-margin column-container"><li id="fn16"><p><sup>16</sup>&nbsp;Carnap, in <em>The Logical Foundations of Probability</em> is very critical of Keynes on just this point. He doesn’t quite have the example I’m giving below, but essentially the criticism I’m making here is in Carnap.</p></li></div><blockquote class="blockquote">
 <p>The Principle of Indifference is applicable to the alternatives <span class="math inline">\(\phi(a)\)</span> and <span class="math inline">\(\phi(b)\)</span>, when the evidence <span class="math inline">\(h\)</span> is so constituted that, if <span class="math inline">\(f(a)\)</span> is an independent part of <span class="math inline">\(h\)</span> (see §14) which is relevant to <span class="math inline">\(\phi(a)\)</span>, and does not contain any independent parts which are irrelevant to <span class="math inline">\(\phi(a)\)</span>, then <span class="math inline">\(h\)</span> includes <span class="math inline">\(f(b)\)</span> also.</p>
 </blockquote>
 <p>What is an ‘independent part’? When we look back at 14, we find this.</p>
@@ -421,10 +429,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -434,8 +441,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -448,6 +464,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -491,6 +629,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -516,6 +655,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -576,6 +741,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
