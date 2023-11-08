@@ -1,0 +1,888 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod,
+  oneside]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \ifXeTeX
+    \usepackage{mathspec} % this also loads fontspec
+  \else
+    \usepackage{unicode-math} % this also loads fontspec
+  \fi
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+  \setmainfont[Scale = MatchLowercase]{Scala Pro}
+  \setsansfont[]{Scala Sans Pro}
+  \ifXeTeX
+    \setmathfont(Digits,Latin,Greek)[]{Scala Pro}
+  \else
+    \setmathfont[]{Scala Pro}
+  \fi
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[left=1in,marginparwidth=2.0666666666667in,textwidth=4.1333333333333in,marginparsep=0.3in]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\setlength\heavyrulewidth{0ex}
+\setlength\lightrulewidth{0ex}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{sidenotes}{}{\usepackage{sidenotes}}
+\@ifpackageloaded{marginnote}{}{\usepackage{marginnote}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Week 5: Weight},
+  pdfauthor={Brian Weatherson},
+  colorlinks=true,
+  linkcolor={black},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Week 5: Weight}
+\author{Brian Weatherson}
+\date{2023-10-02}
+
+\begin{document}
+\maketitle
+I thought I'd scribble down a few ideas on weight, and it got a bit
+longer than I expected, and I ran out of time to sort the different
+ideas out. So this isn't as organised as I'd like.
+
+But that said, I think there's half a theory that emerges by the end of
+the notes. It's that we should understand low weight as a high
+propensity for valuations to change. Call an \(a\)-bet a bet that pays
+£1 if \(a\), and 0 otherwise. If \(a/h\) is high weight, then we don't
+expect our valuation of an \(a\)-bet to change much, unless the bet is
+resolved.\sidenote{\footnotesize This caveat is annoying, but I think needed.} If
+\(a/h\) is low weight, we expect our valuation of \(a\)-bets could
+change rapidly.
+
+This is meant as a generalisation of my old view that low weight meant a
+high range of values of \(Pr(a | h)\) for \(Pr\) in the representor. If
+that condition obtains, and we have a Caprice-like theory of decision
+for imprecise credence\sidenote{\footnotesize Which I think Keynes endorses, and I
+  certainly endorse.}, then it follows that the value of an \(a\)-bet
+could easily change. After all, we might just capriciously change our
+valuation. But it can also obtain even if \(a/h\) is numerical.
+
+Note this isn't in any sense an \emph{interpretation} of Chapter 6, or
+of the later writings about weight/uncertainty. What Keynes says in
+Chapter 6 is incoherent, for reasons that I think Carnap was the first
+to point out. What I've been interested in in the past, and am a bit
+interested in here, is whether there is some coherent notion that does
+what Keynes wants weight/uncertainty to do. And this idea about value
+variation is my current best guess.
+
+That said, I'm not at all sure this is right, or even plausible. And the
+notes below are not a developed argument for that conclusion; I changed
+my mind a couple of times while writing them and haven't altogether
+edited the changes out. But hopefully there is a useful bit of
+structuring there.
+
+\section{A Story}\label{a-story}
+
+Here's the basic idea Keynes runs in Chapter 6. Someone is doing an
+investigation into a particular proposition \(p\). Let's say \(p\) is a
+particular theory about the origins of COVID-19.\sidenote{\footnotesize There are wild
+  conspiracies about this which I think should be set aside. But to the
+  best of my knowledge, there are reasonable grounds for uncertainty
+  about even the basic timeline. So it's a good example of something we
+  can be very uncertain about.} The evidence here is a complete mess,
+partially because the questions are very hard, and partially because the
+Chinese government isn't exactly helpful.\sidenote{\footnotesize To be sure, I'm not
+  sure which government would be.} So the inquirer might often get
+evidence that supports \(p\) one day, and then opposes it the next.
+
+Keynes has this mental picture of the investigator having an old
+fashioned scale. When the evidence comes in, they classify it as either
+for or against \(p\), and place it on the scale. How much the scale tips
+says something about the probability of \(p\).
+
+As the investigation continues, the probability might move in all sorts
+of directions. One side or the other of the balance might have more
+`weight' on it. But, says Keynes, the total evidence keeps going up. The
+difference between the sides might change, and change direction. But the
+sum of the sides keeps rising as we add more things to one or other pan.
+
+That's the picture at least. And the thought is given that picture of
+how evidence is accumulated, there is some interest in this value of the
+sum of the evidence, not just its difference. Actually, maybe we'll come
+back to this, is it difference or ratio that a balance beam is sensitive
+to? I guess it's difference. Anyway, that's the picture.
+
+\section{A Problem}\label{a-problem}
+
+\subsection{Setting Up the Problem}\label{setting-up-the-problem}
+
+Our investigator is bored one day, so they start flipping a coin. And,
+being an investigator, they write the results down. First Tails, then
+Heads, then three Tails in a row, and so on. The effect this has on the
+investigation is zero; completely and utterly zero. This doesn't add
+anything to the investigation. It is evidence; it could affect our
+probability that the coin is biased. But it isn't evidence that's
+relevant this investigation.\sidenote{\footnotesize If weight is just a function of
+  how much total evidence one has, then we'd have \(V(a/h) = V(b/h)\)
+  for any \(a, b\). And Keynes explicitly doesn't want that, and it
+  becomes really important in the economic work that it isn't right.} So
+it shouldn't add to the weight.
+
+That sounds like an easy enough problem to solve. Say that
+\(V(a/hh_1) = V(a/h)\) if \(a/hh_1 = a/h\). That is, if \(h_1\) doesn't
+change the probability of \(a\), it doesn't change the weight of
+\(a/h\). In this case, \(a\) is the old hypothesis about COVID-19, \(h\)
+is the old evidence, and \(h_1\) is that this coin flip landed heads.
+
+Unfortunately, there are several problems with this. Start with the
+following problem. Imagine that there are two investigators looking into
+\(p\). One of them is off sick for a couple of days. While they are out,
+the first investigator discovers \(h_2\), which raises the probability
+of \(p\). On Tuesday, they discover \(h_3\), which lowers the
+probability of \(p\). On Wednesday, when the second investigator comes
+back to work, and they are told of what was found while they were away,
+i.e., \(h_2h_3\), the probability of \(p\) is unchanged. But the weight
+has surely risen. After all, it rose on Monday and again on Tuesday. So
+adding \(h_2h_3\) raises the weight. So sometimes, adding an independent
+bit of evidence raises the weight.
+
+There is a formal version of this problem. Assume that for any
+\(x, y, z\), if \(y, z\) are logically equivalent, then
+\(V(x/y) = V(x/z)\). That is, assume substitutivity of logical
+equivalents within a weight operator. Then note that \(h_1\) is
+logically equivalent to \((h_1 \vee p) \wedge (h_1 \vee \neg p)\). Then
+we can reason as follows. I'll also assume something that I think we
+can't do without, namely that on the right hand side of \(a/h\), set
+theoretic union is conjunction. That is, adding two bits of evidence is
+equivalent to adding their conjunction.\sidenote{\footnotesize Keynes certainly writes
+  as if this is a trivial assumption in many places, and I don't think
+  it's avoidable.}
+
+\begin{align*}
+V(a/h) &= V(a/hh_1) \\
+   &= V(a/h \wedge ((h_1 \vee p) \wedge (h_1 \vee \neg p)) \\
+   &= V(a/h \cup \{h_1 \vee p\} \cup \{h_1 \vee \neg p\}) \\
+   &> V(a/h \cup \{h_1 \vee p\}) \\
+   &> V(a/h)
+\end{align*}
+
+And oops, we have a contradiction. How could we avoid this? I can see
+two options that are relatively simple, and which don't seem attractive,
+and one that is less simple, but might do the trick.
+
+\subsection{Keynes's Solution}\label{keyness-solution}
+
+Keynes says, without quite realising it, that the argument fails at the
+first step. He says that independent evidence can add to weight as long
+as it's (equivalent to) a conjunction of two things that change the
+probability. And the problem, as Carnap pointed out and as Cohen also
+noted, was that everything is equivalent to the conjunction of two
+things that change the probability. So on Keynes's solution, flipping
+the coin does add weight.
+
+\subsection{Denying Equivalence}\label{denying-equivalence}
+
+Is there a way out of this? I'm not sure, but let's try some things. We
+could play with the idea that weight is a function of arguments, and
+arguments are made of sentences, not propositions.\sidenote{\footnotesize I think
+  Lloyd Humberstone defined an argument place as \emph{congruent} if it
+  allowed for substitution of logical equivalents, but I'm not 100\%
+  sure I've got the term right, and I'd have to look up the reference.}
+We don't have to say that if \(y, z\) are equivalent, then
+\(V(x/y) = V(x/z)\). We definitely do have that \(x/y = x/z\), but
+Keynes explicitly rejects the inference from that to
+\(V(x/y) = V(x/z)\).
+
+Then we might say that evidence adds no weight if it is independent,
+and, if it is of the form \(A \wedge B\), both \(A\) and \(B\) are
+independent.
+
+I don't know how much trouble this will raise elsewhere. I kind of think
+this might work, but it's a big change at least to how we think about
+probability in contemporary work.
+
+\subsection{Weight as Projection}\label{weight-as-projection}
+
+Here's the thing about the coin flip. It's not just that it doesn't make
+a difference to the probability of \(p\) now. We know (in some intuitive
+sense of `know') that it won't make a difference going forward. It's not
+just irrelevant given \(h\), it's irrelevant given any reasonable
+extension of \(h\).
+
+Compare this kind of case. We're gossiping and trying to figure out if
+Jack and Jill are dating. Someone adds that they saw Jack at a couple of
+places last night; having hamburgers early in the night at Blimpy and
+then at the comedy club later. That doesn't seem like it moves the
+probability that Jack and Jill are dating one way or the other. Then
+someone else adds that they saw Jill at both these places. That could be
+a coincidence, but that's a bit of interesting information.
+
+So what's happened there is the first bit of information, where Jack
+was, is arguably independent of whether Jack and Jill are dating. And
+similarly on its own, the information about where Jill was, is also
+independent. But put those two pieces of information together, and now
+we have something. Hardly conclusive proof, but enough of a probability
+shifter to make fun gossip.
+
+Intuitively, it seems that we want to say is that new evidence raises
+the weight if it changes the probability, or it could change the
+probability in the future. This doesn't on it's own solve the problem.
+Go back to the coin flip, and let \(h_1\) be a proposition about the
+coin flip. For any \(a\), we could learn \(h_1 \supset a\), and then
+\(h_1\) would be relevant. I think what's going on is that while we
+logically could learn that, it's not going to happen. There is no
+reasonable world in which we learn a material conditional connecting a
+coin flip to the origins of COVID, and nothing else. So here's my worked
+out hypothesis.
+
+\begin{itemize}
+\tightlist
+\item
+  Given \(h\), there is a set \(S\) of things that are possible items of
+  future evidence.
+\item
+  \(V(a/hh_1) > V(a/h)\) iff for some \(e \in S: a/heh_1 \neq a/he\).
+\end{itemize}
+
+This won't quite work for a reason we'll get to below, but it's
+progress. I think it helps with the two investigators problem. We could
+learn on Thursday that there was something wrong with the way the Monday
+or Tuesday investigations were conducted. And then \(h_2h_3\) would be
+relevant to \(p\). So I think this does the job that Keynes introduced
+general irrelevance to do. The problem is that there are three other
+issues that I don't think Keynes has the start of an answer to, and I'm
+not really sure what to say about them.
+
+\section{Three More Problems}\label{three-more-problems}
+
+\subsection{How Many Scales?}\label{how-many-scales}
+
+The issue of how the weighing metaphor works is one of the biggest
+topics in philosophy in the last 15 years. The starting point for this
+is Joshua Gert's paper ``Normative Strength and the Balance of
+Reasons''.\sidenote{\footnotesize \emph{Philosophical Review}, 2007} In 2016 there was
+a useful edited collection on the topic by Errol Lord and Barry
+Maguire.\sidenote{\footnotesize Called simply \emph{Weighing Reasons}, and Jussi
+  Suikkanen has a
+  \href{https://ndpr.nd.edu/reviews/weighing-reasons-2/}{useful review
+  of it in NDPR}.} And there has been a flood of work since. There are
+two issues that come up in this literature that I'll briefly mention.
+
+One important bit of background is that in the usual division of
+philosophical topics, this has all been taking place in what we think of
+as ethics, not what we think of as epistemology, let alone probability.
+But I think it's fundamentally the same set of problems. The folks in
+the ethics literature have all been talking about weighing
+\emph{reasons}, but it's commonly (and I think correctly) thought that
+evidence is a kind of reason, so weighing evidence is the same set of
+issues.
+
+The topic that has been central to this debate in ethics I don't think
+is relevant here. Assume that you think that there are actions that are
+permissible but not obligatory. And not just because they are tied for
+best with some other actions; they are permissible but other actions are
+\emph{better}. What should we say about the weight of reasons in favour
+of the less good, but permissible, action? If it's less than the weight
+of reasons in favour of the other action, then why is it permissible? If
+it's the same as the weight of reasons in favour of the other action,
+why is the other better?
+
+The standard solution here is to say that there are (in the metaphor)
+two kinds of scales: a permission scale and an obligation scale. And the
+options are tied on one and not on the other. I don't really love this
+move; it seems like the two should be integrated more. But anyway, I
+don't think it's relevant here since I don't think this division between
+permission and obligation is relevant.\sidenote{\footnotesize Maybe that's going to be
+  wrong at the end, given what we say about the \emph{General Theory}.
+  But I think it's a separate issue.}
+
+\subsection{Adding Weights}\label{adding-weights}
+
+Keynes seems to miss the relevance of a deeply Moorean point here:
+evidence satisfies an organic unity principle. (Confirmation is
+holistic, in slightly more updated lingo, but I prefer the Moorean
+terms.) Think again about the Jack and Jill example. What's the weight
+of each piece of evidence? Honestly, not that much. But the weight of
+their sum is, intuitively, substantial.
+
+This is one of the big points in the recent ethics literature, and I
+think it does create a problem here. The metaphor relies on the idea
+that bits of evidence are like blocks you put on a scale. But they don't
+satisfy an organic unity principle. I think this is a reason to be
+sceptical of the whole `weighing' metaphor. And without the metaphor,
+the idea of summing the weights of the two sides is a bit dubious.
+
+\subsection{Defeaters}\label{defeaters}
+
+This is in some sense a version of the previous problem, but it's
+distinctive enough to be worth it's own note. Sometimes, evidence is
+\textbf{defeated}. Here's a famous real-life example.\sidenote{\footnotesize At least,
+  it actually happened in the HBO series. I think it might have also
+  happened in actual incident.}
+
+After Chernobyl melted down, they were understandably worried about the
+radiation levels in the reactor and the surrounding area. So they got
+out the trusty Measure-Background-Radiation-Meter, and it read 3.6.
+That's not great; it should be 0. But it's not bad; it will take months
+of exposure at 3.6 to develop radiation linked illnesses. Let \(a\) be
+that people are in immediate danger, \(h\) the background information
+(i.e., that there was a meltdown), and \(h_1\) the reading of 3.6. Then
+it seems \(a/hh_1 < a/h\), and that \(V(a/hh_1) > V(a/h)\).
+
+If you've seen the show, or read about Chernobyl, you know what comes
+next. It turns out the machine was capped out at 3.6; it simply wouldn't
+show any higher.\sidenote{\footnotesize I read somewhere that the cap was at 1/1000
+  per second, and the 3.6 was the rate per hour at 1/1000 per second.
+  Capping at 3.6 seemed odd to me, but this might explain it.} Let
+\(h_2\) be that the machine does not have a reading above 3.6. Then
+\(a/hh_1h_2 \approx a/h\). But, and this is the important part, arguably
+\(V(a/hh_1h_2) \approx V(a/h)\). It's not just that the new evidence
+\(h_2\) pushed in the other direction to \(h_1\). It's that it showed
+\(h_1\) wasn't really evidence in the first place.
+
+Keynes doesn't have any way of capturing that. His core idea is that new
+evidence, i.e., evidence that changes our view, adds to the weight. And
+I don't think that's the case. Sometimes it tells us that what we
+thought was evidence was not in fact evidence.
+
+There is a small literature on how to model this kind of \emph{defeat}
+in probabilistic terms.\sidenote{\footnotesize Matt Kotzen, who's visiting UM this
+  week, has \href{https://matthewkotzen.net/s/AFAOEDrevised.pdf}{a
+  paper} going over some of the details.} I don't know that literature
+particular well, but I didn't get the sense that there was a clear way
+of getting the models to work. We need a way of differentiating evidence
+that undermines previous evidence, from evidence that simply points in
+the opposite direction. Imagine if instead of \(h_2\) we'd discovered
+\(h_3\), that people near the reactor had a particular condition that
+meant even at 3.6 they were in immediate danger. That would raise the
+probability of \(a\) back up, but intuitively in a way that did increase
+the weight. Just looking at probability kinematics, adding \(h_2\) and
+adding \(h_3\) have the same effect, but one decreases weight, the other
+increases it.
+
+Maybe the idea I floated earlier about a future-directed view could
+help? In the real world, where we learned \(h_2\), we think \(h_1\) is
+useless, \emph{and will remain useless in any realistic scenario}. Maybe
+after learning \(h_1h_3\), there is still some importance to \(h_1\) in
+this inquiry? At least, perhaps it could be relevant given some future
+learning?
+
+\section{Weight and Imprecise
+Probabilities}\label{weight-and-imprecise-probabilities}
+
+In a long ago paper\sidenote{\footnotesize ``Keynes, Uncertainty and Interest Rates'',
+  in \emph{Cambridge Journal of Economics}} I argued that we should
+understand \(V(a/h)\) using imprecise probabilities. If \(S\) is the set
+of prior probability functions, then
+\(V(a/h) = max(Pr(a|h)) - min(Pr(a|h))\), where the \(max\) and \(min\)
+range over the members of \(S\). This is massively different to how
+Keynes understood weight, but at the time I thought it was the best way
+to capture what was right about the view.
+
+One problem is that because of dilation, on my view weight can go down.
+At the time I thought that was fine because defeaters imply that weight
+can go down. But now I don't think this really works. The cases like
+Chernobyl where weight goes down, are very different to the Gibbon
+example of dilation.
+
+Another problem is that it implies something Keynes explicitly rejects,
+namely that \(a/h_1 = b/h_2\) implies that \(V(a/h_1) = V(b/h_2)\). And
+I now think the examples in paragraph 4 of chapter 6 are a better case
+for rejecting that than I'd previous realised.
+
+Here's the case I have in mind. Imagine we have some \(\phi\) which
+(given background \(h\)) satisfies all the conditions we could want for
+Indifference, and (also given \(h\)) the possible satisfiers of \(\phi\)
+are \(x,y,z\). Then \(\phi(x)/h = 1/3\). Now imagine we also have a die,
+and we've carefully measured it to see that it's fair, and tested some
+automated rolling mechanism many times and seen neither bias nor pattern
+in the rolls. Assume this is also all part of \(h\). Let \(b\) be that
+the die will land 1 or 2 on its next roll. Then \(b/h = 1/3\) also. But
+\(V(b/h) > V(\phi(x)/h)\), since the former is based on a huge body of
+evidence, and the latter is based on Indifference.
+
+\section{Weight in the Economics
+Work}\label{weight-in-the-economics-work}
+
+Assume we can somehow fix these problems and get a notion of weight that
+works. Is it theoretically useful? In the \emph{Treatise}, Keynes is
+unsure here. He says that it seems interesting, but he can't see how to
+give it an application. In the \emph{General Theory}, he does give it an
+application, and an incredibly interesting one. We are going to talk
+about this much more in later weeks, but I wanted to flag it here
+because it's really a pivot point of this course. Here's a key paragraph
+from the remarkable
+\href{http://brian.weatherson.org/general-theory/12.html}{chapter 12 of
+the \emph{General Theory}}.\sidenote{\footnotesize The footnotes that follow are my
+  annotations; they are not in the original. I've tried to copy in all
+  the italics from the originals, but I'm not sure I got all of them. He
+  does use a lot of italics.}
+
+\begin{quote}
+It would be foolish, in forming our expectations, to attach great weight
+to matters which are very uncertain. It is reasonable, therefore, to be
+guided to a considerable degree by the facts about which we feel
+somewhat confident, even though they may be less decisively relevant to
+the issue than other facts about which our knowledge is vague and
+scanty. For this reason the facts of the existing situation enter, in a
+sense disproportionately, into the formation of our long-term
+expectations; our usual practice being to take the existing situation
+and to project it into the future, modified only to the extent that we
+have more or less definite reasons for expecting a change.\sidenote{\footnotesize The
+  model is that if we have low weight of evidence for some factor, we
+  act as if it is 0. This isn't perfectly rational, but it's pretty
+  good.}
+\end{quote}
+
+And at the end of the first sentence, we get this footnote.
+
+\begin{quote}
+By ``very uncertain'' I do not mean the same thing as ``improbable''.
+Cf. my \emph{Treatise on Probability}, chap.~6, on ``The Weight of
+Arguments''.
+\end{quote}
+
+Why is chapter 12 remarkable? Because it doesn't read much like an
+economics paper, at least not a mainstream one. There are no equations.
+There are hardly any numbers. It's all about how no one knows anything,
+and we're all guessing, and we have to basically pretend that we're in a
+position to do anything like probabilistic reasoning.
+
+The idea that we know very little about what we need in order to invest
+is a frequently recurring theme in the chapter. I could quote
+practically the whole thing, but here are a couple more relevant
+passages.
+
+\begin{quote}
+The outstanding fact is the extreme precariousness of the basis of
+knowledge on which our estimates of prospective yield have to be made.
+Our knowledge of the factors which will govern the yield of an
+investment some years hence is usually very slight and often negligible.
+If we speak frankly, we have to admit that our basis of knowledge for
+estimating the yield ten years hence of a railway, a copper mine, a
+textile factory, the goodwill of a patent medicine, an Atlantic liner, a
+building in the City of London amounts to little and sometimes to
+nothing; or even five years hence. In fact, those who seriously attempt
+to make any such estimate are often so much in the minority that their
+behaviour does not govern the market.\sidenote{\footnotesize Example of low weight:
+  investment yield 5-10 years hence on mines, factories, ships,
+  medicines, \emph{commercial} real estate.}
+\end{quote}
+
+And a bit later (this crosses sections 3 and 4 of the chapter), after a
+discussion of how stock market prices bounce so much during the day:
+
+\begin{quote}
+How then are these highly significant daily, even hourly, revaluations
+of existing investments carried out in practice?\sidenote{\footnotesize It seems
+  quaint to this of stock markets re-evaluating on an hourly basis.}
+
+In practice we have tacitly agreed, as a rule, to fall back on what is,
+in truth, a convention. The essence of this convention --- though it
+does not, of course, work out quite so simply --- lies in assuming that
+the existing state of affairs will continue indefinitely, except in so
+far as we have specific reasons to expect a change.\sidenote{\footnotesize It's going
+  to turn out that, quite surprisingly, this is in fact a Lewisian
+  convention.} This does not mean that we really believe that the
+existing state of affairs will continue indefinitely. We know from
+extensive experience that this is most unlikely. The actual results of
+an investment over a long term of years very seldom agree with the
+initial expectation. Nor can we rationalise our behaviour by arguing
+that to a man in a state of ignorance errors in either direction are
+equally probable, so that there remains a mean actuarial expectation
+based on equi-probabilities. For it can easily be shown that the
+assumption of arithmetically equal probabilities based on a state of
+ignorance leads to absurdities.\sidenote{\footnotesize Note the callback to chapter 4
+  of the \emph{Treatise}.} We are assuming, in effect, that the existing
+market valuation, however arrived at, is uniquely \emph{correct} in
+relation to our existing knowledge of the facts which will influence the
+yield of the investment, and that it will only change in proportion to
+changes in this knowledge; though, philosophically speaking it cannot be
+uniquely correct, since our existing knowledge does not provide a
+sufficient basis for a calculated mathematical expectation.\sidenote{\footnotesize Here
+  he connects weight and imprecise probability; this is potentially
+  important.} In point of fact, all sorts of considerations enter into
+the market valuation which are in no way relevant to the prospective
+yield.
+
+Nevertheless the above conventional method of calculation will be
+compatible with a considerable measure of continuity and stability in
+our affairs, \emph{so long as we can rely on the maintenance of the
+convention}.
+
+For if there exist organised investment markets and if we can rely on
+the maintenance of the convention, an investor can legitimately
+encourage himself with the idea that the only risk he runs is that of a
+genuine change in the news \emph{over the near future}, as to the
+likelihood of which he can attempt to form his own judgment, and which
+is unlikely to be very large.\sidenote{\footnotesize What makes this a Lewisian
+  convention is that we're all better off if we all follow it because we
+  all get extra \emph{liquidity}.} For, assuming that the convention
+holds good, it is only these changes which can affect the value of his
+investment, and he need not lose his sleep merely because he has not any
+notion what his investment will be worth ten years hence.
+\end{quote}
+
+In chapter 17 we get a return to the same theme. Indeed, there is a
+footnote in the middle of what I'm about to quote that refers back to
+the footnote which refers back to the \emph{Treatise}. The theme of the
+chapter is that capital goods (including factories, houses, stocks of
+commodities, and money) have three important characteristics: their
+yield, their carrying costs, and their `liquidity-premium'. The latter
+is the amount people will pay in order to have something they can
+quickly convert into something else. Here's the quote, this time
+somewhat elided.
+
+\begin{quote}
+Consider, for example, an economy in which there is no asset for which
+the liquidity-premium is always in excess of the carrying-costs; which
+is the best definition I can give of a so-called ``non-monetary''
+economy. There exists nothing, that is to say, but particular
+consumables and particular capital equipments \ldots{} In such an
+economy capital equipments will differ from one another \ldots{} (c) in
+the rapidity with which the wealth embodied in them can become
+``liquid'', in the sense of producing output, the proceeds of which can
+be re-embodied if desired in quite a different form. The owners of
+wealth will then weigh the lack of ``liquidity'' of different capital
+equipments in the above sense as a medium in which to hold wealth
+against the best available actuarial estimate of their prospective
+yields after allowing for risk. The liquidity-premium, it will be
+observed, is partly similar to the risk-premium, but partly different;
+--- the difference corresponding to the difference between the best
+estimates we can make of probabilities and the confidence with which we
+make them.\sidenote{\footnotesize In the original Keynes has a footnote here linking
+  back to the discussion of weight.} \ldots{} There is, clearly, no
+absolute standard of ``liquidity'' but merely a scale of liquidity
+\ldots{} The conception of what contributes to ``liquidity'' is a partly
+vague one, changing from time to time and depending on social practices
+and institutions.\sidenote{\footnotesize In our world, stocks in large listed
+  companies are incredibly liquid for 6.5 hours 5 days a week, and
+  somewhat less liquid other times. I've heard of people who use the
+  changing liquidity of stocks as the Friday close approaches as part of
+  successful trading strategies.} The order of preference in the minds
+of owners of wealth in which at any given time they express their
+feelings about liquidity is, however, definite and is all we require for
+our analysis of the behaviour of the economic system. \ldots{} It may be
+that in certain historic environments the possession of land has been
+characterised by a high liquidity-premium in the minds of owners of
+wealth\ldots{}
+\end{quote}
+
+And in a contribution the following year to a symposium on the book, he
+writes:
+
+\begin{quote}
+By ``uncertain'' knowledge, let me explain, I do not mean merely to
+distinguish what is known for certain from what is only
+probable.\sidenote{\footnotesize The talk of weight has dropped out, but `uncertain'
+  seems a callback to this.} The game of roulette is not subject, in
+this sense, to uncertainty; nor is the prospect of a Victory bond being
+drawn.\sidenote{\footnotesize Two examples of zero uncertainty, both with defined
+  numerical probabilities.} Or, again, the expectation of life is only
+slightly uncertain.\sidenote{\footnotesize Compare the discussion of Gibbon in chapter
+  4 of the \emph{Treatise}.} Even the weather is only moderately
+uncertain.\sidenote{\footnotesize Uncertainty, in the 1937 sense, comes in degrees,
+  like weight.} The sense in which I am using the term is that in which
+the prospect of a European war is uncertain,\sidenote{\footnotesize Example of
+  uncertainty: prospect of European war} or the price of copper and the
+rate of interest twenty years hence\sidenote{\footnotesize Example of uncertainty:
+  economic fundamentals 20 years hence}, or the obsolescence of a new
+invention\sidenote{\footnotesize Example of uncertainty: obsolescence of new invention},
+or the position of private wealth-owners in the social system in
+1970\sidenote{\footnotesize Example of uncertainty: whether there will be a Bolshevik
+  revolution}. About these matters there is no scientific basis on which
+to form any calculable probability whatever.\sidenote{\footnotesize Again, there's a
+  connection here to non-numerical probability} \textbf{We simply do not
+know} (emphasis added). Nevertheless, the necessity for action and for
+decision compels us as practical men to do our best to overlook this
+awkward fact and to behave exactly as we should if we had behind us a
+good Benthamite calculation of a series of prospective advantages and
+disadvantages, each multiplied by its appropriate probability, waiting
+to be summed.
+
+How do we manage in such circumstances to behave in a manner which saves
+our faces as rational, economic men? We have devised for the purpose a
+variety of techniques, of which much the most important are the three
+following:
+
+(1) We assume that the present is a much more serviceable guide to the
+future than a candid examination of past experience would show it to
+have been hitherto. In other words we largely ignore the prospect of
+future changes about the actual character of which we know
+nothing.\sidenote{\footnotesize This is a callback to the start of chapter 12.}
+
+(2) We assume that the existing state of opinion as expressed in prices
+and the character of existing output is based on a \emph{correct}
+summing up of future prospects, so that we can accept it as such unless
+and until something new and relevant comes into the picture.
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Knowing that our own individual judgment is worthless, we endeavour to
+  fall back on the judgment of the rest of the world which is perhaps
+  better informed. That is, we endeavour to conform with the behaviour
+  of the majority or the average. The psychology of a society of
+  individuals each of whom is endeavouring to copy the others leads to
+  what we may strictly term a \emph{conventional} judgment.
+\end{enumerate}
+
+Now a practical theory of the future based on these three principles has
+certain marked characteristics. In particular, being based on so flimsy
+a foundation, it is subject to sudden and violent changes. The practice
+of calmness and immobility, of certainty and security, suddenly breaks
+down. New fears and hopes will, without warning, take charge of human
+conduct. The forces of disillusion may suddenly impose a new
+conventional basis of valuation. All these pretty, polite techniques,
+made for a well-panelled Board Room and a nicely regulated market, are
+liable to collapse. At all times the vague panic fears and equally vague
+and unreasoned hopes are not really lulled, and lie but a little way
+below the surface.
+
+Perhaps the reader feels that this general, philosophical disquisition
+on the behaviour of mankind is somewhat remote from the economic theory
+under discussion. But I think not.
+\end{quote}
+
+I want to note a few points about this, which we can discuss more in
+seminar.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  There is a connection of low weight, in the sense of the
+  \emph{Treatise} to the very uncertain, in the sense of the
+  \emph{General Theory}. I don't see any other way to read that
+  footnote.
+\item
+  We get a lot of examples of ``uncertain'' things. And, to my eye, they
+  all fit the high value for max minus min probability in the set. Even
+  the `moderate' uncertainty of the weather fits the model; max minus
+  min is not zero, but it's not great.
+\item
+  Moreover, we see both in the \emph{General Theory} and the follow up
+  paper that Keynes connected uncertainty with the absence of numerical
+  probabilities. There are two bits of textual evidence for that, and
+  the examples all fit the pattern. Note here that he drops the one
+  example that pulls them apart in the \emph{Treatise}: a numerical
+  probability based on a direct application of the Principle of
+  Indifference.
+\item
+  But that said, the actual practical role of uncertainty concerns its
+  illiquidity. And illiquidity does not, as far as I can tell, rely on
+  non-numerical probabilities.
+\item
+  Moreover, a dedicated believer in numerical probabilities could say
+  that yes, sometimes we have more evidence for one thing rather than
+  another, and that, as a result of that, the former thing will have
+  less violent fluctuations in its probability than the other. This is a
+  version of the Jeffrey response to Popper.
+\end{enumerate}
+
+So I dimly suspect that Keynes has run together two related, but
+philosophically distinct views here. One is that for some investments,
+we do not have ``behind us a good Benthamite calculation of a series of
+prospective advantages and disadvantages, each multiplied by its
+appropriate probability, waiting to be summed.'' The other is that even
+between investments that do have that characteristic, some are more or
+less liquid than others. And both things affect the desire for
+investment.
+
+All that said, and to be a bit fairer to Keynes than the last paragraph
+potentially was, once we've distinguished the two notions, we can see
+why they'd be connected in the case that's of most interest to him.
+Start with a case where we only are concerned with non-numerical
+probabilities, and not at all with liquidity and/or potential changes in
+valuation as new evidence comes in. We'll find situations like the
+following. (This is from later in Chapter 12 of the \emph{General
+Theory}.)
+
+\begin{quote}
+Even apart from the instability due to speculation, there is the
+instability due to the characteristic of human nature that a large
+proportion of our positive activities depend on spontaneous optimism
+rather than on a mathematical expectation, whether moral or hedonistic
+or economic. Most, probably, of our decisions to do something positive,
+the full consequences of which will be drawn out over many days to come,
+can only be taken as a result of animal spirits\sidenote{\footnotesize This is the
+  only occurrence of this phrase in the \emph{General Theory}, and it
+  became one of the most quoted parts of the book.} --- of a spontaneous
+urge to action rather than inaction, and not as the outcome of a
+weighted average of quantitative benefits multiplied by quantitative
+probabilities.
+\end{quote}
+
+In modern economies, we don't typically invest in copper mines. We
+invest in copper mining companies, as traded on the stock market. And
+we're all guessing all the time; we're not doing anything like EV
+maximisation. But that's fine, we'll just ride our luck. The problem is
+that if everyone else is doing the same thing, then the value of our
+stock in copper-mining companies might collapse not because of any
+evidence, but because of a change in animal spirits. And that's a new
+risk we take. And it's a risk that affects not just the potential return
+of our investment at the end of the investment period, but the
+possibility of using the invested money to pay for car repairs, or a
+hospital bill, during the investment period. That is, it affects the
+liquidity of the investment. And that's because there is a distinctive
+kind of evidence, evidence that animal spirits are changing, to which
+the investment is sensitive. And this is a kind of evidence that we are
+very likely to get, because animal spirits are not, in their nature,
+very stable. So even if (as I half suspect) Keynes is running two
+different notions together, in practice they are likely to coincide in
+cases he's most interested in.
+
+And if we aren't interpreting Keynes, but finding some modern version of
+his ideas, there is a natural blend of these two ideas that he ran
+together. I said that for Keynes there are two characteristics of low
+weight, which perhaps he did not cleanly separate even in his mind:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  High range of probabilities in the representor;
+\item
+  High fluctuations in probability over reasonably likely events.
+\end{enumerate}
+
+There is one way to merge those. Those two things are individually
+sufficient, and jointly necessary\sidenote{\footnotesize I think I've written
+  individually necessary and jointly sufficient a billion times in
+  various things; that's the first occasion I can remember for this
+  direction.} for the following:
+
+\begin{itemize}
+\tightlist
+\item
+  High fluctuations in value of bets on the proposition in reasonably
+  likely events.
+\end{itemize}
+
+So maybe if we take low weight to be high fluctuations in value, we get
+something that certainly isn't Keynes's view - Keynes's view is
+incoherent and this is coherent - but something that captures what he
+was aiming for in his view, and does the economic work he needs it to
+do.
+
+
+
+\end{document}

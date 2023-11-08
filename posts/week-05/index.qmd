@@ -3,16 +3,14 @@ title: "Week 5: Weight"
 author: "Brian Weatherson"
 date: "2023-10-02"
 categories: [weekly handout]
-abstract: "This was meant to be half about weight and half about frequentism, but I wrote so much about weight that I decided it would be enough and stopped there. We can, and should, talk about frequentism in class."
+description: "This was meant to be half about weight and half about frequentism, but I wrote so much about weight that I decided it would be enough and stopped there. We can, and should, talk about frequentism in class."
 draft: false
 image: "keynes-coin.png"
 ---
 
 I thought I'd scribble down a few ideas on weight, and it got a bit longer than I expected, and I ran out of time to sort the different ideas out. So this isn't as organised as I'd like.
 
-But that said, I think there's half a theory that emerges by the end of the notes. It's that we should understand low weight as a high propensity for valuations to change. Call an $a$-bet a bet that pays £1 if $a$, and 0 otherwise[^1]. If $a/h$ is high weight, then we don't expect our valuation of an $a$-bet to change much, unless the bet is resolved.[^2] If $a/h$ is low weight, we expect our valuation of $a$-bets could change rapidly.
-
-[^1]: I haven't figured out a way to make the math fonts and the regular fonts look good alongside each other. And despite the very non-mathematical presentation in Keynes, I need some math tools. One day I'll get the presentation of these to look better.
+But that said, I think there's half a theory that emerges by the end of the notes. It's that we should understand low weight as a high propensity for valuations to change. Call an $a$-bet a bet that pays £1 if $a$, and 0 otherwise. If $a/h$ is high weight, then we don't expect our valuation of an $a$-bet to change much, unless the bet is resolved.[^2] If $a/h$ is low weight, we expect our valuation of $a$-bets could change rapidly.
 
 [^2]: This caveat is annoying, but I think needed.
 
